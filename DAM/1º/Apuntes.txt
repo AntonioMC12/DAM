@@ -1,0 +1,25 @@
+aamunoz@iesfranciscodelosrios.com
+
+
+moodle anonima
+user:  aazzcfgs1
+pass:  alumnociclos1
+
+No existe concepto de trimestre, va por resultado de aprendizaje
+(resultados de aprendizaje)->cada resultado es un % de la nota final
+
+sistemas informaticos
+evaluacion 
+25% tutor
+75% antonio sillero
+
+BBDD
+examen con el ordenardor + tipo test
+ejercicios y tareas expuestos
+
+Lenguajes de marcas
+xml, css, javascript
+(diferentes modulos por lenguaje)
+
+
+
