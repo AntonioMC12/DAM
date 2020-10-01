@@ -4,9 +4,9 @@ public class Ejercicio_1 {
 
 	public static void main(String[] args) {
 		/*
-		 * 1.-Realiza un programa que sume los 100 números siguientes a un número entero
+		 * 1.-Realiza un programa que sume los 100 nÃºmeros siguientes a un nÃºmero entero
 		 *  y positivo introducido por teclado. Se debe comprobar que el dato introducido
-		 *   es correcto (que es un número positivo).
+		 *   es correcto (que es un nÃºmero positivo).
 		 */
 		
 		//Ask the user for a number
