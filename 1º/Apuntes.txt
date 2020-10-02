@@ -1,6 +1,9 @@
 aamunoz@iesfranciscodelosrios.com
 
 
+pass wlan1gs: qpzm12340987gg
+
+
 moodle anonima
 user:  aazzcfgs1
 pass:  alumnociclos1
