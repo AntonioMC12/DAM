@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  2 OCT 2020 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  3 OCT 2020 12:38
 entering extended mode
 **c:/Users/Antonio/Desktop/Formación/DAM/1º/ED/Tema1_Desarrollo_Software.tex
 (c:/Users/Antonio/Desktop/Formación/DAM/1º/ED/Tema1_Desarrollo_Software.tex
@@ -188,6 +188,10 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen155
 \Gin@req@width=\dimen156
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
 ) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count194
@@ -198,22 +202,22 @@ LaTeX Info: Redefining \% on input line 9.
 )
 \openout1 = `Tema1_Desarrollo_Software.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count195
@@ -221,211 +225,269 @@ LaTeX Info: Redefining \% on input line 15.
 \scratchbox=\box49
 \nofMPsegments=\count196
 \nofMParguments=\count197
-\everyMPshowfont=\toks22
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count198
 \MPscratchDim=\dimen158
 \MPnumerator=\count199
 \makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks23
+\everyMPtoPDFconversion=\toks25
 ) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 16.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 17.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 16.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 17.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 16.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 17.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 16.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 17.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <12> on input line 17.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 16.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <6> on input line 17.
 <cabecera_50_aniversario.png, id=1, 834.11626pt x 129.48375pt>
 File: cabecera_50_aniversario.png Graphic file (type png)
 <use cabecera_50_aniversario.png>
-Package pdftex.def Info: cabecera_50_aniversario.png  used on input line 49.
+Package pdftex.def Info: cabecera_50_aniversario.png  used on input line 25.
 (pdftex.def)             Requested size: 345.0pt x 53.55692pt.
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
+{C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./cabecera_50_aniversario.png>] (c:/Users\Antonio\Desktop\Formación\DAM\1º\ED\build\Tema1_Desarrollo_Software.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 2.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 2.
 
- []
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 3.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 4.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 5.
 
- []
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 11.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 12.
+
+)
+\tf@toc=\write3
+\openout3 = `Tema1_Desarrollo_Software.toc'.
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--50
-
- []
-
-[1
-
-{C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./cabecera_50_aniversario.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--74
-
- []
-
-<Software-Development-Life-Cycle.png, id=9, 665.48625pt x 651.43375pt>
+<Software-Development-Life-Cycle.png, id=17, 665.48625pt x 651.43375pt>
 File: Software-Development-Life-Cycle.png Graphic file (type png)
 <use Software-Development-Life-Cycle.png>
-Package pdftex.def Info: Software-Development-Life-Cycle.png  used on input line 77.
+Package pdftex.def Info: Software-Development-Life-Cycle.png  used on input line 60.
 (pdftex.def)             Requested size: 146.40742pt x 143.31586pt.
-[1 <./Software-Development-Life-Cycle.png (PNG copy)>] [2] (c:/Users\Antonio\Desktop\Formación\DAM\1º\ED\build\Tema1_Desarrollo_Software.aux
+[1 <./Software-Development-Life-Cycle.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+<secuencial_1.png, id=22, 385.44pt x 121.20282pt>
+File: secuencial_1.png Graphic file (type png)
+<use secuencial_1.png>
+Package pdftex.def Info: secuencial_1.png  used on input line 80.
+(pdftex.def)             Requested size: 345.0pt x 108.48601pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--86
+
+ []
+
+[2 <./secuencial_1.png>]
+<cascada.png, id=26, 647.41875pt x 401.5pt>
+File: cascada.png Graphic file (type png)
+<use cascada.png>
+Package pdftex.def Info: cascada.png  used on input line 94.
+(pdftex.def)             Requested size: 345.0pt x 213.95186pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--100
+
+ []
+
+[3 <./cascada.png>]
+<espriral.png, id=30, 568.37344pt x 382.42876pt>
+File: espriral.png Graphic file (type png)
+<use espriral.png>
+Package pdftex.def Info: espriral.png  used on input line 110.
+(pdftex.def)             Requested size: 345.0pt x 232.1433pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--117
+
+ []
+
+[4 <./espriral.png>]
+<Metodologia-agile_hd.png, id=34, 504.88625pt x 501.875pt>
+File: Metodologia-agile_hd.png Graphic file (type png)
+<use Metodologia-agile_hd.png>
+Package pdftex.def Info: Metodologia-agile_hd.png  used on input line 126.
+(pdftex.def)             Requested size: 176.71283pt x 175.65887pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--138
+
+ []
+
+[5 <./Metodologia-agile_hd.png>]
+<scrum_1.png, id=42, 752.8125pt x 447.6725pt>
+File: scrum_1.png Graphic file (type png)
+<use scrum_1.png>
+Package pdftex.def Info: scrum_1.png  used on input line 144.
+(pdftex.def)             Requested size: 345.0pt x 205.16678pt.
+<800px-Marco_estandar_scrum.png, id=43, 803.0pt x 568.1225pt>
+File: 800px-Marco_estandar_scrum.png Graphic file (type png)
+<use 800px-Marco_estandar_scrum.png>
+Package pdftex.def Info: 800px-Marco_estandar_scrum.png  used on input line 152.
+(pdftex.def)             Requested size: 200.74951pt x 142.03027pt.
+ [6 <./scrum_1.png (PNG copy)> <./800px-Marco_estandar_scrum.png>] [7]
+<programa.png, id=51, 350.81062pt x 118.19156pt>
+File: programa.png Graphic file (type png)
+<use programa.png>
+Package pdftex.def Info: programa.png  used on input line 188.
+(pdftex.def)             Requested size: 345.0pt x 116.24173pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--191
+
+ []
+
+[8 <./programa.png>]
+<compilador.png, id=55, 471.26062pt x 209.28188pt>
+File: compilador.png Graphic file (type png)
+<use compilador.png>
+Package pdftex.def Info: compilador.png  used on input line 203.
+(pdftex.def)             Requested size: 345.0pt x 153.21198pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--204
+
+ []
+
+[9 <./compilador.png>]
+<Interprete.png, id=60, 1483.5425pt x 540.0175pt>
+File: Interprete.png Graphic file (type png)
+<use Interprete.png>
+Package pdftex.def Info: Interprete.png  used on input line 213.
+(pdftex.def)             Requested size: 345.0pt x 125.57748pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--214
+
+ []
+
+[10 <./Interprete.png>] (c:/Users\Antonio\Desktop\Formación\DAM\1º\ED\build\Tema1_Desarrollo_Software.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
-) ) 
+)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3799 strings out of 480790
- 55764 string characters out of 2896363
- 309359 words of memory out of 3000000
- 19772 multiletter control sequences out of 15000+200000
- 575686 words of font info for 44 fonts, out of 3000000 for 9000
+ 4383 strings out of 480790
+ 66182 string characters out of 2896363
+ 319054 words of memory out of 3000000
+ 20299 multiletter control sequences out of 15000+200000
+ 592458 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,35p,326b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\ED\build\Tema1_Desarrollo_Software.pdf (3 pages, 248706 bytes).
+ 37i,7n,35p,355b,379s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
+Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\ED\build\Tema1_Desarrollo_Software.pdf (12 pages, 833854 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
