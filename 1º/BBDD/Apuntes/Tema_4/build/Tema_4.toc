@@ -1,10 +1,10 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Introducción}{}%
-\contentsline {subsection}{\numberline {1.1}Historia}{}%
-\contentsline {section}{\numberline {2}Estática del Modelo E/R}{}%
-\contentsline {subsection}{\numberline {2.1}Entidad}{}%
-\contentsline {subsection}{\numberline {2.2}Interrelación}{}%
-\contentsline {subsection}{\numberline {2.3}Atributos}{}%
-\contentsline {subsection}{\numberline {2.4}Restricciones}{}%
-\contentsline {section}{\numberline {3}Cardinalidad de un tipo de entidad}{}%
-\contentsline {subsection}{\numberline {3.1}Tipos De Interrelación}{}%
+\contentsline {section}{\numberline {1}Introducción}{\es@scroman {iii}}%
+\contentsline {subsection}{\numberline {1.1}Historia}{\es@scroman {iii}}%
+\contentsline {section}{\numberline {2}Estática del Modelo E-R}{\es@scroman {iii}}%
+\contentsline {subsection}{\numberline {2.1}Entidad}{\es@scroman {iii}}%
+\contentsline {subsection}{\numberline {2.2}Interrelación}{\es@scroman {iv}}%
+\contentsline {subsection}{\numberline {2.3}Atributos}{\es@scroman {v}}%
+\contentsline {subsection}{\numberline {2.4}Restricciones}{\es@scroman {vi}}%
+\contentsline {section}{\numberline {3}Cardinalidad de un tipo de entidad}{\es@scroman {vii}}%
+\contentsline {subsection}{\numberline {3.1}Tipos De Interrelación}{\es@scroman {viii}}%
