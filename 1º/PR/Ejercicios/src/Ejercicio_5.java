@@ -4,9 +4,9 @@ public class Ejercicio_5 {
 
 	public static void main(String[] args) {
 		/*
-		 * 5.-Escribe un programa que permita ir introduciendo una serie indeterminada de números mientras
-		 *    su suma no supere el valor 10000.Cuando esto último ocurra, se debe mostrar el total acumulado,
-		 *    el contador de los números introducidos y la media.
+		 * 5.-Escribe un programa que permita ir introduciendo una serie indeterminada de nÃºmeros mientras
+		 *    su suma no supere el valor 10000.Cuando esto Ãºltimo ocurra, se debe mostrar el total acumulado,
+		 *    el contador de los nÃºmeros introducidos y la media.
 		 */
 		
 		//create a variable for the total add

@@ -1,0 +1,14 @@
+Punto 3.2 TIPO DE INTERRELACIÓN
+
+-Fuertes o Regulares
+    Asocian dos entidades Regulares,
+-Debiles
+    Asocian una entidad débil con otra Regular de la que depende. Estas exigen que al lado de la entidad Regular
+    la cardinalidad sea siempre (1,1). Dos entidades débiles no pueden estar relacionadas.
+
+Dentro de la entidades débiles encontramos dependencia en existencia y en identificación.
+    -dependencia en existencia: en estas las ocurrencias del tipo de entidad débil no pueden existir sin la ocurrencias
+    del tipo de entidad regular de la que depende. Se indican mediante una "EX" en el rombo. Ej:
+    -depende de identificación: ademas de la dependencia de existencia, la entidad débil necesita de la clave de la regular
+    para identificarse. se reperesenta mediante las letras "ID" en el rombo. Ej:
+    

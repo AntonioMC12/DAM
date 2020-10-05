@@ -3,7 +3,7 @@ public class Ejercicio_4 {
 
 	public static void main(String[] args) {
 		/*
-		 *  4.-Muestra por pantalla todos los números primos entre 2 y 100,ambos incluidos.
+		 *  4.-Muestra por pantalla todos los nÃºmeros primos entre 2 y 100,ambos incluidos.
 		 */
 		//make a loop to check the 100 first numbers
 		

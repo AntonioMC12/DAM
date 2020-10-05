@@ -4,10 +4,10 @@ public class Ejercicio_3 {
 
 	public static void main(String[] args) {
 		/*
-		 * 3.-Realiza un programa que vaya pidiendo números hasta que se introduzca un número
-		 *    negativo y nos diga cuantos números se han introducido, lamedia de los impares y
-		 *    el mayor de los pares. El número negativo sólo seutiliza para indicar el final 
-		 *    de la introducción de datos pero no se incluye enel cómputo.
+		 * 3.-Realiza un programa que vaya pidiendo nÃºmeros hasta que se introduzca un nÃºmero
+		 *    negativo y nos diga cuantos nÃºmeros se han introducido, la media de los impares y
+		 *    el mayor de los pares. El nÃºmero negativo sÃ³lo seutiliza para indicar el final 
+		 *    de la introducciÃ³n de datos pero no se incluye enel cÃ³mputo.
 		 */
 
 		//start the scaner variable
