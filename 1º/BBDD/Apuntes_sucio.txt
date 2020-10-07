@@ -10,5 +10,11 @@ Dentro de la entidades débiles encontramos dependencia en existencia y en ident
     -dependencia en existencia: en estas las ocurrencias del tipo de entidad débil no pueden existir sin la ocurrencias
     del tipo de entidad regular de la que depende. Se indican mediante una "EX" en el rombo. Ej:
     -depende de identificación: ademas de la dependencia de existencia, la entidad débil necesita de la clave de la regular
-    para identificarse. se reperesenta mediante las letras "ID" en el rombo. Ej:
+    para identificarse. se reperesenta mediante las letras "ID" en el rombo.
     
+*****************
+
+Ejemplos ejercicio 1
+
+*****************
+

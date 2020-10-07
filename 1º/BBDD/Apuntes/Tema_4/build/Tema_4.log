@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  5 OCT 2020 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  7 OCT 2020 10:26
 entering extended mode
 **c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Apuntes/Tema_4/Tema_4.tex
 (c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Apuntes/Tema_4/Tema_4.tex
@@ -320,6 +320,10 @@ Overfull \hbox (0.14398pt too wide) detected at line 10
  []
  []
 
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 11.
+
 )
 \tf@toc=\write3
 \openout3 = `Tema_4.toc'.
@@ -370,7 +374,49 @@ File: identificacion.png Graphic file (type png)
 <use identificacion.png>
 Package pdftex.def Info: identificacion.png  used on input line 162.
 (pdftex.def)             Requested size: 345.0pt x 77.0065pt.
- [8 <./existencia.png> <./identificacion.png>] (c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.aux
+ [8 <./existencia.png> <./identificacion.png>]
+<Ejercicio_1.png, id=45, 723.70375pt x 158.5925pt>
+File: Ejercicio_1.png Graphic file (type png)
+<use Ejercicio_1.png>
+Package pdftex.def Info: Ejercicio_1.png  used on input line 172.
+(pdftex.def)             Requested size: 345.0pt x 75.60323pt.
+<Clases_1.png, id=46, 634.37pt x 122.4575pt>
+File: Clases_1.png Graphic file (type png)
+<use Clases_1.png>
+Package pdftex.def Info: Clases_1.png  used on input line 181.
+(pdftex.def)             Requested size: 345.0pt x 66.60066pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--185
+
+ []
+
+[9 <./Ejercicio_1.png> <./Clases_1.png>]
+<Ejercicio_1_b.png, id=52, 723.70375pt x 141.52875pt>
+File: Ejercicio_1_b.png Graphic file (type png)
+<use Ejercicio_1_b.png>
+Package pdftex.def Info: Ejercicio_1_b.png  used on input line 192.
+(pdftex.def)             Requested size: 345.0pt x 67.46872pt.
+<Clases_1_b.png, id=53, 674.52pt x 122.4575pt>
+File: Clases_1_b.png Graphic file (type png)
+<use Clases_1_b.png>
+Package pdftex.def Info: Clases_1_b.png  used on input line 201.
+(pdftex.def)             Requested size: 345.0pt x 62.6356pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--205
+
+ []
+
+[10 <./Ejercicio_1_b.png> <./Clases_1_b.png>] (c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -379,17 +425,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4406 strings out of 480790
- 66349 string characters out of 2896363
- 323745 words of memory out of 3000000
- 20320 multiletter control sequences out of 15000+200000
+ 4430 strings out of 480790
+ 66773 string characters out of 2896363
+ 322745 words of memory out of 3000000
+ 20340 multiletter control sequences out of 15000+200000
  590248 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,6n,35p,355b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.pdf (8 pages, 290378 bytes).
+Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.pdf (10 pages, 311791 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

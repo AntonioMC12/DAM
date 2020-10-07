@@ -8,3 +8,4 @@
 \contentsline {subsection}{\numberline {2.4}Restricciones}{\es@scroman {vi}}%
 \contentsline {section}{\numberline {3}Cardinalidad de un tipo de entidad}{\es@scroman {vii}}%
 \contentsline {subsection}{\numberline {3.1}Tipos De Interrelación}{\es@scroman {viii}}%
+\contentsline {section}{\numberline {4}Ejercicio 1}{\es@scroman {ix}}%
