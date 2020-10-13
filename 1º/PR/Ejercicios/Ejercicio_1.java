@@ -33,13 +33,11 @@ public class Ejercicio_1 {
 			input_num = input_num + i;
 		}
 		
-		//show the results
-		
 		System.out.println("The input number was: "+fst_num);
 		
 		System.out.println("The final add is: "+input_num+"\n");
 		
-		//close the scanner
+		//close the scanner adding some "visual effect" but this is completely unnecesary
 		
 		System.out.println("Closing Scanner...");
 			
