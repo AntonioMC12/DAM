@@ -29,6 +29,16 @@ public class Ejercicio_Clase_4 {
 
     Seconds = scan.nextInt();
 
+    if(((Hour > -1 && Hour < 25)&&(Minut > -1 && Minut < 61))&&(Seconds > -1 && Seconds < 61)){
+
+      System.out.println("The time is valid");
+
+    }else{
+
+      System.out.println("The time is not valid");
+    
+    }
+    /*
     if(-1 < Hour && Hour < 25){
 
       if(-1 < Minut && Minut < 61){
@@ -37,14 +47,12 @@ public class Ejercicio_Clase_4 {
 
           System.out.println("The time is valid");
 
-        }
-      }
-    }else{
+        }else{System.out.println("The time is not valid");}
 
-      System.out.println("The time is not valid");
+      }else{System.out.println("The time is not valid");}
 
-    }
-  
+    }else{System.out.println("The time is not valid");}
+    */
     scan.close();
   }
 }
