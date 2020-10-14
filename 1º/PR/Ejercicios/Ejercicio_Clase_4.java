@@ -29,7 +29,7 @@ public class Ejercicio_Clase_4 {
 
     Seconds = scan.nextInt();
 
-    if(((Hour > -1 && Hour < 25)&&(Minut > -1 && Minut < 61))&&(Seconds > -1 && Seconds < 61)){
+    if( ( (Hour > -1 && Hour < 25) && (Minut > -1 && Minut < 61) ) && (Seconds > -1 && Seconds < 61) ){
 
       System.out.println("The time is valid");
 
