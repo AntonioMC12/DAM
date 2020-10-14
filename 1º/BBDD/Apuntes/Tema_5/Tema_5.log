@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.7)  14 OCT 2020 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.7)  14 OCT 2020 13:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -178,20 +178,59 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 15.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (/home/ertonix12/Formación/1º/BBDD/Apuntes/Tema_5/Tema_5.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/ertonix12/Formación/1º/BBDD/Apuntes/Tema_5/Tema_5.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `Tema_5.toc'.
+
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 24--31
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 33.
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (39.49959pt too wide) in paragraph at lines 46--52
+\T1/lmr/m/n/10 Dan sig-nifi-cado a los datos de esa columna y $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--52
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+[3] (/home/ertonix12/Formación/1º/BBDD/Apuntes/Tema_5/Tema_5.aux) ) 
 Here is how much of TeX's memory you used:
- 2035 strings out of 483183
- 30539 string characters out of 5966292
- 253490 words of memory out of 5000000
- 17024 multiletter control sequences out of 15000+600000
- 558364 words of font info for 39 fonts, out of 8000000 for 9000
+ 2097 strings out of 483183
+ 31763 string characters out of 5966292
+ 257513 words of memory out of 5000000
+ 17069 multiletter control sequences out of 15000+600000
+ 579771 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 34i,6n,29p,283b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb>
-Output written on /home/ertonix12/Formación/1º/BBDD/Apuntes/Tema_5/Tema_5.pdf (2 pages, 88214 bytes).
+ 34i,6n,29p,384b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
+Output written on /home/ertonix12/Formación/1º/BBDD/Apuntes/Tema_5/Tema_5.pdf (4 pages, 152655 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

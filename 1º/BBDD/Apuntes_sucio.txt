@@ -42,9 +42,9 @@ Ejemplo 000 cuaderno
 
         * Idenpendencia física: en las bases de datos relacionales la forma en la que se almacenan los datos es completamente independiente
         de su manipulación lógica.
-        * Idenpendencia lógica: la modificación de cualquiera de los elementos de la base de datos en principio no influirá en los
+        * Idenpendencia lógica: lirá ofra modificación de cualquiera de los elementos de la base de datos en principio no influirá en los
         programas que la usen.
-        * Flexibilidad: Permitirá ofrecer los datos de la forma más adecuada a nuestras necesidades
+        * Flexibilidad: Permitecer los datos de la forma más adecuada a nuestras necesidades
         * Uniformidad: toda la información se guarda de manera uniforme, en forma de tablas, lo que facilita su manipulación
 
 2.- ELEMENTOS DEL MODELO RELACIONAL

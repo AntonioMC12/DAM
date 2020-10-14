@@ -7,16 +7,68 @@
 \usepackage[utf8]{inputenc}
 
 
-\title{TEMA 5 BASES DE DATOS}
+\title{TEMA 5 BASES DE DATOS \\ El Modelo Relacional}
 \author{Antonio Muñoz Cubero}
 \date{5 de Ocutbre de 2020} 
 
 \begin{document}
 \maketitle
+\pagenumbering{gobble}
+
+\newpage
+\tableofcontents
 \pagenumbering{roman}
 
 \newpage
 \section{Introducción}
+Propone una representación de la información en forma de tablas bidimensionales, una tabla es una matriz rectangular identificada
+por un nombre único en todo el modelo y en la cual cada elemento de la tabla es un 'item' de datos particular.
+\\
+Con esta forma de representación intentaremos implantar una base de datos en un sistema informático concreto
+\\
+\\
+Características del Modelo:
 
+  \begin{itemize}
+    \item \textbf{Idenpendencia física}: \textit{Idependencia fisica en las bases de datos relacionales de la forma en la que se almacenan los datos es completamente independiente
+    de su manipulación lógica.}
+    \item \textbf{Idenpendencia lógica}: \textit{La modificación de cualquiera de los elementos de la base de datos en principio no influirá en los
+    programas que la usen.}
+    \item \textbf{Flixibilidad}: \textit{Permitecer los datos de la forma más adecuada a nuestras necesidades.}
+    \item \textbf{Uniformidad}: \textit{toda la información se guarda de manera uniforme, en forma de tablas, lo que facilita su manipulación.}
+  \end{itemize}
 
+\section{Elementos Del Modelo Relacional}
+En este modelo se guardarán las tablas como componentes principales, también llamadas relaciones, y junto a ellas las interrelaciones entre 
+las distintas tablas, las restricciones y los procedimientos.
+
+\subsection{Relaciones o Tablas}
+Es el elemento principal y básico del modelo relacional, y será una \textbf{relación o lista de valores}. Cada relación tendrá su \textbf{nombre}, que será único 
+en todo el modelo, \textbf{atributos}, que son las propiedades de la tabla y forman las \textbf{columnas}. Dan significado a los datos de esa columna y \underline{su nombres
+será único dentro de caada tabla} y por último, \textbf{tuplas} o filas de la tabla, son las ocurrencias, son los datos en sí mismo. 
+\\
+A partir de eso, sacamos otros 3 conceptos:
+\\
+  \begin{itemize}
+    \item \textbf{Grado}: \textit{Es su númro de atributos.}
+    \item \textbf{Cardinalidad}: \textit{Número de tuplas de una tabla.}
+    \item \textbf{Valor}: \textit{Es el cruce de una fila y una columna. es un item concreto de datos. Puede haber valores nulos y vacíos..}
+  \end{itemize}
+
+\newpage
+Una tabla por tanto se compone de una cabecera que define su estructura, que es fija y un cuerpo que varía a lo largo del tiempo.
+\\
+\subsubsection{Representación de las Tablas}
+Para representar las tablas, se puede hacer de dos formas:
+\\
+  \begin{itemize}
+    \item \textbf{De forma Textual}: \textit{En esta representación las tablas se indican primero por su nombre y a continuación entre paréntesis los atributos que tiene 
+    La clave primaria se subraya con un trazo continuo y las claves alternativas (si las hubiera) con trazo discontinuo. Esta será la representación
+    que utilicemos nosotros.}
+    \item \textbf{De forma Gráfica}:
+  \end{itemize}
+\subsubsection{Claves}
+En todas las Relaciones o Tablas, debe haber \textbf{un atributo o conjunto de estos que tome valores únicos para cada una de las tuplas} de la relación. Estas
+serán las claves candidatas. De entre todas las que haya, se elegirá una como \textbf{clave principal y el resto serán claves alternativas}. A la hora de escoger
+la clave primaria, en caso de que haya mas de una opción, deberíamos elegir la que más se vaya a utilizar en el problema.
 \end{document}

@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Introducción}{ii}%
+\contentsline {section}{\numberline {2}Elementos Del Modelo Relacional}{ii}%
+\contentsline {subsection}{\numberline {2.1}Relaciones o Tablas}{ii}%
+\contentsline {subsubsection}{\numberline {2.1.1}Representación de las Tablas}{iii}%
+\contentsline {subsubsection}{\numberline {2.1.2}Claves}{iii}%
