@@ -59,7 +59,7 @@ import java.util.Scanner;
 
       System.out.println(" -------------------------------------------------------------- " + ANSI_RESET);
 
-      while(valid_price == false){ //bucle para controlar que el precio es introducido correctamente
+      while(!valid_price){ //bucle para controlar que el precio es introducido correctamente
         
         System.out.println(ANSI_RESET+ANSI_RED_BACKGROUND + "Por favor, Introduzca el importe de su compra: " + ANSI_RESET + ANSI_GREEN);
 

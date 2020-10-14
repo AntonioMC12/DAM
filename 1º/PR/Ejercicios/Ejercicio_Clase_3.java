@@ -17,11 +17,7 @@ import java.util.Scanner;
 
                 System.out.println("The character is a Capital");
 
-<<<<<<< HEAD
-            }else if(96 < letter && letter < 123){
-=======
             }else if(96 < letter && letter < 123){//check if is a lower case
->>>>>>> 295dc011c64a41f7a80ff673bde9293740e6f6c9
 
                 System.out.println("The character is a lowe case");
 
