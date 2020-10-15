@@ -84,7 +84,7 @@ import java.lang.Math;
 
         System.out.println(ANSI_RESET+ANSI_PURPLE_BACKGROUND + "Por favor, Introduzca su peso en KILOS: " + ANSI_RESET + ANSI_GREEN);
 
-        weigth= scan.nextFloat();
+        weigth= scan.nextDouble();
 
         if(weigth >= 0 && weigth < 250){
           valid_weigth = true;
