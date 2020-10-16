@@ -92,3 +92,39 @@ Ejemplo 000 cuaderno
      En todas las relaciones o talbas, debe haber un atributo o conjunto de estos que tome valores únicos para cada una de las tuplas de la relación. Estas
      serán las claves candidatas. De entre todas las que haya, se elegirá una como clave principal y el resto serán claves alternativas. A la hora de escoger
      la clave primaria, en caso de que haya mas de una opción, deberíamos elegir la que más se vaya a utilizar en el problema.
+
+
+        *Clave primaria o principal: toda las tablas tiene que tener una clave primaria
+        *Clave alternativas
+        *Clave foraneas o ajenas: no tiene porque aparecer en todas las tablas, ya que puede haber tablas referenciadas, pero que no referencian. cada una de estas 
+        claves ajenas será un atributo o conjunto de estos por cuyos valores se relacionan esa tabla con otra, en la que se corresponde con valores de la clave, por 
+        se llama así. Ambos atributos, clave ajena y clave referenciada tienen que estar definidos sobre el mismo dominio.
+
+
+        ***********
+
+        EJEMPLO 002
+
+        ***********
+
+    2.2 INTERRELACIONES
+
+        Las interrelaciones son la lineas que vinculan unas tablas con otras, se pueden describir y guardar en la base de datos convirtiendose en lo que se conoce como 
+        *Las reglas de integridad referencial*.
+
+        ------------------------------
+        Ejercicio:
+        Una base de datos con informacion de los empleados y los departamentos que contiene esa empresa (nombre departamento, ubicacion, ) quiero reflejar que un empleados
+        pertenece a un departamento o que no pertenece a ninguno y que un empleado puede tener de jefe a otro empleado.
+        ------------------------------
+
+        Además de definir las claves ajenas que me permiten relacionar tablas entre si, hay que determinar las consecuencias de realizar operaciones de borrado o modificación
+        de tuplas referenciadas. Las posibles acciones son las siguientes:
+
+            *   Opereación restringida (NO ACTION): El borrado o modificación de tuplas referenciadas no se permite si hay valores en otras tablas que lo referencian. Suele 
+            ser la opereación por defecto.
+            *   Opereación con transmisión en cascada (CASCADE): El borrado o modificación de tuplas referenciadas, implica el borrado o modificación de las tuplas que lo 
+            referencian.
+            *   Operación con pesta a nulos (SET NULL): El borrado o modificación de tuplas referenciadas implica la puesta a nulos de valores en las tuplas que referenciada.
+            *   Operación con puesta a valor por defecto (SET DEFAULT): El borrado o modificación de tuplas referenciadas implica la puesta a su valor por defecto de las tuplas
+            que lo referencian.
