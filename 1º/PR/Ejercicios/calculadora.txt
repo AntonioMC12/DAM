@@ -1,0 +1,25 @@
+El programa cuando se inicia muestra el menu con las siguientes instrucciones:
+  
+  -------------------------
+  Pulsa 1 para sumar
+  Pulsa 2 para rectar
+  Pulsa 3 para multiplicar
+  Pulsa 4 para Dividoir
+  --------------------------
+
+  inserte oprando 1: ____
+
+  --------------------------
+
+  inserte oprando 2: ____
+
+  --------------------------
+
+  El resultado es: __________
+
+  --------------------------
+
+          -FIN-
+
+Menos de 50 lineas
+

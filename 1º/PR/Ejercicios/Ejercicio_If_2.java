@@ -61,7 +61,7 @@ import java.util.Scanner;
 
       while(!valid_price){ //bucle para controlar que el precio es introducido correctamente
         
-        System.out.println(ANSI_RESET+ANSI_RED_BACKGROUND + "Por favor, Introduzca el importe de su compra: " + ANSI_RESET + ANSI_GREEN);
+        System.out.print(ANSI_RESET+ANSI_RED_BACKGROUND + "Por favor, Introduzca el importe de su compra:" + ANSI_RESET + " " +  ANSI_GREEN);
 
         price = scan.nextDouble();
 
@@ -91,6 +91,8 @@ import java.util.Scanner;
         System.out.println(ANSI_CYAN_BACKGROUND + "El Precio Final es de = " + ANSI_GREEN_BACKGROUND + final_price + ANSI_RESET);
 
       }
+
+      System.out.println("");
       
       System.out.println(ANSI_GREEN_BACKGROUND + ANSI_BLUE + " -------------------------------------------------------------- ");
       System.out.println(ANSI_GREEN_BACKGROUND + ANSI_BLUE + " |                   ¡GRACIAS POR SU COMPRA!                  | ");
