@@ -52,27 +52,18 @@ import java.lang.Math;
       double IMC = 0;
 
       System.out.println(ANSI_WHITE_BACKGROUND + ANSI_BLUE + " ----------------------- LISTA DE VALORES ----------------------- ");
-
       System.out.println(" | IMC < 16       | Criterio de ingreso en hospital             | ");
-
       System.out.println(" | IMC de 16 a 18 | bajo peso                                   | ");
-
       System.out.println(" | IMC de 18a 25  | peso normal (saludable)                     | ");
-
       System.out.println(" | IMC de 25 a 30 | sobrepeso (obesidad de grado I)             | ");
-
       System.out.println(" | IMC de 30 a 35 | sobrepeso crónico (obesidad de grado II)    | ");
-
       System.out.println(" | IMC de 35 a 40 | obesidad premórbida (obesidad de grado III) | ");
-
       System.out.println(" | IMC > 40       | obesidad mórbida (obesidad de grado IV)     | ");
-
       System.out.println(" ---------------------------------------------------------------- " + ANSI_RESET);
 
       while(!valid_heigth){ //bucle para controlar que la altura es introducida correctamente
         
         System.out.println(ANSI_RESET+ANSI_PURPLE_BACKGROUND + "Por favor, Introduzca su altura en METROS: " + ANSI_RESET + ANSI_GREEN);
-
         heigth= scan.nextFloat();
 
         if(heigth >= 0 && heigth < 2.5){
@@ -83,7 +74,6 @@ import java.lang.Math;
       while(!valid_weigth){ //bucle para controlar que el peso es introducido correctamente
 
         System.out.println(ANSI_RESET+ANSI_PURPLE_BACKGROUND + "Por favor, Introduzca su peso en KILOS: " + ANSI_RESET + ANSI_GREEN);
-
         weigth= scan.nextDouble();
 
         if(weigth >= 0 && weigth < 250){

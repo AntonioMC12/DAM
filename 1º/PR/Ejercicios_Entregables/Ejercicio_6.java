@@ -10,7 +10,7 @@ import java.util.Scanner;
                                                            121
                                                           12321
                                                          1234321 
-        */
+        
         
 
         Scanner scan = new Scanner(System.in);
@@ -31,7 +31,7 @@ import java.util.Scanner;
             for()
 
             System.out.println();
-        
+        */
         }
     }
 

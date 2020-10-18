@@ -50,21 +50,14 @@ import java.util.Scanner;
       boolean valid_price = false;
 
       System.out.println(ANSI_GREEN_BACKGROUND + ANSI_BLUE + " -------------------------------------------------------------- ");
-
       System.out.println(" | Importe menor de 30€     ----> No hay descuento disponible | ");
-
       System.out.println(" | Importe entre 30€ y 50€  ----> 10% de descuento            | ");
-
       System.out.println(" | Importe superior a 50€   ----> 15% de descuento            | ");
-
       System.out.println(" -------------------------------------------------------------- " + ANSI_RESET);
 
-      while(!valid_price){ //bucle para controlar que el precio es introducido correctamente
-        
+      while(!valid_price){ //bucle para controlar que el precio es introducido correctamente        
         System.out.print(ANSI_RESET+ANSI_RED_BACKGROUND + "Por favor, Introduzca el importe de su compra:" + ANSI_RESET + " " +  ANSI_GREEN);
-
         price = scan.nextDouble();
-
         if(price > -1){
           valid_price = true;
         }
@@ -73,27 +66,23 @@ import java.util.Scanner;
       if(price < 30){
 
         final_price = price;
-
         System.out.println(ANSI_CYAN_BACKGROUND + ANSI_RED + "Su Importe total es menor a 30€, por tanto, no tiene ningún descuento.");
         System.out.println(ANSI_CYAN_BACKGROUND + "El Precio Total es de = " + ANSI_GREEN_BACKGROUND + final_price + ANSI_RESET);
 
       }else if(price < 50){
 
         final_price = price - price * discount_10;
-
         System.out.println(ANSI_CYAN_BACKGROUND + ANSI_RED +"Su Importe total es menor a 50€, por tanto, tiene un descuento del 10%" + ANSI_GREEN_BACKGROUND);
         System.out.println(ANSI_CYAN_BACKGROUND + "El Precio Total es de = " + ANSI_GREEN_BACKGROUND + final_price + ANSI_RESET);
       }else{
 
         final_price = price - price * discount_15;
-
         System.out.println(ANSI_CYAN_BACKGROUND + ANSI_RED +"Su Importe total es superior a 50€, por tanto, tiene un descuento del 15%" + ANSI_GREEN_BACKGROUND);
         System.out.println(ANSI_CYAN_BACKGROUND + "El Precio Final es de = " + ANSI_GREEN_BACKGROUND + final_price + ANSI_RESET);
 
       }
 
       System.out.println("");
-      
       System.out.println(ANSI_GREEN_BACKGROUND + ANSI_BLUE + " -------------------------------------------------------------- ");
       System.out.println(ANSI_GREEN_BACKGROUND + ANSI_BLUE + " |                   ¡GRACIAS POR SU COMPRA!                  | ");
       System.out.println(ANSI_GREEN_BACKGROUND + ANSI_BLUE + " -------------------------------------------------------------- ");
