@@ -44,7 +44,7 @@ public class Calculadora_Ilegal{
     do{ //control de errores de la selección de la operación, solo avance el progrma si introduce un char valido dentro de nuestro rango
         try {         
           valid = false;       
-          System.out.print(ANSI_WHITE_BACKGROUND + ANSI_RED + "INSERTA AQUÍ ---->" + ANSI_RESET + " " + ANSI_GREEN);          
+          System.out.print(ANSI_WHITE_BACKGROUND + ANSI_RED + "INSERTA AQUI ---->" + ANSI_RESET + " " + ANSI_GREEN);          
           op_menu = scan.nextInt();      
           if(op_menu != 1 && op_menu != 2 && op_menu != 3 && op_menu != 4){          
             System.out.println(ANSI_RED_BACKGROUND + ANSI_BLACK +"Debe insertar un valor válido..." + ANSI_RESET);          
@@ -61,7 +61,7 @@ public class Calculadora_Ilegal{
     do{ //control de errores del primer digito que introducimos, solo avance el progrma si introduce un char valido dentro de nuestro rango
       try { 
         valid = false;       
-        System.out.print(ANSI_WHITE_BACKGROUND + ANSI_RED + "INSERTA AQUÍ SU PRIMER VALOR ---->" + ANSI_RESET + " " + ANSI_GREEN);        
+        System.out.print(ANSI_WHITE_BACKGROUND + ANSI_RED + "INSERTA AQUI SU PRIMER VALOR ---->" + ANSI_RESET + " " + ANSI_GREEN);        
         num1 = scan.nextDouble();         
       } catch (InputMismatchException ex) {
         System.out.println(ANSI_RED_BACKGROUND + ANSI_BLACK + "Debe ingresar obligatoriamente un número real." + ANSI_RESET);
@@ -73,7 +73,7 @@ public class Calculadora_Ilegal{
     do{ //control de errores del segundo digito que introducimos, solo avance el progrma si introduce un char valido dentro de nuestro rango
       try {        
         valid = false;        
-        System.out.print(ANSI_WHITE_BACKGROUND + ANSI_RED + "INSERTA AQUÍ SU SEGUNDO VALOR ---->" + ANSI_RESET + " " + ANSI_GREEN);        
+        System.out.print(ANSI_WHITE_BACKGROUND + ANSI_RED + "INSERTA AQUI SU SEGUNDO VALOR ---->" + ANSI_RESET + " " + ANSI_GREEN);        
         num2 = scan.nextDouble();         
       } catch (InputMismatchException ex) {
         System.out.println(ANSI_RED_BACKGROUND + ANSI_BLACK + "Debe ingresar obligatoriamente un número real." + ANSI_RESET);
