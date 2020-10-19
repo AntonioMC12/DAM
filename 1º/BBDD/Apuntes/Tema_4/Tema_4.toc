@@ -1,0 +1,11 @@
+\babel@toc {nil}{}
+\contentsline {section}{\numberline {1}Introducción}{iii}%
+\contentsline {subsection}{\numberline {1.1}Historia}{iii}%
+\contentsline {section}{\numberline {2}Estática del Modelo E-R}{iii}%
+\contentsline {subsection}{\numberline {2.1}Entidad}{iii}%
+\contentsline {subsection}{\numberline {2.2}Interrelación}{iv}%
+\contentsline {subsection}{\numberline {2.3}Atributos}{v}%
+\contentsline {subsection}{\numberline {2.4}Restricciones}{vi}%
+\contentsline {section}{\numberline {3}Cardinalidad de un tipo de entidad}{vii}%
+\contentsline {subsection}{\numberline {3.1}Tipos De Interrelación}{viii}%
+\contentsline {section}{\numberline {4}Ejercicio 1}{ix}%
