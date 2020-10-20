@@ -113,5 +113,7 @@ import java.lang.Math;
 
       }
 
+      scan.close();
+
     }  
   }

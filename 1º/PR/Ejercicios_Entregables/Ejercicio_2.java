@@ -4,7 +4,7 @@ public class Ejercicio_2 {
 
 	public static void main(String[] args) {
 		/*
-		 * 2.-Escribe un programa que obtenga los números enteros comprendidosentre dos números introducidos
+		 * 2.-Escribe un programa que obtenga los numeros enteros comprendidosentre dos numeros introducidos
 		 *    por teclado y validados como distintos. El programa debe empezar por el menor de los enteros
 		 *    introducidos e ir incrementando de 7 en 7
 		 */

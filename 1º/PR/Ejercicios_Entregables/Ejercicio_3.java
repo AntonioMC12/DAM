@@ -17,10 +17,10 @@ public class Ejercicio_3 {
 		int count = 0;      //counter for the input number
 		int mean_count = 0; //counter for the mean
 		double mean = 0;    //auxiliar for the mean
-		
+		boolean valid = true;
 		//do a loop with a trivial condition
 		
-		while(true){
+		while(valid){//remodelado para que pare cuando el introducido sea impar
 		
 		//ask the user for a number
 		
@@ -30,8 +30,8 @@ public class Ejercicio_3 {
 		
 		//check if the number is positive
 		
-		if(input_num < 0) {
-			break;
+		if(input_num%2 != 0) {
+			valid = false;
 		}
 			
 		count++;

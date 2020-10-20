@@ -86,6 +86,6 @@ import java.util.Scanner;
       System.out.println(ANSI_GREEN_BACKGROUND + ANSI_BLUE + " -------------------------------------------------------------- ");
       System.out.println(ANSI_GREEN_BACKGROUND + ANSI_BLUE + " |                   ¡GRACIAS POR SU COMPRA!                  | ");
       System.out.println(ANSI_GREEN_BACKGROUND + ANSI_BLUE + " -------------------------------------------------------------- ");
-      
+      scan.close();
     }
 }
