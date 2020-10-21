@@ -146,19 +146,40 @@ Ejemplo 000 cuaderno
         posible. Estas restricciones limitarán el conjunto de valores validos que los atributos pueden tomar dentro de las tuplas. Se aplicarán sobre los distintos 
         atributos y las principales que existen son las siguientes:
             
-            -Clave Primaria (Primary Key[PK]): será el atributo o conjunto de estos, que contiene un valor único para toda la tabla identificando cada tupla de forma unívoca
+            -Clave Primaria (Primary Key [PK]): será el atributo o conjunto de estos, que contiene un valor único para toda la tabla identificando cada tupla de forma unívoca
             como ya habíamos dicho anteriormente, se maracarán subrayando estos atributos.
             
             -Unicidad (UNIQUE): indica que los valores del atributo donde se aplica no puden repetirse en distintas tuplas o filas. No se debe aplicar a las claves alternativas
             ya que UNIQUE permite valores nulos y no es necesario especificarlo para la clave primaria ya que va implícito en ella. Nosotros lo marcaremos añadiendo una 'U' debajo
             de los atributos que deban cumplirlo.
            
-            -Obligatoriedad(NOT NULL[NN]): El atributo donde se aplica no puede tener valores nulos, también está implícito en la clave primaria, para indicarlo lo pondremos con las 
+            -Obligatoriedad (NOT NULL [NN]): El atributo donde se aplica no puede tener valores nulos, también está implícito en la clave primaria, para indicarlo lo pondremos con las 
             iniciales NN debajo.
            
-            -Integridad Referencial(Foreing Key[FK]): Se aplica sobre las claves ajenas que relacionan las tablas entre si. se definirán sobre los atributos que se han propagado desde
+            -Integridad Referencial (Foreing Key [FK]): Se aplica sobre las claves ajenas que relacionan las tablas entre si. se definirán sobre los atributos que se han propagado desde
             otras tablas y que me permiten enlazar con ellos. Este atributo solo podrá tomar, o valores nulos o valores que formen parte del dominio de la clave principal de la tabla 
             con la que se enlaza. Los reconoceremos, porque son los atributos de donde parten las flechas. Estas flechas deben partir de ellos y llegar al nombre de la tabla con la que
             se relaciona, también podemos marcarlos con las iniciales C.A.
 
-            -Operación con Verificación(CHECK):
+            -Operación con Verificación (CHECK condición): Es otra reglas semántica que se puede aplicar a cualquier atributo y se usa para especificar condiciones que deben cumplir sus 
+            valores. Si al realizar una operación el atributo no cumple la condición, se rechaza la operación y se ejecuta un procedimiento o disparador (TRIGGER). Esta condición si es 
+            compleja se debería especificar en un documento anexo al esquema relacional.
+            
+            -Valor por Defecto (DEFAULT valor): Es otro tipo de regla semántica que en principio se puede aplicar sobre cualquier atributo. Esta regla existe para especificar el valor que 
+            debe tomar un atributo si no se indica expresamente otro valor para ese campo, se indicará mediante el rótulo [DEFAULT valor] debajo del campo en cuestión.
+
+        Cualquiera de estas restricciones se puede aplicar en principio sobre cualquier atributo de cualquier tabla. Se podrán aplicar y combinar varias de ellas sobre un mismo atributo.
+    
+    2.4 PROCEDIMIENTOS Y DISPARADORES ALMACENADOS
+
+        *Procedimiento*: Es una operación o conjunto de estas que se almacenará junto a la base de datos y que se podrá ejecutar en cualquier momento a petición del usuario. Serán utilizadas 
+        sobretodo, para tareas tediosas o que se repiten con mucha frecuencia, como por ejemplo realizar copias de seguridad. Básicamente son lo mismo que los disparadores, pero no están 
+        asociados a ninguna circunstancia que los ejecute automáticamente
+
+        *Disparadores (TRIGGERS)*: Son procedimientos que se ponen en marcha automáticamente cuando sucede algo previsto, como por ejemplo, insertar un nuevo registro en una tabla. Los 
+        disparadores tienen 3 partes:
+
+            -*Nombre* del disparador que lo identifica
+            -*Restriccion* o regla que deben cumplir los datos
+            -*Respuesta* o acción en caso de que se incumpla la regla.
+            

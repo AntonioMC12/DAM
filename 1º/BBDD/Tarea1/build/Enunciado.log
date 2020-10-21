@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  21 OCT 2020 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  21 OCT 2020 13:15
 entering extended mode
-**c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Placa_Base_Documentación/Placa_Base_Documentacion.tex
-(c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Placa_Base_Documentación/Placa_Base_Documentacion.tex
+**c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Tarea1/Enunciado.tex
+(c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Tarea1/Enunciado.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -213,11 +213,11 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count195
 \l__pdf_internal_box=\box49
-) (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.aux
+) (c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\build\Enunciado.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
-\openout1 = `Placa_Base_Documentacion.aux'.
+\openout1 = `Enunciado.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -252,199 +252,56 @@ LaTeX Info: Redefining \% on input line 19.
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 21.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 20.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 21.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 20.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 21.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 20.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 21.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 20.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 21.
+(Font)              <12> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 21.
-<img/portada.png, id=1, 602.25pt x 602.25pt>
-File: img/portada.png Graphic file (type png)
-<use img/portada.png>
-Package pdftex.def Info: img/portada.png  used on input line 26.
-(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+(Font)              <6> on input line 20.
  [1
 
-{C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./img/portada.png>] (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 2.
-
-
-Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 2.
-
-
-Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 3.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 4.
-)
-\tf@toc=\write3
-\openout3 = `Placa_Base_Documentacion.toc'.
-
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 12.80502pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[1]
-<img/final_specs.png, id=18, 1114.1625pt x 2025.06563pt>
-File: img/final_specs.png Graphic file (type png)
-<use img/final_specs.png>
-Package pdftex.def Info: img/final_specs.png  used on input line 53.
-(pdftex.def)             Requested size: 233.98103pt x 425.27634pt.
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
- [2 <./img/final_specs.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--65
+{C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 25--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--65
+Underfull \hbox (badness 10000) in paragraph at lines 25--35
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-<img/B550AORUSMasterDiagram.png, id=22, 917.4275pt x 1405.25pt>
-File: img/B550AORUSMasterDiagram.png Graphic file (type png)
-<use img/B550AORUSMasterDiagram.png>
-Package pdftex.def Info: img/B550AORUSMasterDiagram.png  used on input line 70.
-(pdftex.def)             Requested size: 172.5pt x 264.21277pt.
-
-Underfull \hbox (badness 1067) in paragraph at lines 74--81
-[][]\T1/lmr/m/n/10 Teniendo la pla-ca una en-tra-da
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 74--81
-\T1/lmr/m/n/10 de \T1/lmr/bx/sc/10 24 pi-nes \T1/lmr/m/n/10 pa-ra la \T1/lmr/bx/sc/10 ali-men-ta-
- []
-
-
-Underfull \hbox (badness 4217) in paragraph at lines 74--81
-\T1/lmr/m/n/10 bi�n ten-dr�a-mos una en-tra-da de
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 74--81
-\T1/lmr/m/n/10 de \T1/lmr/bx/sc/10 4 pi-nes \T1/lmr/m/n/10 pa-ra ali-men-tar tam-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--81
-
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 74--81
-\T1/lmr/m/n/10 Para re-fri-ge-rar, la pla-ca ba-se tie-
- []
-
-
-Underfull \hbox (badness 4492) in paragraph at lines 74--81
-\T1/lmr/m/n/10 ne una en-tra-da pa-ra el con-trol
- []
-
-
-Underfull \hbox (badness 3803) in paragraph at lines 74--81
-\T1/lmr/m/n/10 del \T1/lmr/bx/sc/10 ven-ti-la-dor del CPU \T1/lmr/m/n/10 y si
- []
-
-
-Underfull \hbox (badness 7397) in paragraph at lines 74--81
-\T1/lmr/m/n/10 mon-ta-mos \T1/lmr/bx/sc/10 re-fri-ge-ran-ci�n l�-qui-
- []
-
-
-Underfull \hbox (badness 8056) in paragraph at lines 74--81
-\T1/lmr/bx/sc/10 da\T1/lmr/m/n/10 , tam-bi�n tie-ne una en-tra-da
- []
-
-
-Underfull \hbox (badness 4378) in paragraph at lines 74--81
-\T1/lmr/m/n/10 de ali-men-ta-ci�n. As� co-mo tam-
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 74--81
-\T1/lmr/bx/sc/10 dos los ven-ti-la-do-res \T1/lmr/m/n/10 de la ca-
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 74--81
-\T1/lmr/m/n/10 ja en la que mon-te-mos nues-tro
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--81
-
- []
-
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
-[3 <./img/B550AORUSMasterDiagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 84--88
-
- []
-
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
-[4
-
-] (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.aux
+[2] [3] (c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\build\Enunciado.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
-)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 4020 strings out of 480790
- 58985 string characters out of 2896363
- 313818 words of memory out of 3000000
- 19967 multiletter control sequences out of 15000+200000
- 592491 words of font info for 55 fonts, out of 3000000 for 9000
+ 3962 strings out of 480790
+ 57557 string characters out of 2896363
+ 314816 words of memory out of 3000000
+ 19929 multiletter control sequences out of 15000+200000
+ 568620 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,10n,45p,351b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.pdf (5 pages, 1061219 bytes).
+ 37i,6n,45p,319b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
+Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\build\Enunciado.pdf (3 pages, 148694 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,8 +17,15 @@
 
 
 \begin{document}
+
 \maketitle
 \pagenumbering{gobble}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale = 0.5]{img/portada.png}
+\end{figure}
+
 \pagestyle{fancy} 
 
 \newpage
@@ -56,5 +63,26 @@ En el caso de nuestra \textit{Placa Base} admite hasta unos \textbf{128 GB} de R
 para las nuevas APU de la serie \textit{Ryzen 4000}.
 \\
 \subsection{Conectores Internos}
-Los conectores internos.
+Los conectores internos. Primero entraremos a comentar las conexiones de alimentación.\\
+
+  \begin{wrapfigure}{r}{0.5\textwidth} %this figure will be at the right
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/B550AORUSMasterDiagram.png}
+  \end{wrapfigure}
+
+
+Teniendo la placa una entrada de \textbf{24 pines} para la \textbf{alimentación principal} de la placa,
+también tendríamos una entrada de \textbf{8 pines} para alimentación y otra de \textbf{4 pines} para alimentar tambien. 
+\\\\
+Para refrigerar, la placa base tiene una entrada para el control del \textbf{ventilador del CPU} y si montamos \textbf{refrigeranción líquida}, también tiene una entrada de alimentación. Así como también una entrada 
+para controlar \textbf{todos los ventiladores} de la caja en la que montemos nuestro PC.
+\\\\
+Tambíen contamos con \textbf{4 conexiones} para \textit{tiras LED}, 2 para conexiones de LED normales y 2 para RGB.
+
+\clearpage
+\newpage
+Para el amacenamiento del sistema disponemos de \textbf{3} conexiones \textbf{M.2}, estás conexiones son las más rápidas en terminos de velocidad de almacenamiento, llegando a alcanzar hasta velocidades de 
+\textbf{32 GB/s},en conexiones \textit{PCIe 3.0} haciendo de los tiempos de cargar, algo meramente efímero.
+\\\\
+Por otra parte, tenemos hasta \textbf{6 conexiones SATA} para conectar dispositivos de almacenamiento u otro uso, con una velocidad de hasta \textbf{6Gb/s}
 \end{document}
