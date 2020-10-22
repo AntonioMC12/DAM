@@ -2,4 +2,5 @@
 \contentsline {section}{\numberline {1}Introducción}{\es@scroman {i}}%
 \contentsline {section}{\numberline {2}Características}{\es@scroman {ii}}%
 \contentsline {subsection}{\numberline {2.1}Memoria RAM}{\es@scroman {iii}}%
-\contentsline {subsection}{\numberline {2.2}Conectores Internos}{\es@scroman {iii}}%
+\contentsline {subsection}{\numberline {2.2}Conexiones Internos}{\es@scroman {iv}}%
+\contentsline {subsection}{\numberline {2.3}Conectores Externos}{\es@scroman {v}}%

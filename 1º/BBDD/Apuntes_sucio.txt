@@ -182,4 +182,11 @@ Ejemplo 000 cuaderno
             -*Nombre* del disparador que lo identifica
             -*Restriccion* o regla que deben cumplir los datos
             -*Respuesta* o acción en caso de que se incumpla la regla.
+
+    3 CONCEPTO DE TRANSACIÓN
+
+        Una trasación es un grupo de varias operaciones que se deben realizar todas en su conjunto y de forma correcta. Si una de ellas fallara o no se pudiera realizar, deberían deshacerse
+        todas las operaciones previas, pasos parciales, y quedar el estado de la base de datos como antes de comenzar la transación.
+
+    4 LOS VALORES NULOS EN EL MODELO RELACIONAL
             

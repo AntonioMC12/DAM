@@ -30,10 +30,9 @@
 
 \newpage
 \tableofcontents
-\pagenumbering{gobble}
 
 \lhead[Documentación Placa Base]{Documentación Placa Base}
-\lfoot[IES Francisco De Los Rios -Realizado por: Antonio Muñoz Cubero-]{IES Francisco De Los Rios -Realizado por: Antonio Muñoz Cubero-}
+\lfoot[IES Francisco De Los Rios]{IES Francisco De Los Rios}
 \pagenumbering{roman}
 
 \section{Introducción}
@@ -41,13 +40,14 @@ Este documento contiene información sobre la placa base \textbf{B550 AORUS Mast
 el \text{B550} 
 que permite montar los nuevos procesadores de \textit{AMD}, la serie 3000 y 4000.\\
 Lo bueno de este chipset es que tiene un precio más ajustado al no pertenecer a la serie tope de gama de chipset y nos permite utilizar la tecnología del \textbf{PCIE 4.0}, que mas adelante desarrollaremos y entraremos en 
-detalle, tambien 
+detalle, también 
 disponemos de vaías para montar \textbf{discos duros M.2} y otras prestaciones que empezaremos a describir a continuación.
 
 \newpage
 \section{Características}
 
 A continuación muestro una tabla con las especificanoes técnicas de la Placa Base, mas adelante iremos centrandonos en cada uno de sus aspectos.
+
 \begin{figure}[h]
   \centering
   \includegraphics[scale = 0.21]{img/final_specs.png}
@@ -55,34 +55,71 @@ A continuación muestro una tabla con las especificanoes técnicas de la Placa B
 
 \newpage
 \subsection{Memoria RAM}
-La memoria \textbf{RAM} o \textit{\textbf{Random Access Memory}} (memoria de acceso aleatorio) es un componente que forma parte del ecosistema de hardware, pasado y presente (quizás futuro), y que tiene como mayor finalidad 
-crear un puente entre el sistema operativo, software, 
-procesador y otros dispositivos para que estos intercambien información entre ellos. Básicamente es la \textbf{memoria principal} del sistema y como tal dispone de una gran velocidad de lectura y escritura.\\
-\\
-En el caso de nuestra \textit{Placa Base} admite hasta unos \textbf{128 GB} de RAM DDR4 a través de sus cuatro vahías para módulos DIMM, con soporte para \textit{Dual Channel}, soportará velocidades de hasta \textbf{5400 MHz} 
-para las nuevas APU de la serie \textit{Ryzen 4000}.
-\\
-\subsection{Conectores Internos}
-Los conectores internos. Primero entraremos a comentar las conexiones de alimentación.\\
 
-  \begin{wrapfigure}{r}{0.5\textwidth} %this figure will be at the right
-    \centering
-    \includegraphics[width=0.5\textwidth]{img/B550AORUSMasterDiagram.png}
-  \end{wrapfigure}
-
-
-Teniendo la placa una entrada de \textbf{24 pines} para la \textbf{alimentación principal} de la placa,
-también tendríamos una entrada de \textbf{8 pines} para alimentación y otra de \textbf{4 pines} para alimentar tambien. 
-\\\\
-Para refrigerar, la placa base tiene una entrada para el control del \textbf{ventilador del CPU} y si montamos \textbf{refrigeranción líquida}, también tiene una entrada de alimentación. Así como también una entrada 
-para controlar \textbf{todos los ventiladores} de la caja en la que montemos nuestro PC.
-\\\\
-Tambíen contamos con \textbf{4 conexiones} para \textit{tiras LED}, 2 para conexiones de LED normales y 2 para RGB.
-
-\clearpage
 \newpage
-Para el amacenamiento del sistema disponemos de \textbf{3} conexiones \textbf{M.2}, estás conexiones son las más rápidas en terminos de velocidad de almacenamiento, llegando a alcanzar hasta velocidades de 
-\textbf{32 GB/s},en conexiones \textit{PCIe 3.0} haciendo de los tiempos de cargar, algo meramente efímero.
-\\\\
-Por otra parte, tenemos hasta \textbf{6 conexiones SATA} para conectar dispositivos de almacenamiento u otro uso, con una velocidad de hasta \textbf{6Gb/s}
+
+\subsection{Conexiones Internos}
+
+\normalsize
+  {\bfseries Las conexiones internas del pc las mostramos a continuación: }% do not use \bf in LaTeX it is deprecated 20+ years ago
+  \begin{itemize}
+    \item Lista de Conexiones:\\
+    \\
+    \begin{minipage}{0.5\textwidth}
+      \begin{itemize}% never number things manually!
+        \item 1 x 24-pin ATX main power connector
+        \item 1 x 8-pin ATX 12V power connector
+        \item 1 x 4-pin ATX 12V power connector
+        \item 1 x CPU fan header
+        \item 1 x water cooling CPU fan header
+        \item 4 x system fan headers
+        \item 2 x system fan/water cooling pump headers
+        \item 2 x addressable LED strip headers
+        \item 2 x RGB LED strip headers
+        \item 1 x CPU cooler LED strip/RGB LED strip header
+        \item 3 x M.2 Socket 3 connectors
+        \item 6 x SATA 6Gb/s connectors
+        \item 1 x front panel header
+        \item 1 x front panel audio header
+        \item 1 x USB 3.2 Gen 1 header
+        \item 2 x USB 2.0/1.1 headers
+        \item 1 x noise detection header
+        \item 1 x Trusted Platform Module
+        \item 1 x Clear CMOS jumper
+        \item 2 x temperature sensor headers
+      \end{itemize}
+    \end{minipage}
+    \begin{minipage}{\textwidth}
+      \includegraphics[scale=0.25]{img/B550AORUSMasterDiagram.png}
+    \end{minipage}
+  \end{itemize}
+
+\newpage
+\subsection{Conectores Externos}
+
+
+\normalsize
+  {\bfseries Ahora hablaremos de los \textbf{Conectores Externos} de la placa, estos son los que podemos usar para usar rapidamente las conexiones de los puertos que dispone nuestra placa, para así poder 
+  externalizar las funcionalidades que nos brinda nuestro PC. }% do not use \bf in LaTeX it is deprecated 20+ years ago
+  \begin{itemize}
+    \item Lista de Conexiones:
+
+    \begin{minipage}{0.5\textwidth}
+      \begin{itemize}% never number things manually!
+        \item x1 HDMI
+        \item x6 USB 2.0/1.1
+        \item X5 USB 3.2 GEN2 TYPE A
+        \item X1 USB TYPE C
+        \item Q-Flash Plus button
+        \item X1 puerto RJ-45
+        \item X5 AUDIO JACK 
+        \item x1 OPTICAL S/PDIF 
+      \end{itemize}
+    \end{minipage}
+    \begin{minipage}{\textwidth}
+      \includegraphics[scale=0.4]{img/frontal_vertical.jpg}
+    \end{minipage}
+  \end{itemize}
+
+
 \end{document}
