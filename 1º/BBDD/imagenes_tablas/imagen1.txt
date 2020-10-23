@@ -1,0 +1,54 @@
+imagen1.png
+
+CREATE TABLE Películas(
+  id_peliculas varchar(50)
+  titulo varchar(50)
+  año year(4)
+  critica text[(10)]
+  carátula 
+  CONSTRAINT PK_id_peliculas PRIMARY KEY (id_peliculas)
+  CONSTRAINT NN_titulo NOT NULL (titulo)
+);
+
+CREATE TABLE Copias(
+  n_copia int
+  deteriorada varchar(50)
+  formato varchar(50)
+  id_peliculas varchar(50)
+  precio_alquilar float
+  CONSTRAINT PK_n_copia PRIMARY KEY (n_copia)
+  CONSTRAINT NN_formato NOT NULL (formato)
+  CONSTRAINT NN_id_peliculas NOT NULL (id_peliculas)
+  CONSTRAINT FK_id_peliculas FOREING KEY (id_peliculas)
+);
+
+CREATE TABLE Clientes(
+  cod_cliente int
+  dni int
+  nombre varchar(20)
+  apellido1 varchar(20)
+  apellido2 varchar(20)
+  direccion varchar(50)
+  email varchar(50)
+  CONSTRAINT PK_cod_clientes PRIMARY KEY (cod_cliente)
+  CONSTRAINT UQ_dni UNIQUE (dni)
+  CONSTRAINT NN_nombre NOT NULL (nombre)
+  CONSTRAINT NN_apellido1 NOT NULL (apellido1)
+  CONSTRAINT NN_apellido2 NOT NULL (apellido2)
+  CONSTRAINT UQ_email UNIQUE (email)
+);
+
+CREATE TABLE Prestamos(
+  id_prestamo int
+  fecha_prestamo date
+  fecha_tope date
+  fecha_entrega date
+  cod_cliente int
+  n_copia int
+  CONSTRAINT PK_id_prestamo PRIMARY KEY (id_prestamo)
+  CONSTRAINT NN_fecha_prestamo NOT NULL (fecha_prestamo)
+  CONSTRAINT NN_cod_cliente NOT NULL (cod_cliente)
+  CONSTRAINT NN_n_copia NOT NULL (n_copia)
+  CONSTRAINT FK_cod_cliente FOREING KEY (cod_cliente)
+  CONSTRAINT FK_n_copia FOREING KEY (n_copia)
+);

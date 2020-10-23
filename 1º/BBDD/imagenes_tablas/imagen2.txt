@@ -1,0 +1,29 @@
+imagen2.jpg
+
+CREATE TABLE Empleados(
+  id_empleado int
+  nombre varchar(20)
+  apellidos varchar(50)
+  nif varchar(9)
+  seg_social (12)
+  departamento varchar(10)
+  puesto varchar(10)
+  CONSTRAINT PK_id_empleado PRIMARY KEY (id_empleado)
+);
+
+CREATE TABLE Nominas(
+  id_empleado int
+  mes int
+  importe int
+  irpf int
+  CONSTRAINT PK_id_empleado PRIMARY KEY (id_empleado)
+  CONSTRAINT PK_mes PRIMARY KEY (mes)
+);
+
+CREATE TABLE Vacaciones(
+  id_empleado int
+  f_inicio date
+  f_fin date
+  dias_usados int
+  CONSTRAINT PRIMARY KEY (no)
+);

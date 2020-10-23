@@ -1,0 +1,47 @@
+imagen3.jpg
+
+CREATE TABLE clientes(
+  id_cliente int
+  nombre varchar(20)
+  direccion varchar(20)
+  telefono int
+  CONSTRAINT PK_id_cliente PRIMARY KEY (id_cliente)
+);
+
+CREATE TABLE facturas(
+  id_factura int
+  fecha date
+  id_cliente int 
+  CONSTRAINT PK_id_factura PRIMARY KEY (id_factura)
+);
+
+CREATE TABLE ventas(
+  id_venta int 
+  id_factura int
+  id_producto int
+  cantidad int
+  CONSTRAINT PK_id_venta PRIMARY KEY (id_venta)
+);
+
+CREATE TABLE productos(
+  id_producto int
+  descripcion varchar(50)
+  precio float
+  id_categoria int
+  id_proveedor int
+  CONSTRAINT PK_id_producto PRIMARY KEY (id_producto)
+);
+
+CREATE TABLE categorias(
+  id_categoria
+  descripcion
+  CONSTRAINT PK_id_caterogia PRIMARY KEY (id_categoria)
+);
+
+CREATE TABLE proveedores(
+  id_proveedor
+  nombre
+  direccion
+  telefono
+  CONSTRAINT PK_id_proveedor PRIMARY KEY (id_proveedor)
+);
