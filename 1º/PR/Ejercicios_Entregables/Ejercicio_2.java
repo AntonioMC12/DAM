@@ -60,7 +60,7 @@ public class Ejercicio_2 {
 		
 		System.out.println("The numbers between adding 7 at each time are...");
 		
-		while(num1 < num2) {		
+		while(num1 < num2) {
 			if((num2-num1) > 7) {
 				num1 = num1 + 7;
 				System.out.println(num1);
