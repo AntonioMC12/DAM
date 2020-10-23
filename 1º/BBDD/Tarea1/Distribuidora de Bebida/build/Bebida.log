@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  21 OCT 2020 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  22 OCT 2020 20:06
 entering extended mode
-**c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Vapers/Enunciado.tex
-(c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Vapers/Enunciado.tex
+**"c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Tarea1/Distribuidora de Bebida/Bebida.tex"
+("c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Tarea1/Distribuidora de Bebida/Bebida.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -213,11 +213,11 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count195
 \l__pdf_internal_box=\box49
-) (c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\build\Enunciado.aux
+) ("c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\build\Bebida.aux"
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
-\openout1 = `Enunciado.aux'.
+\openout1 = `Bebida.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -277,31 +277,41 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 25--35
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--35
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
  []
 
-[2] [3] (c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\build\Enunciado.aux
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 43.
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 43.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 43.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 43.
+ [2] [3] ("c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\build\Bebida.aux"
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 3962 strings out of 480790
- 57557 string characters out of 2896363
- 313816 words of memory out of 3000000
- 19929 multiletter control sequences out of 15000+200000
- 568620 words of font info for 42 fonts, out of 3000000 for 9000
+ 4012 strings out of 480790
+ 58851 string characters out of 2896363
+ 314810 words of memory out of 3000000
+ 19968 multiletter control sequences out of 15000+200000
+ 575508 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,45p,319b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\build\Enunciado.pdf (3 pages, 149634 bytes).
+ 37i,6n,45p,365b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
+Output written on "c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\build\Bebida.pdf" (3 pages, 132721 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

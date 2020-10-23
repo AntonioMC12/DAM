@@ -1,0 +1,52 @@
+\documentclass{article}
+
+\usepackage{wrapfig}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+
+
+
+\title{Documentación \\\large \textbf{Problema Base de Datos}}
+\author{Antonio Muñoz Cubero y Miguel Ángel García Mérida}
+\date{22 de Ocutbre de 2020} 
+
+
+\begin{document}
+  \maketitle
+  \pagenumbering{gobble}
+  \newpage
+    \section{Enunciado}
+    El padre de un amigo tiene una empresa de distribución de bebidas, tanto alcohólicas como no alcohólicas, nos ha pedido la realización de la base de datos para tener controlada la gestión de la empresa, 
+    atendiendo a los siguientes supuestos proporcionados por él.
+    \\
+    \\
+    \textbf{Supuestos:}
+    \\
+      \begin{enumerate}
+        
+        \item Quiere tener un control de los clientes a los que vende bebidas y el empleado que realiza la venta.
+        \item Quiere tener un control de los empleados, el número de ventas que realiza, el tamaño y precio de la venta.
+        \item Quiere tener un control de las bebidas que tiene en el almacén, asi como el stock, fecha de vencimiento, si son carbonatadas, alcohólicas y el azucar de cada bebida.
+        \item No puede realizarse una venta si no hay stock de una bebida a vender.
+        \item Quiere tener un control de los proveedores y de los empleados que comprar a ellos.
+        \item Quiere conocer la fecha de reposicion del stock para evitar en la medida de lo posible el tener bebida sin stock.
+        \item Quiere que tengamos en cuenta que hay 3 tipos de empleados o departamentos, ventas, compras y almacén o distribución.
+        \item Quiere guardar la empresa de la bebida que compra.
+        \item Las bebidas alcohólicas pueden clasificarse en licores, ron, ginebra, whisky, vodka y cerveza.
+        \item Si la bebida alcohólica es cerveza, solo puede tener un único proveedor por marca.
+        \item Un proveedor puede proveer de varias marcas de bebida si estas no son alcohólicas.
+        \item Si el importe mensual de la venta a un establecimiento supera los 1000€, tiene derecho a pedir un 5\% de descuento
+        \item Si el importe mensual de la venta a un establecimiento supera los 15000€ anuales, se le envía una cesta de navidad.
+        \item Solo se podrá vender bebidas alcohólicas si el establecimiento tiene licencia para su venta.
+        \item Hay 2 tipos de bebidas no alcoholicas y no carbonatadas, azucaradas y sin azucar.
+        \item Los clientes y los proveedores tendrán un código interno único para cada uno de ellos
+        \item Los empleados son identeificados con un código interno de la empresa.
+
+      \end{enumerate}
+
+\end{document}

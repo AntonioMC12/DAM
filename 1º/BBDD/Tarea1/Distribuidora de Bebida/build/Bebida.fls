@@ -1,7 +1,7 @@
-PWD c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers
+PWD c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida
 INPUT C:\Users\Antonio\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\Enunciado.tex
-OUTPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\build\Enunciado.log
+INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\Bebida.tex
+OUTPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\build\Bebida.log
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -57,9 +57,9 @@ INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\build\Enunciado.aux
-INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\build\Enunciado.aux
-OUTPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\build\Enunciado.aux
+INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\build\Bebida.aux
+INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\build\Bebida.aux
+OUTPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\build\Bebida.aux
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
@@ -85,13 +85,25 @@ INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy6.t
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmex10.tfm
-OUTPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\build\Enunciado.pdf
+OUTPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\build\Bebida.pdf
 INPUT C:\Users\Antonio\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
-INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Vapers\build\Enunciado.aux
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr7.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr5.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi7.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi5.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy7.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy5.tfm
+INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Tarea1\Distribuidora de Bebida\build\Bebida.aux
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
@@ -103,5 +115,3 @@ INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
-INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
-INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
