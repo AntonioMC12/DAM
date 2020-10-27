@@ -4,3 +4,9 @@
 \contentsline {subsection}{\numberline {2.1}Memoria RAM}{\es@scroman {iii}}%
 \contentsline {subsection}{\numberline {2.2}Conexiones Internos}{\es@scroman {iv}}%
 \contentsline {subsection}{\numberline {2.3}Conectores Externos}{\es@scroman {v}}%
+\contentsline {subsection}{\numberline {2.4}Gráfico de la Placa Base}{\es@scroman {vi}}%
+\contentsline {subsection}{\numberline {2.5}Procesador}{\es@scroman {viii}}%
+\contentsline {subsection}{\numberline {2.6}Periféricos Integrados}{\es@scroman {viii}}%
+\contentsline {subsubsection}{\numberline {2.6.1}Tarjeta Gráfica}{\es@scroman {viii}}%
+\contentsline {subsubsection}{\numberline {2.6.2}Tarjeta de Sonido}{\es@scroman {viii}}%
+\contentsline {subsubsection}{\numberline {2.6.3}Tarjeta de Red}{\es@scroman {viii}}%
