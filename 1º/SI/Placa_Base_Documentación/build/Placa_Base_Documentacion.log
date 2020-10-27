@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  27 OCT 2020 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  27 OCT 2020 20:11
 entering extended mode
 **c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Placa_Base_Documentación/Placa_Base_Documentacion.tex
 (c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Placa_Base_Documentación/Placa_Base_Documentacion.tex
@@ -328,6 +328,14 @@ Overfull \hbox (0.14398pt too wide) detected at line 12
  []
  []
 
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 14.
+
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 15.
+
 )
 \tf@toc=\write3
 \openout3 = `Placa_Base_Documentacion.toc'.
@@ -350,93 +358,109 @@ Package pdftex.def Info: img/final_specs.png  used on input line 48.
 LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
  [2 <./img/final_specs.png>]
-LaTeX Info: Redefining \. on input line 54.
-LaTeX Info: Redefining \% on input line 54.
- [3]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 63.
+<img/slots.jpg, id=22, 602.25pt x 451.6875pt>
+File: img/slots.jpg Graphic file (type jpg)
+<use img/slots.jpg>
+Package pdftex.def Info: img/slots.jpg  used on input line 57.
+(pdftex.def)             Requested size: 301.12425pt x 225.84319pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 61.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 2865) in paragraph at lines 69--70
+Overfull \hbox (17.22324pt too wide) in paragraph at lines 61--62
+\T1/lmr/m/n/10 5000(O.C.) / 4866(O.C.) / 4600(O.C.) / 4400(O.C.) / 4000(O.C.) / 3600(O.C.)
+ []
+
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
+[3 <./img/slots.jpg>]
+Underfull \hbox (badness 2865) in paragraph at lines 84--85
 []\T1/lmr/m/n/10 2 x sys-tem fan/water co-oling
  []
 
-<img/B550AORUSMasterDiagram.png, id=25, 917.4275pt x 1405.25pt>
+<img/B550AORUSMasterDiagram.png, id=27, 917.4275pt x 1405.25pt>
 File: img/B550AORUSMasterDiagram.png Graphic file (type png)
 <use img/B550AORUSMasterDiagram.png>
-Package pdftex.def Info: img/B550AORUSMasterDiagram.png  used on input line 86.
+Package pdftex.def Info: img/B550AORUSMasterDiagram.png  used on input line 101.
 (pdftex.def)             Requested size: 229.35631pt x 351.31165pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--88
+Underfull \hbox (badness 10000) in paragraph at lines 74--103
 
  []
 
 
-Overfull \hbox (199.72224pt too wide) in paragraph at lines 59--88
+Overfull \hbox (199.72224pt too wide) in paragraph at lines 74--103
 []$ $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 90.
-LaTeX Info: Redefining \% on input line 90.
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
 [4 <./img/B550AORUSMasterDiagram.png>]
-<img/frontal_vertical.jpg, id=31, 498.36188pt x 831.105pt>
+<img/frontal_vertical.jpg, id=32, 498.36188pt x 831.105pt>
 File: img/frontal_vertical.jpg Graphic file (type jpg)
 <use img/frontal_vertical.jpg>
-Package pdftex.def Info: img/frontal_vertical.jpg  used on input line 111.
+Package pdftex.def Info: img/frontal_vertical.jpg  used on input line 126.
 (pdftex.def)             Requested size: 199.34122pt x 332.43611pt.
 
-Overfull \hbox (199.72224pt too wide) in paragraph at lines 98--113
+Overfull \hbox (199.72224pt too wide) in paragraph at lines 113--128
 []$[]$ $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 114.
-LaTeX Info: Redefining \% on input line 114.
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
 [5 <./img/frontal_vertical.jpg>]
-<img/block_diagram.png, id=35, 671.50874pt x 954.56625pt>
+<img/block_diagram.png, id=36, 671.50874pt x 954.56625pt>
 File: img/block_diagram.png Graphic file (type png)
 <use img/block_diagram.png>
-Package pdftex.def Info: img/block_diagram.png  used on input line 120.
+Package pdftex.def Info: img/block_diagram.png  used on input line 135.
 (pdftex.def)             Requested size: 268.59874pt x 381.81973pt.
-LaTeX Info: Redefining \. on input line 123.
-LaTeX Info: Redefining \% on input line 123.
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
  [6 <./img/block_diagram.png>]
 File: img/B550AORUSMasterDiagram.png Graphic file (type png)
 <use img/B550AORUSMasterDiagram.png>
-Package pdftex.def Info: img/B550AORUSMasterDiagram.png  used on input line 126.
+Package pdftex.def Info: img/B550AORUSMasterDiagram.png  used on input line 142.
 (pdftex.def)             Requested size: 275.23038pt x 421.57826pt.
-LaTeX Info: Redefining \. on input line 129.
-LaTeX Info: Redefining \% on input line 129.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--146
-
- []
-
-LaTeX Info: Redefining \. on input line 155.
-LaTeX Info: Redefining \% on input line 155.
-[8]
-LaTeX Info: Redefining \. on input line 158.
-LaTeX Info: Redefining \% on input line 158.
- [9] (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.aux
+LaTeX Info: Redefining \. on input line 172.
+LaTeX Info: Redefining \% on input line 172.
+ [8]
+<img/alimentación1.jpg, id=49, 602.25pt x 451.6875pt>
+File: img/alimentación1.jpg Graphic file (type jpg)
+<use img/alimentación1.jpg>
+Package pdftex.def Info: img/alimentación1.jpg  used on input line 179.
+(pdftex.def)             Requested size: 210.79065pt x 158.09299pt.
+<img/alimentación2.jpg, id=50, 602.25pt x 451.6875pt>
+File: img/alimentación2.jpg Graphic file (type jpg)
+<use img/alimentación2.jpg>
+Package pdftex.def Info: img/alimentación2.jpg  used on input line 188.
+(pdftex.def)             Requested size: 210.79065pt x 158.09299pt.
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
+ [9 <./img/alimentación1.jpg> <./img/alimentación2.jpg>]
+<img/pulsera.jpg, id=54, 426.59375pt x 426.59375pt>
+File: img/pulsera.jpg Graphic file (type jpg)
+<use img/pulsera.jpg>
+Package pdftex.def Info: img/pulsera.jpg  used on input line 205.
+(pdftex.def)             Requested size: 213.29634pt x 213.29634pt.
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+ [10 <./img/pulsera.jpg>]
+<img/BIOS1.png, id=58, 523.9575pt x 295.1025pt>
+File: img/BIOS1.png Graphic file (type png)
+<use img/BIOS1.png>
+Package pdftex.def Info: img/BIOS1.png  used on input line 215.
+(pdftex.def)             Requested size: 261.9781pt x 147.55087pt.
+<img/BIOS2.png, id=59, 523.9575pt x 295.1025pt>
+File: img/BIOS2.png Graphic file (type png)
+<use img/BIOS2.png>
+Package pdftex.def Info: img/BIOS2.png  used on input line 222.
+(pdftex.def)             Requested size: 261.9781pt x 147.55087pt.
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+ [11 <./img/BIOS1.png> <./img/BIOS2.png>] (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -445,17 +469,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4069 strings out of 480790
- 60200 string characters out of 2896363
- 315818 words of memory out of 3000000
- 20009 multiletter control sequences out of 15000+200000
+ 4106 strings out of 480790
+ 60894 string characters out of 2896363
+ 314818 words of memory out of 3000000
+ 20040 multiletter control sequences out of 15000+200000
  589002 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,10n,45p,356b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,10n,45p,441b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.pdf (10 pages, 1282362 bytes).
+Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.pdf (12 pages, 1970318 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

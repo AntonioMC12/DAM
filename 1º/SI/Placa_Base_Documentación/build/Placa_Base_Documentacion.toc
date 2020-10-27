@@ -10,3 +10,6 @@
 \contentsline {subsubsection}{\numberline {2.6.1}Tarjeta Gráfica}{\es@scroman {viii}}%
 \contentsline {subsubsection}{\numberline {2.6.2}Tarjeta de Sonido}{\es@scroman {viii}}%
 \contentsline {subsubsection}{\numberline {2.6.3}Tarjeta de Red}{\es@scroman {viii}}%
+\contentsline {subsection}{\numberline {2.7}Fases de Alimentación}{\es@scroman {ix}}%
+\contentsline {section}{\numberline {3}Consejos de Instalación}{\es@scroman {x}}%
+\contentsline {section}{\numberline {4}Configuración de la BIOS}{\es@scroman {xi}}%
