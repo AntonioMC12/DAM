@@ -59,7 +59,7 @@
       \end{figure}     
       \begin{itemize}
         \item Procesadores 3rd Gen AMD Ryzen™: Support for DDR4 5200(O.C.) / 5000(O.C.) / 4866(O.C.) / 4600(O.C.) / 4400(O.C.) / 4000(O.C.) / 3600(O.C.) / 3333(O.C.) /3200/2933/2667/2400/2133 MHz 
-        \item New Generation AMD Ryzen™ with Radeon™ Graphics processors: Support for DDR4 5400(O.C.) / 5200(O.C.) / 5000(O.C.) / 4866(O.C.) / 4600(O.C.) / 4400(O.C.) / 4000(O.C.) / 3600(O.C.) / 3333(O.C.)
+        \item Nueva generación AMD Ryzen™ con Procesadores Gráficos Radeon™: Support for DDR4 5400(O.C.) / 5200(O.C.) / 5000(O.C.) / 4866(O.C.) / 4600(O.C.) / 4400(O.C.) / 4000(O.C.) / 3600(O.C.) / 3333(O.C.)
         \item Soporta frecuencias de /3200/2933/2667/2400/2133 MHz 
         \item Arquitectura de memoria Dual channel 
         \item Soporte para ECC Un-buffered DIMM 1Rx8/2Rx8 
@@ -68,45 +68,41 @@
       \end{itemize}
   \newpage
     \subsection{Conexiones Internos}
-    \normalsize
-      {\bfseries Las conexiones internas del pc las mostramos a continuación: }% do not use \bf in LaTeX it is deprecated 20+ years ago
-      \begin{itemize}
-        \item Lista de Conexiones:\\
-        \\
-        \begin{minipage}{0.5\textwidth}
-          \begin{itemize}% never number things manually!
-            \item 1 x 24-pin ATX main power connector
-            \item 1 x 8-pin ATX 12V power connector
-            \item 1 x 4-pin ATX 12V power connector
-            \item 1 x CPU fan header
-            \item 1 x water cooling CPU fan header
-            \item 4 x system fan headers
-            \item 2 x system fan/water cooling pump headers
-            \item 2 x addressable LED strip headers
-            \item 2 x RGB LED strip headers
-            \item 1 x CPU cooler LED strip/RGB LED strip header
-            \item 3 x M.2 Socket 3 connectors
-            \item 6 x SATA 6Gb/s connectors
-            \item 1 x front panel header
-            \item 1 x front panel audio header
-            \item 1 x USB 3.2 Gen 1 header
-            \item 2 x USB 2.0/1.1 headers
-            \item 1 x noise detection header
-            \item 1 x Trusted Platform Module
-            \item 1 x Clear CMOS jumper
-            \item 2 x temperature sensor headers
-          \end{itemize}
-        \end{minipage}
-        \begin{minipage}{\textwidth}
-          \includegraphics[scale=0.25]{img/B550AORUSMasterDiagram.png}
-        \end{minipage}
-      \end{itemize}
+      \textbf{Listado de conexiones internas:}\\
+      \normalsize
+          \begin{minipage}{0.5\textwidth}
+            \begin{itemize}% never number things manually!
+              \item 1 x 24-pin ATX conector de energía principal
+              \item 1 x 8-pin ATX 12V conector de energía
+              \item 1 x 4-pin ATX 12V conector de energía
+              \item 1 x conector para ventilador de la CPU
+              \item 1 x conector para refrigeración líquida de la CPU
+              \item 4 x conectores para los ventiladores del pc
+              \item 2 x conectores para la refrigeración líquida
+              \item 2 x conectores para tira led direccionables
+              \item 2 x conector para tiras led RGB
+              \item 1 x conector para conectores led RGB de la CPU
+              \item 3 x conectores de socket M.2
+              \item 6 x conectores SATA 6Gb/s
+              \item 1 x conectores del panel frontal (energía)
+              \item 1 x conectores del panel frontal (audio)
+              \item 1 x conectores USB 3.2 Gen 1 
+              \item 2 x conectores USB 2.0/1.1 
+              \item 1 x sensor detector de ruido
+              \item 1 x TPM (Trusted Platform Module)
+              \item 1 x Limpiador de la  CMOS
+              \item 2 x Sensores de temperatura
+            \end{itemize}
+          \end{minipage}
+          \begin{minipage}{\textwidth}
+            \includegraphics[scale=0.25]{img/B550AORUSMasterDiagram.png}
+          \end{minipage}
+        
 
   \newpage
     \subsection{Conectores Externos}
       \normalsize
-        {\bfseries Ahora hablaremos de los \textbf{Conectores Externos} de la placa, estos son los que podemos usar para usar rapidamente las conexiones de los puertos que dispone nuestra placa, para así poder 
-        externalizar las funcionalidades que nos brinda nuestro PC. }% do not use \bf in LaTeX it is deprecated 20+ years ago
+        {\bfseries Ahora listaré los Conectores Externos de la placa. Estos los usamos para sacar las señales de audio, video, red y demás conexiones.}
         \begin{itemize}
           \item Lista de Conexiones:
 
@@ -207,20 +203,56 @@
         \end{figure}
     
      \newpage   
-      \section{Configuración de la BIOS}
-        AORUS ha renovado notablemente la interfaz de su BIOS, que en este caso dispone de una configuración doble BIOS con un CMOS de respaldo para otra configuración o fallos en overclocking. Como es habitual en otras UEFI, tenemos un modo fácil y 
-        avanzado, para así poder acceder a los parámetros más genéricos en usuarios que no desean hacer overclocking, y los más avanzados en caso contrario.\\
-        \begin{figure}[h]
-          \centering
-          \includegraphics[scale = 0.5]{img/BIOS1.png}
-          \caption{Interfaz gráfica de la BIOS}
-        \end{figure}\\
-        De un vistazo podremos ver bastantes datos de telemetría de nuestro hardware, y acceder a las distintas herramientas como Q-Fash o Smart Fan 5 para gestionar de forma avanzada la ventilación. Esta vez no tenemos capacidad de modificar RGB Fusion 
-        desde aquí.
-        \begin{figure}[h]
-          \centering
-          \includegraphics[scale = 0.5]{img/BIOS2.png}
-          \caption{Interfaz gráfica de la BIOS}
-        \end{figure}
-
+      \section{BIOS}
+        \subsection{Configuración de la BIOS}
+          Primero de todo, mostraremos como acceder a la BIOS de nuestr Placa Base. En primer lugar, accedemos la \textbf{BIOS} pulsando la tecla \textit{'DEL'} y una vez dentro cabe destacar que hay dos modos de la \textit{BIOS}, que podemos alternar 
+          pulsando \textit{'F2'}.
+          \begin{figure}[h]
+            \centering
+            \includegraphics[scale = 0.5]{img/BIOS_START.png}
+            \caption{Pantalla de Inicio de la Placa Base}
+          \end{figure} 
+          En la versio \textbf{EASY}, pudes usar el cursor del ratón para ir navegando por los diferentes apartados, sin embargo, esta es más limitada, pero en la version \textbf{ADVANCED} podemos nos provee los detalles de la configuración de la \textit{BIOS}.
+          \\\\
+          AORUS ha renovado notablemente la interfaz de su BIOS, que en este caso dispone de una configuración doble BIOS con un CMOS de respaldo para otra configuración o fallos en overclocking. Como es habitual en otras UEFI, tenemos un modo fácil y 
+          avanzado, para así poder acceder a los parámetros más genéricos en usuarios que no desean hacer overclocking, y los más avanzados en caso contrario.\\
+        \newpage          
+          \begin{figure}[h]
+            \centering
+            \includegraphics[scale = 0.5]{img/BIOS1.png}
+            \caption{Interfaz gráfica de la BIOS}
+          \end{figure}
+          De un vistazo podremos ver bastantes datos de telemetría de nuestro hardware, y acceder a las distintas herramientas como Q-Fash o Smart Fan 5 para gestionar de forma avanzada la ventilación. Esta vez no tenemos capacidad de modificar RGB Fusion 
+          desde aquí.\\
+          \begin{figure}[h]
+            \centering
+            \includegraphics[scale = 0.5]{img/BIOS2.png}
+            \caption{Interfaz gráfica de la BIOS}
+          \end{figure}
+        \newpage
+          \subsubsection{Configuración del BOOT menú de la BIOS}
+            Para acceder al \textbf{BOOT menú}, solo tendremos que navegar con las teclas de las flechas de nuestro teclado hasta la ventana de \textit{BOOT}, una vez ahí tendremos la opción de \textit{Boot Option Priorities}, que nos dice la prioridad de arranca 
+            de nuestro PC. Nosotros pondríamos en \textbf{Boot Option \#1} la opción que queramos en que arranque por defecto.
+            \begin{figure}[h]
+              \centering
+              \includegraphics[scale = 0.4]{img/bootMenu.png}
+              \caption{Ventana BOOT de la BIOS}
+            \end{figure}
+          \subsubsection{Configuración de Periféricos}
+            Para acceder a la configuración donde nos encontramos nuestro periféricos, solo tendremos que ir a la ventana de \textbf{SETTINGS} y despues acceder a la sección que pone \textbf{IO ports}, una vez dentro, tendremos acceso al control de cualquier Periférico 
+            que esté conectado a nuestra placa.
+            \begin{figure}[h]
+              \centering
+              \includegraphics[scale = 0.3]{img/io_bios.png}
+              \caption{Ventana de 'Settings' de la BIOS}
+            \end{figure} 
+      \newpage
+        \subsubsection{Configurar la Virtualización}
+            Para acceder a la configuración de la \textit{Virtualización}, primero accedemos a la ventana \textbf{TWEAKER} y posteriormente continuamos hasta la sección\\ \textbf{'ADVANCED CPU SETTINGS'}.\\\\
+            \begin{figure}[h]
+              \centering
+              \includegraphics[scale = 0.5]{img/tweaker.png}
+              \caption{Ventna 'Tweaker' de la BIOS}
+            \end{figure}
+            \\Una vez dentro, solo quedará buscar la función \textbf{SVM MODE}, y ponerlo en \textit{'ENABLE'}. Ya que por defecto viene con la configuración en \textit{'DISABLE'}.
 \end{document}
