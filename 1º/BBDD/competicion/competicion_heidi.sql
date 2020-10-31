@@ -11,11 +11,6 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
-
--- Volcando estructura de base de datos para competicion
-CREATE DATABASE IF NOT EXISTS `competicion` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `competicion`;
-
 -- Volcando estructura para tabla competicion.demarcacion
 CREATE TABLE IF NOT EXISTS `demarcacion` (
   `idDemarcacion` int(5) NOT NULL AUTO_INCREMENT,
