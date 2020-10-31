@@ -36,21 +36,8 @@ public class Ejercicio_1 {
 		System.out.println("The input number was: "+fst_num);
 		
 		System.out.println("The final add is: "+input_num+"\n");
-		
-		//close the scanner adding some "visual effect" but this is completely unnecesary
-		
-		System.out.println("Closing Scanner...");
 			
-		try {
-			
-			scan.close();
-			Thread.sleep(2*1000);
-			
-		} catch (Exception exc) {
-			System.out.println("exc");
-		}
-		
-		System.out.println("Scanner closed.");
+		scan.close();
 
 	}
 

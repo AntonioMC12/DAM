@@ -75,17 +75,7 @@ public class Ejercicio_2 {
 		//le pongo algo de retardo por hacerlo algo mas estetito, se que es muy ineficiente.
 		
 		System.out.println("Closing Scanner...");
-			
-		try {
-			
-			scan.close();
-			Thread.sleep(2*1000);
-			
-		} catch (Exception exc) {
-			System.out.println("exc");
-		}
-		
-		System.out.println("Scanner closed.");
+		scan.close();
 				
 	}
 
