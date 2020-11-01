@@ -1,3 +1,5 @@
+package Ejercicios_Clase;
+
 //import java.util.Scanner;
 public class Ejercicio_Do_4 {
   public static void main(String[] args) {

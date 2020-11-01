@@ -1,3 +1,4 @@
+package Ejercicios_Clase;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -19,5 +20,7 @@ public class CuadradoNumero {
                 continua = true;
             }
         } while (continua);
+    teclado.close();
     }
+
 }

@@ -1,3 +1,5 @@
+package Calculadora;
+
 import java.util.Scanner;
 public class Calculadora_Legal {
   public static void main(String[] args) {

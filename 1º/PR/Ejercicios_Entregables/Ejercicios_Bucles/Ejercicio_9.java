@@ -1,3 +1,4 @@
+package Ejercicios_Bucles;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 

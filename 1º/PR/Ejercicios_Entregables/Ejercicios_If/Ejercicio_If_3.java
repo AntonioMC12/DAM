@@ -1,3 +1,5 @@
+package Ejercicios_If;
+
 import java.util.Scanner;
 import java.lang.Math;
 
