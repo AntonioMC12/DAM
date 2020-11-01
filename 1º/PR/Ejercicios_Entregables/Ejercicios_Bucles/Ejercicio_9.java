@@ -86,6 +86,6 @@ public class Ejercicio_9 {
     for(int i = inputMayor ; i >= inputMenor ; i-=inputDecrease){
       System.out.print(i+", ");
     }
-
+    scan.close();
   }
 }
