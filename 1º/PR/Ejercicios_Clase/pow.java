@@ -1,4 +1,3 @@
-package Ejercicios_Clase;
 
 import java.util.Scanner;
 public class pow {

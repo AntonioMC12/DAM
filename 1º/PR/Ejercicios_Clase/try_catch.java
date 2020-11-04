@@ -1,6 +1,4 @@
-package Ejercicios_Clase;
 
-import java.util.Scanner;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;

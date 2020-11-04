@@ -1,4 +1,4 @@
-package Ejercicios_Clase;
+
 
 class Colores {
   //Reset
