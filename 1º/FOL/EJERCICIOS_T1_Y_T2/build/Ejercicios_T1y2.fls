@@ -156,6 +156,7 @@ INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx
 INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.toc
 INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.toc
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx7.tfm
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr7.tfm
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr5.tfm
@@ -165,6 +166,7 @@ INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi5.t
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy7.tfm
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy5.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
 OUTPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.toc
 INPUT C:\Users\Antonio\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
@@ -173,6 +175,7 @@ INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmbx10.tfm
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmri10.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro10.tfm
 INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.aux
 INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.out
 INPUT c:\Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.out
@@ -182,6 +185,10 @@ INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx1
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx7.pfb
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx7.pfb
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
@@ -190,3 +197,5 @@ INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb

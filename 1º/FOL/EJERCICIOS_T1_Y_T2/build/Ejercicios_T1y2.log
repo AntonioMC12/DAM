@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  3 NOV 2020 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  4 NOV 2020 19:09
 entering extended mode
 **c:/Users/Antonio/Desktop/Formación/DAM/1º/FOL/EJERCICIOS_T1_Y_T2/Ejercicios_T1y2.tex
 (c:/Users/Antonio/Desktop/Formación/DAM/1º/FOL/EJERCICIOS_T1_Y_T2/Ejercicios_T1y2.tex
@@ -411,12 +411,30 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  (c:/Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 2.
+
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 2.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 3.
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 8.
+
+
+Overfull \hbox (0.14398pt too wide) detected at line 9
+ [][][][][][]
+ []
+
 )
 \tf@toc=\write4
 \openout4 = `Ejercicios_T1y2.toc'.
@@ -424,124 +442,111 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 34.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 37.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.74     \newpage
-                  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.119     \newpage
-                   [3]
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
+[3]
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.150       \newpage
-                     [4]
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.173         \newpage
-                       [5]
-Underfull \hbox (badness 10000) in paragraph at lines 175--177
+LaTeX Info: Redefining \. on input line 178.
+LaTeX Info: Redefining \% on input line 178.
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.203   \newpage
-                 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 206--209
+LaTeX Info: Redefining \. on input line 208.
+LaTeX Info: Redefining \% on input line 208.
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.235     \newpage
-                   [7]
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
+LaTeX Info: Redefining \. on input line 240.
+LaTeX Info: Redefining \% on input line 240.
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 242--245
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.254     \newpage
-                   [8]
-Underfull \hbox (badness 10000) in paragraph at lines 256--259
+LaTeX Info: Redefining \. on input line 259.
+LaTeX Info: Redefining \% on input line 259.
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 261--264
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.285       \newpage
-                     [9]
-Underfull \hbox (badness 10000) in paragraph at lines 287--290
+LaTeX Info: Redefining \. on input line 290.
+LaTeX Info: Redefining \% on input line 290.
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 292--295
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.316       \newpage
-                     [10]
-Underfull \hbox (badness 10000) in paragraph at lines 318--321
+LaTeX Info: Redefining \. on input line 321.
+LaTeX Info: Redefining \% on input line 321.
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 323--326
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.349 \end{document}
-                     [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
+LaTeX Info: Redefining \. on input line 354.
+LaTeX Info: Redefining \% on input line 354.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
  (c:/Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 354.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
 Package rerunfilecheck Info: File `Ejercicios_T1y2.out' has not changed.
 (rerunfilecheck)             Checksum: 86A9B502B61D4F17BA45D70A103451AD;685.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 354.
  ) 
 Here is how much of TeX's memory you used:
- 8428 strings out of 480790
- 130266 string characters out of 2896363
- 412399 words of memory out of 3000000
- 24189 multiletter control sequences out of 15000+200000
- 583195 words of font info for 54 fonts, out of 3000000 for 9000
+ 8449 strings out of 480790
+ 130479 string characters out of 2896363
+ 413282 words of memory out of 3000000
+ 24196 multiletter control sequences out of 15000+200000
+ 592009 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,45p,463b,388s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.pdf (11 pages, 184385 bytes).
+ 37i,11n,45p,463b,703s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
+Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\FOL\EJERCICIOS_T1_Y_T2\build\Ejercicios_T1y2.pdf (12 pages, 253116 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
