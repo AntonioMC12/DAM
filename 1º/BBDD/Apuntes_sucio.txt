@@ -114,7 +114,7 @@ Ejemplo 000 cuaderno
 
         ------------------------------
         Ejercicio:
-        Una base de datos con informacion de los empleados y los departamentos que contiene esa empresa (nombre departamento, ubicacion, ) quiero reflejar que un empleados
+        Una base de datos con información de los empleados y los departamentos que contiene esa empresa (nombre departamento, ubicacion, ) quiero reflejar que un empleados
         pertenece a un departamento o que no pertenece a ninguno y que un empleado puede tener de jefe a otro empleado.
         ------------------------------
 
@@ -189,4 +189,65 @@ Ejemplo 000 cuaderno
         todas las operaciones previas, pasos parciales, y quedar el estado de la base de datos como antes de comenzar la transación.
 
     4 LOS VALORES NULOS EN EL MODELO RELACIONAL
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+TEMA 6: Transformación de Esquemas E-R a Relacional
+
+-------------------------------------------------------------------------------------------------------------------------------            
+
+    1- Etapas de una metodología de diseño.
+        En el diseño de base de datos se distinguen 3 fases que son:
             
+            -Diseño conceptual
+            -Diseño lógico
+            -Diseño físico
+
+        *Diseño conceptual:*
+            En esta fase se obtiene una representación gráfica o no de la información de aquella realidad que queremos almacenar de la base de datos, independientemente de los usuarios
+            aplicaciones y hardware que se emplea. Con este diseño obtenemos el *modelo o esquema conceptual*
+
+        *Diseño lógico:*
+            Con el diseño lógico transformamos el esquema conceptual de la fase anterior a un modelo de datos que se apoye en un sistema gestor de base de datos (SGBD) concreto. Tras esta 
+            fase obtenemos el *modelo lógico.*
+
+        *Diseño físico:*
+            En esta fase intentamos conseguir una instrumentalización lo más eficiente posible de cara a la máquina que se utiliza en el sistema, con esta fase obtenemos el *modelo o esquema 
+            físico.*
+        
+        El modelo conceptual recoge más semántica que el modelo lógico.
+
+        A la hora de diseñar una base de datos, debe haber una comunicación fluida entre el diseñador y la pesrsona que conoce todos los detalles de la información que se va a manejar, ocn el fin 
+        de que quede completamente tomada y representada. Esto se da normalmente a través del esquema E-R.
+
+    2- Transformación del Esquema Conceptual (E-R) al lógico (Relacional)
+        Esta transación se lleva a cabo utilizando un conjunto de reglas bastante sencillas que se van aplicando sucesivamente al esquema E-R hasta convertirlo por completo en Relacional o tablas.
+        Posteriormente habrá que normalizar estas tablas, cosa que no haremos este año y las reglas de las que hemos hablando son las siguientes:
+
+            2.1- Todo tipo de entidad se convierte en una relación o tabla
+
+                ------------------------------------------------
+                Ejemplo
+                     -------
+                    | LIBRO |
+                     -------    
+                        * ISBN      =>  LIBRO(ISBN,titulo,autor)
+                        - titulo
+                        - autor
+                ------------------------------------------------
+
+                -Los atributos de cada entidad se añaden como campos de la relación.
+                -Las claves principales se subrayan con trazo continuo.
+                -Las claves alternatives se subrayan con trazo discontinuo.
+
+                Si bien lo que vamos a ver a continuación _no forma parte del modelo relacional tradicional_ hemos de tener en cuenta que para ser un diseño completo
+                deberíamos además indicar lo siguiente:
+
+                    -Los atributos que no puedan ser nulos, es decir, que sean obligatorios rellenarlos, se indecaran poniendo "NN"(NOT NULL) debajo.
+                    -Los atributos cuyo valor debe ser único entre todas las tuplas, se indicará poniendo una "U"(UNIQUE) debajo.
+                    -Los atributos cuyos valores deban cumplir alguna condición, se debe de especificar indicándolos con "CHECK(condicion)" debajo de ellos.
+                    -Los atributos para los que al crear una tupla deban tomar un valor por defecto, si no se indica expresamente otra cosa, se debe de indicar poniendo "DEFAULT(valor)" debajo, siendo valor 
+                    el dato que se asignará por defecto.
+
+                

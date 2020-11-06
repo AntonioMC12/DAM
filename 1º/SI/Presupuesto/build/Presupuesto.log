@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  6 NOV 2020 09:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  6 NOV 2020 09:39
 entering extended mode
-**c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Placa_Base_Documentación/Placa_Base_Documentacion.tex
-(c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Placa_Base_Documentación/Placa_Base_Documentacion.tex
+**c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Presupuesto/Presupuesto.tex
+(c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Presupuesto/Presupuesto.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -19,12 +19,45 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/06/10 3.45 The Babel package
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/06/10 3.45 Babel common definitions
+\babel@savecnt=\count175
+\U@D=\dimen135
+\l@babelnohyphens=\language79
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count176
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count177
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+)) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 ) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen135
-\WF@size=\dimen136
-\c@WF@wrappedlines=\count175
+\wrapoverhang=\dimen136
+\WF@size=\dimen137
+\c@WF@wrappedlines=\count178
 \WF@box=\box45
-\WF@everypar=\toks15
+\WF@everypar=\toks18
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -60,41 +93,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2020/06/10 3.45 The Babel package
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2020/06/10 3.45 Babel common definitions
-\babel@savecnt=\count176
-\U@D=\dimen137
-\l@babelnohyphens=\language79
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read2
-)
-\bbl@dirlevel=\count177
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks16
-\es@quotdepth=\count178
-Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
-Package babel Info: Making < an active character on input line 707.
-Package babel Info: Making > an active character on input line 707.
-)) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks19
 ) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count179
@@ -118,7 +121,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
+\@emptytoks=\toks20
 \ex@=\dimen140
 )) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -146,21 +149,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count189
 \dspbrk@lvl=\count190
-\tag@help=\toks19
+\tag@help=\toks21
 \row@=\count191
 \column@=\count192
 \maxfields@=\count193
-\andhelp@=\toks20
+\andhelp@=\toks22
 \eqnshift@=\dimen143
 \alignsep@=\dimen144
 \tagshift@=\dimen145
 \tagwidth@=\dimen146
 \totwidth@=\dimen147
 \lineht@=\dimen148
-\@envbody=\toks21
+\@envbody=\toks23
 \multlinegap=\skip53
 \multlinetaggap=\skip54
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -194,10 +197,12 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
-) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks23
-\inpenc@posthook=\toks24
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
 ) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
@@ -324,31 +329,35 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 18.
- (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.aux
+Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+ (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Presupuesto\build\Presupuesto.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-\openout1 = `Placa_Base_Documentacion.aux'.
+\openout1 = `Presupuesto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 28.
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count276
@@ -367,14 +376,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
 \AtBeginShipoutBox=\box51
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 28.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -384,43 +386,38 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
- (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.out) (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.out)
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
+ (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Presupuesto\build\Presupuesto.out) (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Presupuesto\build\Presupuesto.out)
 \@outlinefile=\write3
-\openout3 = `Placa_Base_Documentacion.out'.
+\openout3 = `Presupuesto.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 29.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 30.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 29.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 30.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 29.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 30.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 29.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 30.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 29.
+(Font)              <12> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 29.
+(Font)              <8> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 29.
-<img/portada.png, id=75, 602.25pt x 602.25pt>
-File: img/portada.png Graphic file (type png)
-<use img/portada.png>
-Package pdftex.def Info: img/portada.png  used on input line 33.
-(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+(Font)              <6> on input line 30.
  [1
 
-{C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./img/portada.png>] (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.toc
+{C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Presupuesto\build\Presupuesto.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -432,30 +429,22 @@ LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
 (spanish)                faked small caps on input line 2.
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 3.
 
 Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 3.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 4.
-
-Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 14.
-
-
-Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 15.
+(spanish)                faked small caps on input line 4.
 
 )
 \tf@toc=\write4
-\openout4 = `Placa_Base_Documentacion.toc'.
+\openout4 = `Presupuesto.toc'.
 
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -463,191 +452,54 @@ Make it at least 12.80502pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38   \newpage
+                [2]
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
 [1]
-<img/final_specs.png, id=131, 1114.1625pt x 2025.06563pt>
-File: img/final_specs.png Graphic file (type png)
-<use img/final_specs.png>
-Package pdftex.def Info: img/final_specs.png  used on input line 56.
-(pdftex.def)             Requested size: 233.98103pt x 425.27634pt.
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
- [2 <./img/final_specs.png>]
-<img/slots.jpg, id=136, 602.25pt x 451.6875pt>
-File: img/slots.jpg Graphic file (type jpg)
-<use img/slots.jpg>
-Package pdftex.def Info: img/slots.jpg  used on input line 65.
-(pdftex.def)             Requested size: 301.12425pt x 225.84319pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 69.
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (17.22324pt too wide) in paragraph at lines 69--70
-\T1/lmr/m/n/10 5000(O.C.) / 4866(O.C.) / 4600(O.C.) / 4400(O.C.) / 4000(O.C.) / 3600(O.C.)
- []
-
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
-[3 <./img/slots.jpg>]
-<img/B550AORUSMasterDiagram.png, id=143, 917.4275pt x 1405.25pt>
-File: img/B550AORUSMasterDiagram.png Graphic file (type png)
-<use img/B550AORUSMasterDiagram.png>
-Package pdftex.def Info: img/B550AORUSMasterDiagram.png  used on input line 106.
-(pdftex.def)             Requested size: 229.35631pt x 351.31165pt.
-
-Overfull \hbox (174.72221pt too wide) in paragraph at lines 79--108
-[]$ $[]$ 
- []
-
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
-[4]
-Overfull \vbox (7.29141pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
- [5 <./img/B550AORUSMasterDiagram.png>]
-<img/frontal_vertical.jpg, id=153, 498.36188pt x 831.105pt>
-File: img/frontal_vertical.jpg Graphic file (type jpg)
-<use img/frontal_vertical.jpg>
-Package pdftex.def Info: img/frontal_vertical.jpg  used on input line 130.
-(pdftex.def)             Requested size: 199.34122pt x 332.43611pt.
-
-Overfull \hbox (199.72224pt too wide) in paragraph at lines 117--132
-[]$[]$ $[]$ 
- []
-
-LaTeX Info: Redefining \. on input line 133.
-LaTeX Info: Redefining \% on input line 133.
-[6 <./img/frontal_vertical.jpg>]
-<img/block_diagram.png, id=159, 671.50874pt x 954.56625pt>
-File: img/block_diagram.png Graphic file (type png)
-<use img/block_diagram.png>
-Package pdftex.def Info: img/block_diagram.png  used on input line 139.
-(pdftex.def)             Requested size: 268.59874pt x 381.81973pt.
-LaTeX Info: Redefining \. on input line 143.
-LaTeX Info: Redefining \% on input line 143.
- [7 <./img/block_diagram.png>]
-File: img/B550AORUSMasterDiagram.png Graphic file (type png)
-<use img/B550AORUSMasterDiagram.png>
-Package pdftex.def Info: img/B550AORUSMasterDiagram.png  used on input line 146.
-(pdftex.def)             Requested size: 275.23038pt x 421.57826pt.
-LaTeX Info: Redefining \. on input line 149.
-LaTeX Info: Redefining \% on input line 149.
- [8]
-LaTeX Info: Redefining \. on input line 176.
-LaTeX Info: Redefining \% on input line 176.
- [9]
-<img/alimentación1.jpg, id=175, 602.25pt x 451.6875pt>
-File: img/alimentación1.jpg Graphic file (type jpg)
-<use img/alimentación1.jpg>
-Package pdftex.def Info: img/alimentación1.jpg  used on input line 183.
-(pdftex.def)             Requested size: 210.79065pt x 158.09299pt.
-<img/alimentación2.jpg, id=176, 602.25pt x 451.6875pt>
-File: img/alimentación2.jpg Graphic file (type jpg)
-<use img/alimentación2.jpg>
-Package pdftex.def Info: img/alimentación2.jpg  used on input line 192.
-(pdftex.def)             Requested size: 210.79065pt x 158.09299pt.
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
- [10 <./img/alimentación1.jpg> <./img/alimentación2.jpg>]
-<img/pulsera.jpg, id=183, 426.59375pt x 426.59375pt>
-File: img/pulsera.jpg Graphic file (type jpg)
-<use img/pulsera.jpg>
-Package pdftex.def Info: img/pulsera.jpg  used on input line 209.
-(pdftex.def)             Requested size: 213.29634pt x 213.29634pt.
-LaTeX Info: Redefining \. on input line 213.
-LaTeX Info: Redefining \% on input line 213.
- [11 <./img/pulsera.jpg>]
-<img/BIOS_START.png, id=189, 549.55313pt x 402.75468pt>
-File: img/BIOS_START.png Graphic file (type png)
-<use img/BIOS_START.png>
-Package pdftex.def Info: img/BIOS_START.png  used on input line 220.
-(pdftex.def)             Requested size: 274.7759pt x 201.37685pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--227
-
- []
-
-LaTeX Info: Redefining \. on input line 227.
-LaTeX Info: Redefining \% on input line 227.
-[12 <./img/BIOS_START.png>]
-<img/BIOS1.png, id=196, 523.9575pt x 295.1025pt>
-File: img/BIOS1.png Graphic file (type png)
-<use img/BIOS1.png>
-Package pdftex.def Info: img/BIOS1.png  used on input line 230.
-(pdftex.def)             Requested size: 261.9781pt x 147.55087pt.
-<img/BIOS2.png, id=197, 523.9575pt x 295.1025pt>
-File: img/BIOS2.png Graphic file (type png)
-<use img/BIOS2.png>
-Package pdftex.def Info: img/BIOS2.png  used on input line 237.
-(pdftex.def)             Requested size: 261.9781pt x 147.55087pt.
-LaTeX Info: Redefining \. on input line 240.
-LaTeX Info: Redefining \% on input line 240.
- [13 <./img/BIOS1.png> <./img/BIOS2.png>]
-<img/bootMenu.png, id=204, 609.77812pt x 353.82187pt>
-File: img/bootMenu.png Graphic file (type png)
-<use img/bootMenu.png>
-Package pdftex.def Info: img/bootMenu.png  used on input line 246.
-(pdftex.def)             Requested size: 243.90692pt x 141.52623pt.
-<img/io_bios.png, id=205, 935.74594pt x 527.72156pt>
-File: img/io_bios.png Graphic file (type png)
-<use img/io_bios.png>
-Package pdftex.def Info: img/io_bios.png  used on input line 254.
-(pdftex.def)             Requested size: 280.72595pt x 158.31769pt.
-LaTeX Info: Redefining \. on input line 257.
-LaTeX Info: Redefining \% on input line 257.
- [14 <./img/bootMenu.png> <./img/io_bios.png>]
-<img/tweaker.png, id=212, 741.52031pt x 420.06938pt>
-File: img/tweaker.png Graphic file (type png)
-<use img/tweaker.png>
-Package pdftex.def Info: img/tweaker.png  used on input line 262.
-(pdftex.def)             Requested size: 370.75925pt x 210.03418pt.
-
-Overfull \hbox (25.75925pt too wide) in paragraph at lines 262--263
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--266
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
-LaTeX Info: Redefining \. on input line 266.
-LaTeX Info: Redefining \% on input line 266.
-[15 <./img/tweaker.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
- (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+ (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Presupuesto\build\Presupuesto.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
-Package rerunfilecheck Info: File `Placa_Base_Documentacion.out' has not changed.
-(rerunfilecheck)             Checksum: 202A332EAA4F884489E96E7277ADB3D5;1278.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package rerunfilecheck Info: File `Presupuesto.out' has not changed.
+(rerunfilecheck)             Checksum: E3D85E8E8EC7B86C8B2F6D5F0809EEBB;213.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
  ) 
 Here is how much of TeX's memory you used:
- 8762 strings out of 480790
- 143666 string characters out of 2896363
- 591555 words of memory out of 3000000
- 24519 multiletter control sequences out of 15000+200000
- 589002 words of font info for 56 fonts, out of 3000000 for 9000
+ 8588 strings out of 480790
+ 140005 string characters out of 2896363
+ 589398 words of memory out of 3000000
+ 24402 multiletter control sequences out of 15000+200000
+ 588983 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,45p,441b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Placa_Base_Documentación\build\Placa_Base_Documentacion.pdf (16 pages, 3186882 bytes).
+ 37i,11n,45p,495b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
+Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Presupuesto\build\Presupuesto.pdf (4 pages, 211905 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
