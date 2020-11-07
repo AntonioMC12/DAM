@@ -249,5 +249,3 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
                     -Los atributos cuyos valores deban cumplir alguna condición, se debe de especificar indicándolos con "CHECK(condicion)" debajo de ellos.
                     -Los atributos para los que al crear una tupla deban tomar un valor por defecto, si no se indica expresamente otra cosa, se debe de indicar poniendo "DEFAULT(valor)" debajo, siendo valor 
                     el dato que se asignará por defecto.
-
-                

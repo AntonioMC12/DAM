@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  6 NOV 2020 09:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  7 NOV 2020 19:47
 entering extended mode
 **c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Presupuesto/Presupuesto.tex
 (c:/Users/Antonio/Desktop/Formación/DAM/1º/SI/Presupuesto/Presupuesto.tex
@@ -439,6 +439,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
 (spanish)                faked small caps on input line 4.
 
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 7.
+
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 10.
+
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 13.
+
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 16.
+
+
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 19.
+
 )
 \tf@toc=\write4
 \openout4 = `Presupuesto.toc'.
@@ -457,49 +477,158 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
                    \relax 
 l.38   \newpage
                 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-LaTeX Info: Redefining \. on input line 54.
-LaTeX Info: Redefining \% on input line 54.
+LaTeX Info: Redefining \. on input line 57.
+LaTeX Info: Redefining \% on input line 57.
 [1]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+<img/procesador.jpg, id=147, 1174.3875pt x 1078.0275pt>
+File: img/procesador.jpg Graphic file (type jpg)
+<use img/procesador.jpg>
+Package pdftex.def Info: img/procesador.jpg  used on input line 68.
+(pdftex.def)             Requested size: 234.87334pt x 215.60167pt.
+
+Overfull \hbox (174.72221pt too wide) in paragraph at lines 60--70
+[]$ $[]$ 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 71.
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<img/grafica_procesador.png, id=149, 644.4075pt x 386.19281pt>
+File: img/grafica_procesador.png Graphic file (type png)
+<use img/grafica_procesador.png>
+Package pdftex.def Info: img/grafica_procesador.png  used on input line 76.
+(pdftex.def)             Requested size: 257.75844pt x 154.47438pt.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+ [2 <./img/procesador.jpg> <./img/grafica_procesador.png>]
+<img/placa_base.png, id=156, 602.25pt x 602.25pt>
+File: img/placa_base.png Graphic file (type png)
+<use img/placa_base.png>
+Package pdftex.def Info: img/placa_base.png  used on input line 90.
+(pdftex.def)             Requested size: 240.89572pt x 240.89572pt.
+
+Overfull \hbox (174.72221pt too wide) in paragraph at lines 82--92
+[]$ $[]$ 
+ []
+
+<img/grafica_placa.png, id=158, 644.4075pt x 386.19281pt>
+File: img/grafica_placa.png Graphic file (type png)
+<use img/grafica_placa.png>
+Package pdftex.def Info: img/grafica_placa.png  used on input line 98.
+(pdftex.def)             Requested size: 193.32373pt x 115.85872pt.
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
+[3 <./img/placa_base.png> <./img/grafica_placa.png>]
+<img/ram.png, id=165, 1204.5pt x 1204.5pt>
+File: img/ram.png Graphic file (type png)
+<use img/ram.png>
+Package pdftex.def Info: img/ram.png  used on input line 111.
+(pdftex.def)             Requested size: 240.89574pt x 240.89574pt.
+
+Overfull \hbox (174.72221pt too wide) in paragraph at lines 104--113
+[]$ $[]$ 
+ []
+
+<img/grafica_ram.png, id=167, 644.4075pt x 386.19281pt>
+File: img/grafica_ram.png Graphic file (type png)
+<use img/grafica_ram.png>
+Package pdftex.def Info: img/grafica_ram.png  used on input line 119.
+(pdftex.def)             Requested size: 193.32373pt x 115.85872pt.
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+[4 <./img/ram.png> <./img/grafica_ram.png>]
+<img/refrigeracion.png, id=173, 1606.0pt x 1716.4125pt>
+File: img/refrigeracion.png Graphic file (type png)
+<use img/refrigeracion.png>
+Package pdftex.def Info: img/refrigeracion.png  used on input line 133.
+(pdftex.def)             Requested size: 240.8896pt x 257.45076pt.
+
+Overfull \hbox (189.72221pt too wide) in paragraph at lines 128--135
+[]$[]$ $[]$ 
+ []
+
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
+[5 <./img/refrigeracion.png>]
+<img/disco_duro.jpg, id=182, 429.2838pt x 321.96284pt>
+File: img/disco_duro.jpg Graphic file (type jpg)
+<use img/disco_duro.jpg>
+Package pdftex.def Info: img/disco_duro.jpg  used on input line 148.
+(pdftex.def)             Requested size: 214.64137pt x 160.98102pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--150
+
+ []
+
+
+Overfull \hbox (174.72221pt too wide) in paragraph at lines 142--150
+[]$ $[]$ 
+ []
+
+<img/grafica_disco.png, id=184, 644.4075pt x 386.19281pt>
+File: img/grafica_disco.png Graphic file (type png)
+<use img/grafica_disco.png>
+Package pdftex.def Info: img/grafica_disco.png  used on input line 157.
+(pdftex.def)             Requested size: 257.75844pt x 154.47438pt.
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
+[6 <./img/disco_duro.jpg> <./img/grafica_disco.png>]
+<img/grafica.jpg, id=190, 752.8125pt x 564.1075pt>
+File: img/grafica.jpg Graphic file (type jpg)
+<use img/grafica.jpg>
+Package pdftex.def Info: img/grafica.jpg  used on input line 169.
+(pdftex.def)             Requested size: 263.48831pt x 197.44057pt.
+
+Overfull \hbox (174.72221pt too wide) in paragraph at lines 163--171
+[]$ $[]$ 
+ []
+
+<img/grafica_grafica.png, id=192, 644.4075pt x 386.19281pt>
+File: img/grafica_grafica.png Graphic file (type png)
+<use img/grafica_grafica.png>
+Package pdftex.def Info: img/grafica_grafica.png  used on input line 178.
+(pdftex.def)             Requested size: 257.75844pt x 154.47438pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
+[7 <./img/grafica.jpg> <./img/grafica_grafica.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Presupuesto\build\Presupuesto.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `Presupuesto.out' has not changed.
-(rerunfilecheck)             Checksum: E3D85E8E8EC7B86C8B2F6D5F0809EEBB;213.
+(rerunfilecheck)             Checksum: 6BF6065268FA96602C6B3643D628F00F;1112.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 8588 strings out of 480790
- 140005 string characters out of 2896363
- 589398 words of memory out of 3000000
- 24402 multiletter control sequences out of 15000+200000
- 588983 words of font info for 55 fonts, out of 3000000 for 9000
+ 8731 strings out of 480790
+ 142846 string characters out of 2896363
+ 591398 words of memory out of 3000000
+ 24504 multiletter control sequences out of 15000+200000
+ 590139 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,45p,495b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Presupuesto\build\Presupuesto.pdf (4 pages, 211905 bytes).
+ 37i,11n,45p,487b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
+Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\SI\Presupuesto\build\Presupuesto.pdf (9 pages, 2955646 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
