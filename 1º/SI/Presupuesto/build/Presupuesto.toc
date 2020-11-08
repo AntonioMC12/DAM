@@ -19,3 +19,10 @@
 \contentsline {section}{\numberline {7}Tarjeta Gráfica}{\es@scroman {vii}}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Descripción}{\es@scroman {vii}}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Precio}{\es@scroman {vii}}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Fuente de Alimentación}{\es@scroman {viii}}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Descripción}{\es@scroman {viii}}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Precio}{\es@scroman {viii}}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Torre}{\es@scroman {ix}}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Descripción}{\es@scroman {ix}}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Precio}{\es@scroman {ix}}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Cálculo Total}{\es@scroman {x}}{section.10}%
