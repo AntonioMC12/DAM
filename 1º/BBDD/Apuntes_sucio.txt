@@ -249,3 +249,41 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
                     -Los atributos cuyos valores deban cumplir alguna condición, se debe de especificar indicándolos con "CHECK(condicion)" debajo de ellos.
                     -Los atributos para los que al crear una tupla deban tomar un valor por defecto, si no se indica expresamente otra cosa, se debe de indicar poniendo "DEFAULT(valor)" debajo, siendo valor 
                     el dato que se asignará por defecto.
+
+            2.2- Todo tipo de interrelacion N:M se transforma en una relación o tabla
+
+                -------------------------------------
+
+                Ejemplo 2.1
+
+                -------------------------------------
+
+                En esta nueva tabla a la que da lugar la interrelación N:M deben aparecer como mínimo las claves de las tablas que se interrelacionan, normalmente, la clave de esta tabla central suele ser la combinación de ellas.
+                Cada una de estas dos claves que se han propagado a la tabla del medio, serán por separado las claves ajenas que relacionan la tabla central con las otras dos.
+
+                De las claves ajenas de la relaciones, parten las flechas hacia las tablas de las que dependen, desde las cuales se han propagado.
+
+                Si la interrelacion tiene atributos, estos aparecen también en la nueva tabla intermedia.
+
+            2.3 Todo tipo de interrelacion 1:N se transforma mediante el fenómeno de propagación de clave o bien se crea una nueva tabla en medio.
+
+                -----------------------------------------
+
+                Ejemplo 2-2
+
+                -----------------------------------------
+
+                En este caso la clave de la editorial, lado de cardinalidad máxima a 1, se propaga hasta la entidad libre, lado de cardinalidad máxima N, y en ella será clave ajena que enlaza con editorial.
+
+                -----------------------------------------
+
+                Ejemplo 2-3
+
+                -----------------------------------------
+
+                Alcaraciones de la creación de una tabla: 
+                    En el caso de crear una nueva tabla en medio la clave de esta suele ser la clace ajena del lado de la N más algún otro atributo.
+
+            2.4 Todo tipo de interrelacion 1:1, o desaparece uniendo las entidades que relaciona o se propaga la clave de una a otra según nos pueda resultar más útil. 
+
+                
