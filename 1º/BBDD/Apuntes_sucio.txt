@@ -284,6 +284,20 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
                 Alcaraciones de la creación de una tabla: 
                     En el caso de crear una nueva tabla en medio la clave de esta suele ser la clace ajena del lado de la N más algún otro atributo.
 
-            2.4 Todo tipo de interrelacion 1:1, o desaparece uniendo las entidades que relaciona o se propaga la clave de una a otra según nos pueda resultar más útil. 
-
+            2.4 Todo tipo de interrelacion 1:1, o desaparece uniendo las entidades que relaciona o se propaga la clave de una a la otra según nos pueda resultar más útil. 
                 
+                En este tipo de interrelaciones debemos tener en cuenta lo siguiente:
+
+                    -Si las cardinalidades en ambas lados son (0,1), casi nunca se unen.
+                    -En el caso de que ambas sean (1,1) puede resultar más simple unir las entidades, sobretodo si comparten la clave, a no ser que deseemos que la información de ambas entidades
+                    se mantenga por separado o sea necesario mantenerlas por separado.
+                    -En cualquier otro caso podría interesar unir las entidades o no según el contexto.
+                    -En caso de unir las entidades los atributos de ambas se integran en la entidad resultado.
+                
+                CASO-1 [union de entidades]:
+                    suele hacerse en casos de que la cardinalidad en ambos lados sea (1,1), ya que una ocurrencia de la primera entidad siempres tendrá relación con una sola ocurrencia
+                    de la segunda, y viceversa. Realmente hablamos de dos ocurrencias íntimamente unidas en la que una no existe sin la otra.
+                    En el caso de que alguna de las dos entidades no fuese (1,1) también se podría considerar unirlas con un razonamiento parecido.
+
+                CASO-2 [mantener las entidades por serparado y propagamos la clave]:
+                    En caso de propagar la clave de una a otra lo haremos en el sentido que nos pueda resultar más útil sobretodo a nivel de consultas.

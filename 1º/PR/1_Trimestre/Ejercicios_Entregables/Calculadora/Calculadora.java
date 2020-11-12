@@ -46,6 +46,7 @@ public class Calculadora {
   }
   
   static void start() {
+
     P(ANSI_CYAN_BACKGROUND + ANSI_BLACK + "Quiere iniciar la calculadora?");
     p("Inserte y(Si) / n(No):" + ANSI_RESET +" ");
     
@@ -59,13 +60,15 @@ public class Calculadora {
   }
 
   static void calculator(){
+
     showMenu();
     showResults(calculate(getMenu()));
     start();
+
   }
   
   static char getChar() {
-    //Inicio una variable global Scanner para introducir por teclado en todas las clases.
+    
     Scanner scan = new Scanner(System.in);
     
     char value = scan.next().charAt(0);
@@ -156,7 +159,7 @@ public class Calculadora {
       valid = false;                
       op_menu = getInt(ANSI_WHITE_BACKGROUND + ANSI_RED + "INSERTA AQUI SU ELECCION ---->" + ANSI_RESET + " " + ANSI_GREEN);      
       
-      if(op_menu != 1 && op_menu != 2 && op_menu != 3 && op_menu != 4){          
+      if(op_menu != 1 && op_menu != 2 && op_menu != 3 && op_menu != 4){     
         
         P(ANSI_RED_BACKGROUND + ANSI_BLACK +"Debe insertar un valor valido..." + ANSI_RESET);          
         valid = true;
