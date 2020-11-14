@@ -1,2 +1,14 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Enunciado}{}{section.1}%
+\contentsline {section}{\numberline {1}Enunciado}{1}{section.1}%
+\contentsline {section}{\numberline {2}Primeros pasos}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Creacion del Workspace}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Personalización del IDE}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Proyecto}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Creación del Proyecto}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Creación de la Clase}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Primera compilación}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Depuración y correción de errores}{10}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Ejecución final}{11}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Desinstalar Plugins}{13}{section.4}%
+\contentsline {section}{\numberline {5}Actualizar complementos}{14}{section.5}%
+\contentsline {section}{\numberline {6}Índice de Figuras}{15}{section.6}%

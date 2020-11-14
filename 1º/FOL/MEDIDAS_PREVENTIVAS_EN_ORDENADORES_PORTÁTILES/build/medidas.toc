@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {section}{\numberline {2}Riesgos}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Factores de riesgo}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Identificación de riesgos}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Medidas preventivas}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Para el control de la fatiga visual}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Para reducir las posturas forzadas y la desviación articular}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Para el transporte manual del equipo}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Para mejorar las características físicas del entorno de trabajo}{5}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Referencias}{6}{section.4}%
