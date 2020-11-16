@@ -225,6 +225,8 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
         Esta transación se lleva a cabo utilizando un conjunto de reglas bastante sencillas que se van aplicando sucesivamente al esquema E-R hasta convertirlo por completo en Relacional o tablas.
         Posteriormente habrá que normalizar estas tablas, cosa que no haremos este año y las reglas de las que hemos hablando son las siguientes:
 
+            REGLAS 
+
             2.1- Todo tipo de entidad se convierte en una relación o tabla
 
                 ------------------------------------------------
@@ -301,3 +303,37 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
 
                 CASO-2 [mantener las entidades por serparado y propagamos la clave]:
                     En caso de propagar la clave de una a otra lo haremos en el sentido que nos pueda resultar más útil sobretodo a nivel de consultas.
+
+            2.5 En las interrelaciones reflexivas se aplicarán las 4 primeras reglas considerando la entidad como si fuera dos copias de la misma realidad.
+
+                ---------------
+
+                EJEMPLO 2-5
+
+                ---------------
+
+            Serán como relaciones binarias en las que participa una sola entidad, se pueden dar los siguientes casos:
+
+                CASO-1: si el tipo de correspondencia es 1:1, el atributo que hace de clave de la entidad, se duplica, haciendo funciones la primera copia de clave 
+                y la otra de clave ajena de si misma. También cabe la posibilidad de unir las entidades, pero esto cambiaría conceptualmente el problema dándole otro 
+                punto de vista. En el ejemplo si unieramos las entidades se transformarían en la entidad "Pareja".
+
+                -------------------------------
+                Ejemplo 2-5 (persona es_pareja)
+                -------------------------------
+                Ejemplo 2-5-1
+                -------------------------------
+
+                CASO-2: Si el tipo de correspondencia es 1:N podríamos encontrar que se propaga la clave, en este caso se procedería como en el caso anterior, o también 
+                puede que se cree una tabla en medio como dice la regla genérica del 1:N.
+
+                -------------------------------
+                Ejemplo 2-5 (persona responde)
+                -------------------------------
+                Ejemplo 2-5-2
+                -------------------------------
+                Ejemplo 2-5-3 
+                caption: ejemplo con tabla en medio
+                -------------------------------
+
+                CASO-3: 

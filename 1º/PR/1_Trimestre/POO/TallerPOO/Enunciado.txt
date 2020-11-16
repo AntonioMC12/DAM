@@ -1,0 +1,40 @@
+  
+  TALLER POO
+  
+  * Tiene una matricula que es un string
+  * Tiene una marca que es un string
+  * Tiene un color que es un string
+  * Tiene observaciones que es un string
+  * Tiene DNI del propietario es un string
+  * Tiene el nombre del propietario es un string
+  * Tiene un motor que es de tipo Motor
+
+  -Tienen los siguientes metodos
+  -Constructor por defecto
+  -Contructor full
+  -return string -> infoCoche que devuelve los atributos concatenados
+  -return string -> infoPropietario que devuelve el propietario
+  -sobreescribir el metodo toString() -> public String toString() -> devuelve toda la información
+
+  +CLASE MOTOR
+  +Combustible que es un entero [1-gasolina 2-gasoil 3-electrico 4-hibrido]
+  +Cilindrada que es un entero
+  +potencia que es un entero
+  +kilometros que es un entero
+  
+  +Constructor por defecto
+  +Constructor full
+  +sobreescribir toString()
+  +string tipoCombustible(int t){
+    1 -> gasolina
+    2 -> gasoil
+    3 -> electrico
+    4 -> hibrido
+  }
+
+  -----------------------------------
+              Estructura
+  Coche.java
+  Motor.java
+  Taller.java (main)
+  -----------------------------------
