@@ -2,20 +2,20 @@ package vehiculo;
 
 public class Motor {
 
-  int combustible;
-  int cilindrada;
-  int potencia;
-  int kilometros;
+  public int combustible;
+  public int cilindrada;
+  public int potencia;
+  public int kilometros;
 
   
-  Motor(int combustible, int cilindrada, int potencia, int kilometros){
+  public Motor(int combustible, int cilindrada, int potencia, int kilometros){
     this.combustible = combustible;
     this.cilindrada = cilindrada;
     this.potencia = potencia;
     this.kilometros = kilometros;
   }
 
-  Motor(){
+  public Motor(){
     // this(-1,-1,-1,-1);
     // this busca un constructor que reciba los parametros introducidos.
     this.combustible = -1;
@@ -33,7 +33,7 @@ public class Motor {
    * @param t
    * @return el tipo de combustible
    */
-  String tipoCombustible(int t){
+  public String tipoCombustible(int t){
     String tipo = "default";
     switch (t) {
       case 0:

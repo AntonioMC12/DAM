@@ -1,1 +1,5 @@
 *.ini
+.gitattributes
+.vscode
+.metadata
+.gitignore
