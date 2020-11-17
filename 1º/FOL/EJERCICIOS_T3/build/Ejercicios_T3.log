@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  16 NOV 2020 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  17 NOV 2020 19:49
 entering extended mode
 **c:/Users/Antonio/Desktop/Formaci贸n/DAM/1潞/FOL/EJERCICIOS_T3/Ejercicios_T3.tex
 (c:/Users/Antonio/Desktop/Formaci贸n/DAM/1潞/FOL/EJERCICIOS_T3/Ejercicios_T3.tex
@@ -444,33 +444,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--89
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
+ [4]
+Overfull \hbox (2.38058pt too wide) in paragraph at lines 161--163
+[]\T1/lmr/m/it/10 綜rees que la ilu-mi-na-ci髇 inade-cua-da pue-de ser cau-sa de ac-ci-den-tes?綜rees
+ []
+
+LaTeX Info: Redefining \. on input line 190.
+LaTeX Info: Redefining \% on input line 190.
+[5]
+LaTeX Info: Redefining \. on input line 233.
+LaTeX Info: Redefining \% on input line 233.
+ [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+LaTeX Info: Redefining \. on input line 236.
+LaTeX Info: Redefining \% on input line 236.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
  (c:/Users\Antonio\Desktop\Formaci贸n\DAM\1潞\FOL\EJERCICIOS_T3\build\Ejercicios_T3.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `Ejercicios_T3.out' has not changed.
-(rerunfilecheck)             Checksum: A07BBBFC0A4CF6452F3EB5239EE3710A;281.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+(rerunfilecheck)             Checksum: 4825A5F86917F3272F565A2472D610E3;650.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
  ) 
 Here is how much of TeX's memory you used:
- 8359 strings out of 480790
- 129584 string characters out of 2896363
- 412276 words of memory out of 3000000
- 24184 multiletter control sequences out of 15000+200000
- 585803 words of font info for 54 fonts, out of 3000000 for 9000
+ 8415 strings out of 480790
+ 130088 string characters out of 2896363
+ 413276 words of memory out of 3000000
+ 24193 multiletter control sequences out of 15000+200000
+ 586585 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,11n,45p,352b,704s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formaci贸n\DAM\1潞\FOL\EJERCICIOS_T3\build\Ejercicios_T3.pdf (3 pages, 189041 bytes).
+{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
+Output written on c:/Users\Antonio\Desktop\Formaci贸n\DAM\1潞\FOL\EJERCICIOS_T3\build\Ejercicios_T3.pdf (7 pages, 215343 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
