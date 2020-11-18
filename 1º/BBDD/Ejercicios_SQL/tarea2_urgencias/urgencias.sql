@@ -57,13 +57,17 @@ CREATE TABLE IF NOT EXISTS Cita(
   fecha DATE NOT NULL,
   hora TIME NOT NULL,
   observaciones TEXT DEFAULT 'Ninguna',
-  CONSTRAINT pk_Cita_idMedico PRIMARY KEY (idMedico),
-  CONSTRAINT pk_Cita_idPaciente PRIMARY KEY (idPaciente),
-  CONSTRAINT pk_Cita_idHospital PRIMARY KEY (idHospital),
+  CONSTRAINT pk_Cita_idMedico_idPaciente_idHospital PRIMARY KEY (idMedico, idPaciente, idHospital),
   CONSTRAINT fk_Cita_idMedico FOREIGN KEY (idMedico) REFERENCES Medico (idMedico),
   CONSTRAINT fk_Cita_Paciente FOREIGN KEY (idPaciente) REFERENCES Paciente (idPaciente),
   CONSTRAINT fk_Cita_idHospital FOREIGN KEY (idHospital) REFERENCES Hospital (idHospital)
 )
 ENGINE = InnoDB
 COMMENT = 'Tabla donde almacenamos las citas que hay en la base de datos, su clave es la union la varias pk de otras tablas'
+;
+
+LOAD DATA 'C:\Program Files\MariaDB 10.5\data\universidad'
+INTO TABLE urgencias.Universidad FIELDS TERMINATED BY ','
+IGNORE 1 LINES
+(@ignorado,nombre,provincia)
 ;
