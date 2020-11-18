@@ -252,7 +252,7 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
                     -Los atributos para los que al crear una tupla deban tomar un valor por defecto, si no se indica expresamente otra cosa, se debe de indicar poniendo "DEFAULT(valor)" debajo, siendo valor 
                     el dato que se asignará por defecto.
 
-            2.2- Todo tipo de interrelacion N:M se transforma en una relación o tabla
+            2.2- Todo tipo de interrelación N:M se transforma en una relación o tabla
 
                 -------------------------------------
 
@@ -260,14 +260,14 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
 
                 -------------------------------------
 
-                En esta nueva tabla a la que da lugar la interrelación N:M deben aparecer como mínimo las claves de las tablas que se interrelacionan, normalmente, la clave de esta tabla central suele ser la combinación de ellas.
+                En esta nueva tabla a la que da lugar la interrelación N:M deben aparecer como mínimo las claves de las tablas que se interrelaciónan, normalmente, la clave de esta tabla central suele ser la combinación de ellas.
                 Cada una de estas dos claves que se han propagado a la tabla del medio, serán por separado las claves ajenas que relacionan la tabla central con las otras dos.
 
                 De las claves ajenas de la relaciones, parten las flechas hacia las tablas de las que dependen, desde las cuales se han propagado.
 
-                Si la interrelacion tiene atributos, estos aparecen también en la nueva tabla intermedia.
+                Si la interrelación tiene atributos, estos aparecen también en la nueva tabla intermedia.
 
-            2.3 Todo tipo de interrelacion 1:N se transforma mediante el fenómeno de propagación de clave o bien se crea una nueva tabla en medio.
+            2.3 Todo tipo de interrelación 1:N se transforma mediante el fenómeno de propagación de clave o bien se crea una nueva tabla en medio.
 
                 -----------------------------------------
 
@@ -286,7 +286,7 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
                 Alcaraciones de la creación de una tabla: 
                     En el caso de crear una nueva tabla en medio la clave de esta suele ser la clace ajena del lado de la N más algún otro atributo.
 
-            2.4 Todo tipo de interrelacion 1:1, o desaparece uniendo las entidades que relaciona o se propaga la clave de una a la otra según nos pueda resultar más útil. 
+            2.4 Todo tipo de interrelación 1:1, o desaparece uniendo las entidades que relaciona o se propaga la clave de una a la otra según nos pueda resultar más útil. 
                 
                 En este tipo de interrelaciones debemos tener en cuenta lo siguiente:
 
@@ -336,4 +336,10 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
                 caption: ejemplo con tabla en medio
                 -------------------------------
 
-                CASO-3: 
+                CASO-3: Si el tiempo de correspondencia de la relación reflexiva es N:M se trata igual que las relaciones N:M pero antes deberíamos analizar si nos pudiera 
+                interesar crear una entidad nueva que almacene el concepto de la interrelación.
+                En este tipo de casos también aparecerá tabla en medio que incluirá los atributos de la interrelación si los hay.
+
+                -------------------------------
+                Ejemplo 2-6
+                -------------------------------

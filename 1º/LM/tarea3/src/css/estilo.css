@@ -1,0 +1,32 @@
+nav li{
+  list-style:none;  /* Eliminamos los puntos */
+  display:inline-block;  /* Lo deja todo en una linea */
+  padding:4px 70px;  /* Tamaño del bloque */
+  text-align:center;  /* Alineación del texto*/
+  background-color:gray;
+}
+
+ul{
+  padding:0; /* Eliminamos la sangria */
+}
+
+a{
+  text-decoration:none; /* elimina la decoracoin*/
+  color:greenyellow; /*cambia el color del texto*/
+  font-size:20px;
+ }
+
+ a:hover{ /*indica que se activara cuando el curson esté por encima*/
+  color: orange;
+ }
+
+ /* Cambia el color del texto en el nav, como "¿Quienes somos? es texto, se cambia, lo demas son enlaces <a>"*/
+ nav{
+  font-size: 20px;
+  color:silver;
+}
+
+/* modificamos el cursor para que dentro del nav actue como por defecto*/
+nav:hover{
+  cursor:default;
+}
