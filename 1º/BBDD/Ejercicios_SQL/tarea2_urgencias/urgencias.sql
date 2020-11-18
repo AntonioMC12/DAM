@@ -66,8 +66,16 @@ ENGINE = InnoDB
 COMMENT = 'Tabla donde almacenamos las citas que hay en la base de datos, su clave es la union la varias pk de otras tablas'
 ;
 
-LOAD DATA 'C:\Program Files\MariaDB 10.5\data\universidad'
-INTO TABLE urgencias.Universidad FIELDS TERMINATED BY ','
-IGNORE 1 LINES
-(@ignorado,nombre,provincia)
+LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/universidades.csv'
+INTO TABLE urgencias.Universidad
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+;
+
+LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/hospitales.csv'
+INTO TABLE urgencias.Hospital
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
 ;
