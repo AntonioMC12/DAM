@@ -67,13 +67,33 @@ COMMENT = 'Tabla donde almacenamos las citas que hay en la base de datos, su cla
 ;
 
 LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/universidades.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/Antonio/Desktop/Formacion/DAM/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/universidades2.csv'
 INTO TABLE urgencias.Universidad
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
+(@ignorado, nombre, provincia)
 IGNORE 1 ROWS
 ;
 
+/*
+################################
+
+Prueba para añadir datos ignorando
+el id para probar el AUTO_INCREMENT
+
+################################
+
+LOAD DATA LOCAL INFILE 'C:/Users/Antonio/Desktop/Formacion/DAM/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/universidades2.csv'
+INTO TABLE urgencias.Universidad
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+(@ignorado, nombre, provincia)
+;
+
+*/
+
 LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/hospitales.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/Antonio/Desktop/Formacion/DAM/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/hospitales.csv'
 INTO TABLE urgencias.Hospital
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
@@ -81,6 +101,7 @@ IGNORE 1 ROWS
 ;
 
 LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/medicos.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/Antonio/Desktop/Formacion/DAM/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/medicos.csv'
 INTO TABLE urgencias.Medico
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
@@ -107,6 +128,7 @@ SET fechaNacimiento='1992-09-16' WHERE idMedico = 5
 */
 
 LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/pacientes.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/Antonio/Desktop/Formacion/DAM/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/pacientes.csv'
 INTO TABLE urgencias.Paciente
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
@@ -132,6 +154,7 @@ SET observaciones=DEFAULT WHERE idPaciente = 5
 */
 
 LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/citas.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/Antonio/Desktop/Formacion/DAM/1º/BBDD/Ejercicios_SQL/tarea2_urgencias/data/citas.csv'
 INTO TABLE urgencias.Cita
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'

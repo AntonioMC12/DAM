@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Foto del Modelo Relacional}{}% 1
+\BOOKMARK [1][-]{section.2}{Creaci\363n de la Base de Datos}{}% 2
+\BOOKMARK [1][-]{section.3}{Creaci\363n de las tablas}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Tabla 'Universidad'}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Tabla 'Medico'}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Tabla 'Hospital'}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Tabla 'Paciente'}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{Tabla 'Cita'}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Insercci\363n de Datos}{}% 9
+\BOOKMARK [1][-]{section.5}{Modelo E-R desde Dbeaver}{}% 10
+\BOOKMARK [1][-]{section.6}{Vista de los registros introducidos}{}% 11
