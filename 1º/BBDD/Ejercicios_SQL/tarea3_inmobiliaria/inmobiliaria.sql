@@ -33,8 +33,7 @@ CREATE TABLE IF NOT EXISTS Llamada(
   fechaLlamada DATETIME,
   observaciones TEXT DEFAULT 'Ninguna',
   origenLlamada VARCHAR(9) NOT NULL,
-  CONSTRAINT pk_Llamada_dniComprador PRIMARY KEY (dniComprador),
-  CONSTRAINT pk_Llamada_fechaLlamada PRIMARY KEY (fechaLlamada),
+  CONSTRAINT pk_Llamada_dniComprador_fechaLlamada PRIMARY KEY (dniComprador,fechaLlamada),
   CONSTRAINT fk_Llamada_dniComprador FOREIGN KEY (dniComprador) REFERENCES Comprador (dniComprador)
 )
 ENGINE = InnoDB
@@ -105,4 +104,47 @@ CREATE TABLE IF NOT EXISTS Venta(
 )
 ENGINE = InnoDB
 COMMENT ='Tabla donde se almacenan las ventas que hay en la base de datos'
+;
+
+LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea3_inmobiliaria/data/empleado.csv'
+INTO TABLE inmobiliaria.Empleado
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+(@ignorado,nombre,apellido1,apellido2,telefono)
+;
+
+
+LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea3_inmobiliaria/data/compradores.csv'
+INTO TABLE inmobiliaria.Comprador
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+(@ignorado,nombre,apellido1,apellido2,telefono)
+;
+
+LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea3_inmobiliaria/data/llamadas.csv'
+INTO TABLE inmobiliaria.Llamada
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+;
+
+LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea3_inmobiliaria/data/vendedores.csv'
+INTO TABLE inmobiliaria.Vendedor
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+(@ignorado,nombre,apellido1,apellido2,telefono,telefonoMovil,fax,email,direccion,ciudad,cp,pais)
+;
+
+LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea3_inmobiliaria/data/propiedades.csv'
+INTO TABLE inmobiliaria.Propiedad
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+(@ignorado,direccion,ciudad,pais,precio,comision,superficieParcela,superficieConstruida,numeroDormitorios,numeroBaños,jardin,piscina,garaje,nuevaSegundaMano)
+;
+
+LOAD DATA LOCAL INFILE '/home/ertonix12/Formacion/1º/BBDD/Ejercicios_SQL/tarea3_inmobiliaria/data/ventas.csv'
+INTO TABLE inmobiliaria.Venta
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+(@ignorado,numeroRegistroPropiedad,fechaVenta,dniComprador,dniVendedor,dniEmpleado,observaciones)
 ;
