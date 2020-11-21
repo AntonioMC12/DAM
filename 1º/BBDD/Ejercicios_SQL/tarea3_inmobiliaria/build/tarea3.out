@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Foto del Modelo Relacional}{}% 1
+\BOOKMARK [1][-]{section.2}{Creaci\363n de la Base de Datos}{}% 2
+\BOOKMARK [1][-]{section.3}{Creaci\363n de las tablas}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Tabla 'Comprador'}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Tabla 'Empleado'}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Tabla 'Llamada'}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Tabla 'Vendedor'}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{Tabla 'Propiedad'}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.6}{Tabla 'Venta'}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Insercci\363n de Datos}{}% 10
+\BOOKMARK [1][-]{section.5}{Modelo E-R desde Dbeaver}{}% 11
+\BOOKMARK [1][-]{section.6}{Vista de los registros introducidos}{}% 12
