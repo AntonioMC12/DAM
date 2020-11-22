@@ -10,7 +10,5 @@ public class Ejecutable {
     Imprimir.P(""+E1);
 
     Menus.startProgram(E1);
-
-
   }
 }

@@ -13,7 +13,30 @@ public class Logica {
 
     switch (op) {
       case 1:
-        
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
         Menus.showMenuParametros();
         switchParametros(E1, Menus.getMenuParametros());
 
@@ -23,6 +46,8 @@ public class Logica {
 
         E1.increaseSalary(Introducir.getDouble("Introduzca el aumento del salario en €: "));
         Imprimir.P(""+E1);
+        Menus.showMenuPrincipal();
+        switchPrincipal(E1, Menus.getMenuPrincipal());
 
         break;
 
@@ -30,6 +55,8 @@ public class Logica {
 
         E1.increaseSalary(Introducir.getInt("Introduzca el aumento del salario en %: "));
         Imprimir.P(""+E1);
+        Menus.showMenuPrincipal();
+        switchPrincipal(E1, Menus.getMenuPrincipal());
 
         break;
 
@@ -54,31 +81,64 @@ public class Logica {
         
         E1.setName(Introducir.getString("Introduzca su nuevo nombre: "));
         Imprimir.P(""+E1);
+        Menus.showMenuParametros();
+        switchParametros(E1, Menus.getMenuParametros());
         break;
 
       case 2:
         
         E1.setDpto(Introducir.getString("Introduzca su nuevo departamento: "));
         Imprimir.P(""+E1);
+        Menus.showMenuParametros();
+        switchParametros(E1, Menus.getMenuParametros());
         break;
 
       case 3:
         
         E1.setAge(Introducir.getInt("Introduzca su nueva edad: "));
         Imprimir.P(""+E1);
+        Menus.showMenuParametros();
+        switchParametros(E1, Menus.getMenuParametros());
         break;
 
       case 4:
         
         E1.setSalary(Introducir.getDouble("Introduzca su nuevo salario: "));
         Imprimir.P(""+E1);
+                Menus.showMenuParametros();
+        switchParametros(E1, Menus.getMenuParametros());
         break;
 
       case 5:
-        
         Imprimir.P("");
-        Imprimir.P("+------------------------- MENÚ PRINCIPAL -------------------------+ ");
         Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Imprimir.P("");
+        Menus.showMenuPrincipal();
+        switchPrincipal(E1, Menus.getMenuPrincipal());
+
         break;
 
       default:
@@ -89,6 +149,6 @@ public class Logica {
   public static void program(Empleado E1){
     Menus.showMenuPrincipal();
     switchPrincipal(E1, Menus.getMenuPrincipal());
-    Menus.startProgram(E1);
+    Menus.exitProgram(E1);
   }
 }

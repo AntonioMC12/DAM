@@ -27,7 +27,11 @@ public class Menus {
   public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
   public static void showMenuPrincipal() {
-
+    Imprimir.P("");
+    Imprimir.P("");
+    Imprimir.P(ANSI_GREEN + "+------------------------- MENÚ PRINCIPAL -------------------------+ " + ANSI_RESET);
+    Imprimir.P("");
+    Imprimir.P("");
     Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE + " +------------------------ EMPLEADO   V.1 -------------------------+ " + ANSI_RESET);
     Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" | INTRODUZCA LA TECLA " + ANSI_YELLOW_BACKGROUND + ANSI_RED +"1" + ANSI_WHITE_BACKGROUND + ANSI_BLUE + " PARA MODIFICAR PARÁMETROS                 | " + ANSI_RESET);
     Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" | INTRODUZCA LA TECLA " + ANSI_YELLOW_BACKGROUND + ANSI_RED +"2" + ANSI_WHITE_BACKGROUND + ANSI_BLUE + " PARA AUMENTAR SUELDO CON IMPORTE FIJO     | " + ANSI_RESET);
@@ -68,7 +72,7 @@ public class Menus {
     Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" | INTRODUZCA LA TECLA " + ANSI_YELLOW_BACKGROUND + ANSI_RED +"2" + ANSI_WHITE_BACKGROUND + ANSI_BLUE + " PARA MODIFICAR EL DEPARTAMENTO            | " + ANSI_RESET);
     Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" | INTRODUZCA LA TECLA " + ANSI_YELLOW_BACKGROUND + ANSI_RED +"3" + ANSI_WHITE_BACKGROUND + ANSI_BLUE + " PARA MODIFICAR LA EDAD                    | " + ANSI_RESET);
     Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" | INTRODUZCA LA TECLA " + ANSI_YELLOW_BACKGROUND + ANSI_RED +"4" + ANSI_WHITE_BACKGROUND + ANSI_BLUE + " PARA MODIFICAR EL SALARIO                 | " + ANSI_RESET);
-    Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" | INTRODUZCA LA TECLA " + ANSI_YELLOW_BACKGROUND + ANSI_RED +"5" + ANSI_WHITE_BACKGROUND + ANSI_BLUE + " PARA SALIR                                | " + ANSI_RESET);
+    Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" | INTRODUZCA LA TECLA " + ANSI_YELLOW_BACKGROUND + ANSI_RED +"5" + ANSI_WHITE_BACKGROUND + ANSI_BLUE + " PARA VOLVER                               | " + ANSI_RESET);
     Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" +-----------------------------------------------------------------+ " + ANSI_RESET);
   }
 
@@ -115,4 +119,13 @@ public class Menus {
     }
   }
 
+  public static void exitProgram(Empleado E1){
+
+    Imprimir.p(ANSI_GREEN + "¿Está seguro de querer salir? y/n: ");
+    if (Introducir.getChar() == 'n'){
+      Logica.program(E1);
+    }else{
+      showEnd();
+    }
+  }
 }
