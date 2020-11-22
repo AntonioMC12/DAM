@@ -68,7 +68,12 @@ public class Empleado {
   }
 
   public String toString(){
-    return "Empleado: "+this.name + '\n' + "Departamento: " + this.dpto + '\n' + "Sueldo: " + this.salary + '\n' + "Edad: " + this.age + '\n';
+    return  '\n' + "------------------------------------"+ '\n'
+            + "Empleado: "+this.name + '\n' 
+            + "Departamento: " + this.dpto + '\n'
+            + "Sueldo: " + this.salary + '\n'
+            + "Edad: " + this.age + '\n'
+            + "------------------------------------"+ '\n';
   }
 
 }
