@@ -312,7 +312,7 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
 
                 ---------------
 
-            Serán como relaciones binarias en las que participa una sola entidad, se pueden dar los siguientes casos:
+                Serán como relaciones binarias en las que participa una sola entidad, se pueden dar los siguientes casos:
 
                 CASO-1: si el tipo de correspondencia es 1:1, el atributo que hace de clave de la entidad, se duplica, haciendo funciones la primera copia de clave 
                 y la otra de clave ajena de si misma. También cabe la posibilidad de unir las entidades, pero esto cambiaría conceptualmente el problema dándole otro 
@@ -342,4 +342,13 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
 
                 -------------------------------
                 Ejemplo 2-6
+                -------------------------------
+
+            2.6. En las interrelaciones ternarias y superiores, si existen más de una cardinalidad máxima N se creará una tabla en medio. A esta nueva tabla, se propagarán
+                las claves de todas las entidades que relaciona donde las demás serán claves ajenas y además contendrá los atributos que puediera haber en la interrelación.
+
+                Normalmente la clave de la tabla que sale en medio, será la commbinación de las claves ajenas de máximo N.
+
+                -------------------------------
+                Ejemplo 2-6-1
                 -------------------------------
