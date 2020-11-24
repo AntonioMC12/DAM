@@ -1,6 +1,12 @@
-package Utils;
+package com.Utils;
 
-import Trabajo.Empleado;
+import com.Trabajo.Empleado;
+
+/**
+ * Clase donde guardos los menús y los métodos que estos usan para recibir las opciones correspondientes.
+ * 
+ * @author Antonio Muñoz Cubero
+ */
 
 public class Menus {
 
@@ -26,6 +32,9 @@ public class Menus {
   public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
   public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
+  /**
+   * Muestra el menú principal
+   */
   public static void showMenuPrincipal() {
     Imprimir.P("");
     Imprimir.P("");
@@ -40,6 +49,11 @@ public class Menus {
     Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" +-----------------------------------------------------------------+ " + ANSI_RESET);
   }
 
+  /**
+   * Devuelve la opción elegida en el menú principal con el control de errores
+   * 
+   * @return
+   */
   public static int getMenuPrincipal() {
     
     boolean valid = false;
@@ -61,6 +75,9 @@ public class Menus {
     return op_menu;
   }
 
+  /**
+   * Muestra el menú de modificación de parámetros
+   */
   public static void showMenuParametros(){
     Imprimir.P("");
     Imprimir.P("");
@@ -76,6 +93,11 @@ public class Menus {
     Imprimir.P(ANSI_WHITE_BACKGROUND + ANSI_BLUE +" +-----------------------------------------------------------------+ " + ANSI_RESET);
   }
 
+  /**
+   * Devuelve la opción elegida en el menú de los parámetros con el previo control de errores.
+   * 
+   * @return
+   */
   public static int getMenuParametros() {
     
     boolean valid = false;
@@ -97,20 +119,33 @@ public class Menus {
     return op_menu;
   }
 
+  /**
+   * Muestra un texto de despedida.
+   */
   public static void showEnd(){
     
       Imprimir.P(ANSI_GREEN_BACKGROUND + ANSI_BLACK +"Gracias por usar mi programa. Hasta la proxima!" + ANSI_RESET);
 
     }
   
+  /**
+   * Muestra un texto de error
+   */
   public static void showError(){
 
     Imprimir.P(ANSI_RED_BACKGROUND + ANSI_BLACK +"UPS!! SE HA PRODUCIDO UN ERROR!" + ANSI_RESET);
 
   }
 
+  /**
+   * Pequeño método que confirma si quieres o no iniciar el programa, que recibe y devuelve la clase 
+   * con la que trabajamos.
+   * 
+   * @param E1
+   */
   public static void startProgram(Empleado E1){
-
+    Imprimir.P("");
+    Imprimir.P("");
     Imprimir.p(ANSI_GREEN + "¿Quiere empezar el programa? y/n: ");
     if (Introducir.getChar() == 'y'){
       Logica.program(E1);
@@ -119,10 +154,14 @@ public class Menus {
     }
   }
 
+  /**
+   * Menú que confirma si quieres o no salir del programa, recibe y devuelve la clase con la que estamos
+   * trabajando.
+   * 
+   * @param E1
+   */
   public static void exitProgram(Empleado E1){
 
-    Imprimir.P("");
-    Imprimir.P("");
     Imprimir.p(ANSI_GREEN + "¿Está seguro de querer salir? y/n: ");
     if (Introducir.getChar() == 'n'){
       Logica.program(E1);

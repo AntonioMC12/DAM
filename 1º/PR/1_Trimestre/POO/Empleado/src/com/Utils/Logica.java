@@ -1,5 +1,11 @@
-package Utils;
-import Trabajo.Empleado;
+package com.Utils;
+import com.Trabajo.Empleado;
+
+/**
+ * Clase donde incluyo la lógica de los menús y la lógica principal del programa.
+ * 
+ * @author Antonio Muñoz Cubero
+ */
 
 public class Logica {
 
@@ -74,6 +80,12 @@ public class Logica {
     }
   }
   
+  /**
+   * Función para realizar las diferentes opciones del menú de modificar los parámetros
+   * 
+   * @param E1 La clase Empleado
+   * @param op La opción a realizar
+   */
   public static void switchParametros(Empleado E1, int op){
 
     switch (op) {
@@ -146,6 +158,12 @@ public class Logica {
     }
   }
 
+  /**
+   * Recibe la clase con la que trabajaremos y ejecuta la lógica principal del programa. Cuando sale del 
+   * manú principal, muestra una selección de opciones que confirma si quieres salir o no del programa.
+   * 
+   * @param E1 Clase Empleado.
+   */
   public static void program(Empleado E1){
     Menus.showMenuPrincipal();
     switchPrincipal(E1, Menus.getMenuPrincipal());

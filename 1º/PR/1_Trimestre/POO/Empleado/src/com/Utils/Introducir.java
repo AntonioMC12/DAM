@@ -1,7 +1,13 @@
-package Utils;
+package com.Utils;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
+
+/**
+ * Clase donde ubico los métodos para el control de errores en la introducción de variables.
+ * 
+ * @author Antonio Muñoz Cubero
+ */
 
 public class Introducir {
 
@@ -27,6 +33,11 @@ public class Introducir {
   public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
   public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
+  /**
+   * Método que recoje un char por teclado y lo devuelve
+   * 
+   * @return char
+   */
   public static char getChar() {
     
     Scanner scan = new Scanner(System.in);
@@ -36,6 +47,13 @@ public class Introducir {
     return value;
   }
 
+  /**
+   * Método que devuelve un entero con el previo control de errores, el texto que recibe el método lo imprime 
+   * por pantalla antes de recoger la variable por teclado.
+   * 
+   * @param text
+   * @return int
+   */
   public static int getInt(String text) {
     
     boolean validNum = true;
@@ -53,6 +71,7 @@ public class Introducir {
         }else{
           validNum = false;
         }
+
         
       }  catch (InputMismatchException ex) {
         
@@ -73,6 +92,13 @@ public class Introducir {
     return num;
   }
 
+  /**
+   * Método que devuelve un float con el previo control de errores, el texto que recibe el método lo imprime 
+   * por pantalla antes de recoger la variable por teclado.
+   * 
+   * @param text
+   * @return float
+   */
   public static float getFloat(String text) {
     boolean validNum = true;
     Scanner scan = new Scanner(System.in);
@@ -90,6 +116,7 @@ public class Introducir {
           validNum = false;
         }
 
+        
       }  catch (InputMismatchException ex) {
         
         scan.nextLine();
@@ -109,6 +136,13 @@ public class Introducir {
     return num;
   }
   
+  /**
+   * Método que devuelve un double con el previo control de errores, el texto que recibe el método lo imprime 
+   * por pantalla antes de recoger la variable por teclado.
+   * 
+   * @param text
+   * @return double
+   */
   public static double getDouble(String text) {
     
     boolean validNum = true;
@@ -126,6 +160,7 @@ public class Introducir {
         }else{
           validNum = false;
         }
+
         
       }  catch (InputMismatchException ex) {
         
@@ -145,7 +180,14 @@ public class Introducir {
     
     return num;
   }
-
+  
+  /**
+   * Método que devuelve un String, el texto que recibe el método lo imprime 
+   * por pantalla antes de recoger la variable por teclado.
+   * 
+   * @param text
+   * @return String
+   */
   public static String getString(String text){
     Scanner scan = new Scanner(System.in);
     String value;
