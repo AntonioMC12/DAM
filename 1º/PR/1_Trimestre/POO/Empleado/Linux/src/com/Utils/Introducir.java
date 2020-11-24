@@ -197,4 +197,56 @@ public class Introducir {
 
     return value;
   }
+
+  /**
+   * Este método nos devuelve la edad con un control de errores.
+   * 
+   * @param text
+   * @return edad
+   */
+  public static int getIntAge(String text) {
+    
+    boolean validNum = true;
+    Scanner scan = new Scanner(System.in);
+    int num = 0;
+
+    do {   
+      try {
+        Imprimir.p(text);
+        num = scan.nextInt();
+
+        if (num < 0) {
+          validNum = true;
+          Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente una edad valida." + ANSI_RESET + ANSI_GREEN);       
+        }else if(num < 16){
+          validNum = true;
+          Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente una edad valida." + ANSI_RESET + ANSI_GREEN);
+        }else if(num > 65){
+          validNum = true;
+          Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente una edad valida." + ANSI_RESET + ANSI_GREEN);
+        }
+        else{
+          validNum = false;
+        }
+
+        
+      }  catch (InputMismatchException ex) {
+        
+        scan.nextLine();
+        validNum = true;
+        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente una edad valida." + ANSI_RESET + ANSI_GREEN);
+        
+
+      } catch (Exception e) {
+        
+        scan.nextLine();
+        validNum = true;
+        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente una edad valida." + ANSI_RESET + ANSI_GREEN);
+
+      }
+    } while(validNum);
+    
+    return num;
+  }
+
 }

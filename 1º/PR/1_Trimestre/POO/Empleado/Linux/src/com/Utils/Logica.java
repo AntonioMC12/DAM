@@ -107,7 +107,7 @@ public class Logica {
 
       case 3:
         
-        E1.setAge(Introducir.getInt("Introduzca su nueva edad: "));
+        E1.setAge(Introducir.getIntAge("Introduzca su nueva edad: "));
         Imprimir.P(""+E1);
         Menus.showMenuParametros();
         switchParametros(E1, Menus.getMenuParametros());
