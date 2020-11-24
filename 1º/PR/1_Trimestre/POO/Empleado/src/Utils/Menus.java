@@ -121,6 +121,8 @@ public class Menus {
 
   public static void exitProgram(Empleado E1){
 
+    Imprimir.P("");
+    Imprimir.P("");
     Imprimir.p(ANSI_GREEN + "¿Está seguro de querer salir? y/n: ");
     if (Introducir.getChar() == 'n'){
       Logica.program(E1);

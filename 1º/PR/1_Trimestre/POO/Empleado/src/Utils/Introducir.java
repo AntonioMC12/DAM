@@ -46,21 +46,26 @@ public class Introducir {
       try {
         Imprimir.p(text);
         num = scan.nextInt();
-        validNum = false;
 
+        if (num < 0) {
+          validNum = true;
+          Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET + ANSI_GREEN);       
+        }else{
+          validNum = false;
+        }
         
       }  catch (InputMismatchException ex) {
         
         scan.nextLine();
         validNum = true;
-        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET);
+        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET + ANSI_GREEN);
         
 
       } catch (Exception e) {
         
         scan.nextLine();
         validNum = true;
-        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET);
+        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET + ANSI_GREEN);
 
       }
     } while(validNum);
@@ -77,21 +82,26 @@ public class Introducir {
       try {
         Imprimir.p(text);
         num = scan.nextFloat();
-        validNum = false;
 
-        
+        if (num < 0) {
+          validNum = true;
+          Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET + ANSI_GREEN);       
+        }else{
+          validNum = false;
+        }
+
       }  catch (InputMismatchException ex) {
         
         scan.nextLine();
         validNum = true;
-        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET);
+        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET + ANSI_GREEN);
         
 
       } catch (Exception e) {
         
         scan.nextLine();
         validNum = true;
-        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET);
+        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET + ANSI_GREEN);
 
       }
     } while(validNum);
@@ -109,21 +119,26 @@ public class Introducir {
       try {
         Imprimir.p(text);
         num = scan.nextDouble();
-        validNum = false;
 
+        if (num < 0) {
+          validNum = true;
+          Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET + ANSI_GREEN);       
+        }else{
+          validNum = false;
+        }
         
       }  catch (InputMismatchException ex) {
         
         scan.nextLine();
         validNum = true;
-        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET);
+        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET + ANSI_GREEN);
         
 
       } catch (Exception e) {
         
         scan.nextLine();
         validNum = true;
-        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET);
+        Imprimir.P(ANSI_RED_BACKGROUND + ANSI_WHITE + "Debe ingresar obligatoriamente un numero valido." + ANSI_RESET + ANSI_GREEN);
 
       }
     } while(validNum);
