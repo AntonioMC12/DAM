@@ -190,6 +190,24 @@ Ejemplo 000 cuaderno
 
     4 LOS VALORES NULOS EN EL MODELO RELACIONAL
 
+    5 LENGUAJES PROPIOS PARA LA GESTION DE BD RELACIONALES 
+
+        En las bases de datos relacionales nos encontramos con un solo lenguaje unificado, capaz de gestionar todo en la base de datos, que es SQL(Structured Query Languaje) que tiene varias
+        variantes y caracter propio, pero que se subdivide en 3 o 4 sublenguajes distintos.
+
+            -DDL(data definition languaje)
+            -DML(data management languaje)
+            -DCL(data control languaje)
+            -TCL(transaction control languaje)
+
+            DDL: Son las intruciones de creación y eliminacion de datos (CREATE, ALTER, DROP, ...)
+            DML: Son las instrucciones que nos permiten modificar datos (SELECT, UPDATE, ...)
+            DCL: Son las intrucciones que nos permite dar y quitar permisos (GRANT, ...)
+            TCL: Son las instrucciones que nos permite crear transacciones (START TRANSACTION, BEGIN, ...)
+
+            
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------
 
@@ -352,3 +370,45 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
                 -------------------------------
                 Ejemplo 2-6-1
                 -------------------------------
+
+        3 Opciones de clave ajena en la transformación del modelo E/R al relacional
+
+            tupla = ocurrencia
+            
+            Podemos implementar una base de datos en un archivo a la hora de crear los atributos que seran claves ajenas, aparte de su tipo se podrá especificar algunas de estas
+            Características que nos permitan regular el comportamiento de la base de datos cuando se produzcan actualizaciones y/o insercción de tuplas . Cuando introducimos o 
+            modificamos tuplas, estas pueden influir en otras tuplas de otras tablas que hagan referencia a las primeras a través de la clave ajena. Las Características de la clave 
+            ajena son las siguientes:
+
+            Posibles opciones a aplicar a la clave ajena al crear la tabla a la que pertenece:
+                - NOT NULL
+                - "NADA"
+                
+                En el primer caso, la clave ajena no se puede quedar vacía, se obliga a rellenarla y por tanto la cardinalidad mínima en la otra entidad es 1.
+                En el segundo caso, la clave ajena puede estar vacía, la cardinalidad mínima en la otra entidad es por tanto 0.
+
+            Posibles opciones a aplicar sobre la tabla referenciada:
+                - ON DELETE, si la tupla referenciada se borrado
+                - ON UPDATE, si la tupla referenciada se modicfica o actualiza
+
+                En el primer caso,
+                En el segundo caso,
+
+            Posibles operaciones sobre la tupla o tuplas que referencian operaciones a aplicar a las tuplas de la tabla que referencia (donde están las claves ajenas) al borrar 
+            o modificar la tupla de la tabla referenciada (donde apunta la flecha).
+
+            Las posibles opciones de clave ajena cuando se borran o modifican ocurrencias en la tabla referenciada son las siguientes:
+                - NO ACTION
+                - CASCADE 
+                - SET NULL
+                - SET DEFAULT
+
+                *En el primer caso (NO ACTION), si hay tuplas que dependen de otra tupla referenciada que se borra o modifica no se deja realizar la acción.
+                *En el segundo caso (CASCADE), si hay tuplas que depende de otra tupla referenciada, al modificar estas, las primeras también se modifican y si se borra la tupla
+                referenciada las que dependen de ella también se borra.
+                *En el tercer caso (SET NULL), si hay tuplas que dependen de otra tupla referenciada que se borra o modifica, se pone a NULL los campos clave ajena de las tuplas 
+                que la referencia. Esta operación es incompatible con el NOT NULL.
+                *En el cuarto caso (SET DEFAULT), si hay tuplas que dependen de otra tupla referenciada que se borra o modifica, se pone a su valor por defecto los campos clave ajena
+                de aquellas tuplas que lo referencian. Nos referimos al valor por defecto del campo clave ajena.
+
+            Respecto a la clave ajena se puede poner una de estas opciones para el borrado y otra totalmente distinta para la actualización.
