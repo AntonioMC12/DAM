@@ -1,56 +1,36 @@
-/* === IMPORTANTE ===================================================
-   No modificar estos estilos, ya que son imprescindibles para
-   que la página se vea correctamente.
-   ================================================================== */
-
-/*-- Básico ----------------------------------------------------------*/
-ul, ul li { margin: 0; padding: 0; list-style: none; }
-h1, h2, h3, p, form { margin: 0; padding: 0; }
+/*-- BÃ¡sico ----------------------------------------------------------*/
+ul, ul li a { margin: 10; padding: 10; list-style: none; border: 2px solid black  ;}
+h1, h2, h3, p, form { margin: 0; padding: 0; border: 2px solid black; }
+h1, h2 {text-align: center; color: darkred;}
+h2 {color: lightcoral;}
 .clear { clear: both; }
-img { border: none; }
+img { border: 1px solid #C5C5C5; }
+div {  margin: 0; padding: 0; border: 2px solid gray;}
+nav {  margin: 0; padding: 0; border: 2px solid purple;}
+footer { margin: 0; padding: 0; border: 2px solid green;}
 
-/*-- Layout ----------------------------------------------------------*/
 #contenedor {
-  width: 90%;
-  max-width: 900px;
-  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
-}
-
-#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
-  border: 2px solid #777;
+  border: 2px solid orangered
 }
 
 #cabecera { clear: both; }
-#menu { clear: both; }
-#lateral { float: left; width: 20%; }
-#contenido { float: right; width: 78%; }
+#contenido { float: left; width: 78%; }
 #contenido #principal { float: left; width: 78%; }
-#contenido #secundario { float: right; width: 20%; }
+#contenido #secundario { float: left  ; width: 22%; text-align: center; }
+#lateral { float: right; width: 22%; text-align: center;}
 #pie { clear: both; }
 
-/*-- Cabecera --------------------------------------------------------*/
-#cabecera #logo { float: left; }
-#cabecera #buscador { float: right; }
 
-/*-- Menu ------------------------------------------------------------*/
-#menu ul#menu_principal li { display: inline; float: left; }
+#cabecera ul#menu_principal li{ display: inline; float: left; margin: 2%; font-size: 150%; }
 
-/*-- Sección Principal -----------------------------------------------*/
-#contenido #principal .articulo img { width: 100px; float: left; }
 
-/*-- Pie de página ---------------------------------------------------*/
 #pie .enlaces   { float: left; }
 #pie .copyright { float: right; }
 
-/* === IMPORTANTE ===================================================
-   A partir de aquí, se pueden añadir todos los estilos propios que 
-   sean necesarios.
-   ================================================================== */
-
-
 #cabecera,
-#menu,
 #lateral,
 #lateral #noticias,
 #lateral #publicidad,
@@ -67,12 +47,16 @@ img { border: none; }
 }
 
 #cabecera {
-  padding: 1em;
+  border: 2px solid blue;
 }
 
-#menu {
-  margin-bottom: .5em;
-  border-bottom: 1px solid #004C99;
+
+#titulo1 ,#titulo2{
+  background-color: wheat;
+}
+
+#tolkien, #brandon{
+  background-color: aquamarine;
 }
 
 #contenido {
@@ -85,29 +69,20 @@ img { border: none; }
 }
 
 #contenido #secundario {
-  border: 1px solid #C60;
+  border: 2px solid brown;
 }
 
 #pie {
   padding: .5em 0;
   margin-top: 1em;
-  border-top: 1px solid #C5C5C5;
-  border-bottom: 1px solid #C5C5C5;
 }
 
 #contenido #principal .articulo {
   margin-bottom: 1em;
 }
 
-#contenido #principal .articulo img { 
-  margin: .5em;
-}
-
-#lateral #noticias {
-  border: 1px solid #C5C5C5;
-}
-
 #lateral #publicidad {
   margin-top: 1em;
-  border: 1px dashed #C60;
+  margin-bottom: 1em;
+  border: 2px dashed orange;
 }
