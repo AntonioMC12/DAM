@@ -3,9 +3,9 @@
 \contentsline {subsection}{\numberline {1.1}Historia}{\es@scroman {iii}}%
 \contentsline {section}{\numberline {2}Estática del Modelo E-R}{\es@scroman {iii}}%
 \contentsline {subsection}{\numberline {2.1}Entidad}{\es@scroman {iii}}%
-\contentsline {subsection}{\numberline {2.2}Interrelación}{\es@scroman {iv}}%
+\contentsline {subsection}{\numberline {2.2}Interrelación}{\es@scroman {iii}}%
 \contentsline {subsection}{\numberline {2.3}Atributos}{\es@scroman {v}}%
 \contentsline {subsection}{\numberline {2.4}Restricciones}{\es@scroman {vi}}%
-\contentsline {section}{\numberline {3}Cardinalidad de un tipo de entidad}{\es@scroman {vii}}%
+\contentsline {section}{\numberline {3}Cardinalidad de un tipo de entidad}{\es@scroman {vi}}%
 \contentsline {subsection}{\numberline {3.1}Tipos De Interrelación}{\es@scroman {viii}}%
 \contentsline {section}{\numberline {4}Ejercicio 1}{\es@scroman {ix}}%

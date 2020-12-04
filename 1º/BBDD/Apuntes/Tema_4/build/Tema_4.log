@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  7 OCT 2020 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  4 DEC 2020 12:28
 entering extended mode
-**c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Apuntes/Tema_4/Tema_4.tex
-(c:/Users/Antonio/Desktop/Formación/DAM/1º/BBDD/Apuntes/Tema_4/Tema_4.tex
+**c:/Users/Antonio/Desktop/Formacion/DAM/1º/BBDD/Apuntes/Tema_4/Tema_4.tex
+(c:/Users/Antonio/Desktop/Formacion/DAM/1º/BBDD/Apuntes/Tema_4/Tema_4.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -198,98 +198,127 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks23
 \inpenc@posthook=\toks24
-) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def
+) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen159
+\Gm@wd@mp=\dimen160
+\Gm@odd@mp=\dimen161
+\Gm@even@mp=\dimen162
+\Gm@layoutwidth=\dimen163
+\Gm@layoutheight=\dimen164
+\Gm@layouthoffset=\dimen165
+\Gm@layoutvoffset=\dimen166
+\Gm@dimlist=\toks25
+ (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count195
+\l__kernel_color_stack_int=\count198
 \l__pdf_internal_box=\box49
-) (c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.aux
+) (c:/Users\Antonio\Desktop\Formacion\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
 \openout1 = `Tema_4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count196
-\scratchdimen=\dimen159
+\scratchcounter=\count199
+\scratchdimen=\dimen167
 \scratchbox=\box50
-\nofMPsegments=\count197
-\nofMParguments=\count198
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count199
-\MPscratchDim=\dimen160
-\MPnumerator=\count266
-\makeMPintoPDFobject=\count267
-\everyMPtoPDFconversion=\toks26
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen168
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks27
 ) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)) (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 18.
- (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=745.46222pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 21.
+(C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 18.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 21.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 18.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 21.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 18.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 21.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 21.
  [1
 
-{C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.toc
+{C:/Users/Antonio/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (c:/Users\Antonio\Desktop\Formacion\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -328,38 +357,38 @@ Package spanish Warning: Replacing `T1/lmr/bx/sc' by
 \tf@toc=\write3
 \openout3 = `Tema_4.toc'.
 
- [2] [3]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 76.
+ [2]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 79.
  (C:\Users\Antonio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [4]
+) [3] [4]
 <entidad.jpg, id=23, 386.94562pt x 287.57437pt>
 File: entidad.jpg Graphic file (type jpg)
 <use entidad.jpg>
-Package pdftex.def Info: entidad.jpg  used on input line 97.
-(pdftex.def)             Requested size: 172.5pt x 128.20056pt.
+Package pdftex.def Info: entidad.jpg  used on input line 100.
+(pdftex.def)             Requested size: 209.12683pt x 155.42387pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--98
+Underfull \hbox (badness 10000) in paragraph at lines 89--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--105
+Underfull \hbox (badness 10000) in paragraph at lines 101--108
 
  []
 
 [5 <./entidad.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
 <dibujo.jpg, id=27, 550.30594pt x 259.7203pt>
 File: dibujo.jpg Graphic file (type jpg)
 <use dibujo.jpg>
-Package pdftex.def Info: dibujo.jpg  used on input line 146.
-(pdftex.def)             Requested size: 345.0pt x 162.82808pt.
+Package pdftex.def Info: dibujo.jpg  used on input line 149.
+(pdftex.def)             Requested size: 418.25368pt x 197.40532pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--147
+Underfull \hbox (badness 10000) in paragraph at lines 138--150
 
  []
 
@@ -367,31 +396,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--147
 <existencia.png, id=36, 683.55376pt x 152.57pt>
 File: existencia.png Graphic file (type png)
 <use existencia.png>
-Package pdftex.def Info: existencia.png  used on input line 161.
-(pdftex.def)             Requested size: 345.0pt x 77.0065pt.
+Package pdftex.def Info: existencia.png  used on input line 164.
+(pdftex.def)             Requested size: 418.25368pt x 93.35623pt.
 <identificacion.png, id=38, 683.55376pt x 152.57pt>
 File: identificacion.png Graphic file (type png)
 <use identificacion.png>
-Package pdftex.def Info: identificacion.png  used on input line 162.
-(pdftex.def)             Requested size: 345.0pt x 77.0065pt.
+Package pdftex.def Info: identificacion.png  used on input line 165.
+(pdftex.def)             Requested size: 418.25368pt x 93.35623pt.
  [8 <./existencia.png> <./identificacion.png>]
 <Ejercicio_1.png, id=45, 723.70375pt x 158.5925pt>
 File: Ejercicio_1.png Graphic file (type png)
 <use Ejercicio_1.png>
-Package pdftex.def Info: Ejercicio_1.png  used on input line 172.
-(pdftex.def)             Requested size: 345.0pt x 75.60323pt.
+Package pdftex.def Info: Ejercicio_1.png  used on input line 175.
+(pdftex.def)             Requested size: 418.25368pt x 91.657pt.
 <Clases_1.png, id=46, 634.37pt x 122.4575pt>
 File: Clases_1.png Graphic file (type png)
 <use Clases_1.png>
-Package pdftex.def Info: Clases_1.png  used on input line 181.
-(pdftex.def)             Requested size: 345.0pt x 66.60066pt.
+Package pdftex.def Info: Clases_1.png  used on input line 184.
+(pdftex.def)             Requested size: 418.25368pt x 80.74184pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--185
+Underfull \hbox (badness 10000) in paragraph at lines 169--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--185
+Underfull \hbox (badness 10000) in paragraph at lines 169--188
 
  []
 
@@ -399,24 +428,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--185
 <Ejercicio_1_b.png, id=52, 723.70375pt x 141.52875pt>
 File: Ejercicio_1_b.png Graphic file (type png)
 <use Ejercicio_1_b.png>
-Package pdftex.def Info: Ejercicio_1_b.png  used on input line 192.
-(pdftex.def)             Requested size: 345.0pt x 67.46872pt.
+Package pdftex.def Info: Ejercicio_1_b.png  used on input line 195.
+(pdftex.def)             Requested size: 418.25368pt x 81.79518pt.
 <Clases_1_b.png, id=53, 674.52pt x 122.4575pt>
 File: Clases_1_b.png Graphic file (type png)
 <use Clases_1_b.png>
-Package pdftex.def Info: Clases_1_b.png  used on input line 201.
-(pdftex.def)             Requested size: 345.0pt x 62.6356pt.
+Package pdftex.def Info: Clases_1_b.png  used on input line 204.
+(pdftex.def)             Requested size: 418.25368pt x 75.93407pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--205
+Underfull \hbox (badness 10000) in paragraph at lines 189--208
 
  []
 
-[10 <./Ejercicio_1_b.png> <./Clases_1_b.png>] (c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.aux
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--208
+
+ []
+
+[10 <./Ejercicio_1_b.png> <./Clases_1_b.png>] (c:/Users\Antonio\Desktop\Formacion\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -425,15 +454,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4430 strings out of 480790
- 66773 string characters out of 2896363
- 322745 words of memory out of 3000000
- 20340 multiletter control sequences out of 15000+200000
+ 4469 strings out of 480790
+ 65958 string characters out of 2896363
+ 329781 words of memory out of 3000000
+ 20398 multiletter control sequences out of 15000+200000
  590248 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,35p,355b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,6n,35p,354b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
-Output written on c:/Users\Antonio\Desktop\Formación\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.pdf (10 pages, 311791 bytes).
+Output written on c:/Users\Antonio\Desktop\Formacion\DAM\1º\BBDD\Apuntes\Tema_4\build\Tema_4.pdf (10 pages, 311526 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

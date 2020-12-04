@@ -371,6 +371,19 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
                 Ejemplo 2-6-1
                 -------------------------------
 
+            2.7 En las interrelaciones jerárquicas normalmente se propaga la clave del supertipo a todos los subtipos donde, además de ser clave ajenas que las enlazan con 
+            el supertipo, serán clave de los subtipos.
+            Para esta transformación debemos recordar que:
+
+                1: Los atributos comunes a todos los subtipos estarán en el supertipo.
+                2: Los atributos específicos de cada subtipo estarán en el subtipo correspondiente.
+                3: Los subtipos siempre se relacionan con el supertipo.
+
+            Teniendo en cuenta a todo lo anterior, para pasar las relaciones jerárquicas al relacional, aplicaremos una de las siguientes reglas:
+
+                - Integrar todas la entidades supertipo y subtipo en una sola, eliminando así los subtipos, es decir, unir toda la jerarquía en una sola entidad, el supertipo.
+                -
+
         3 Opciones de clave ajena en la transformación del modelo E/R al relacional
 
             tupla = ocurrencia
@@ -412,3 +425,5 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
                 de aquellas tuplas que lo referencian. Nos referimos al valor por defecto del campo clave ajena.
 
             Respecto a la clave ajena se puede poner una de estas opciones para el borrado y otra totalmente distinta para la actualización.
+            
+
