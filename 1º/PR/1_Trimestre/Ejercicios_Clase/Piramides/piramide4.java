@@ -5,9 +5,9 @@ public class piramide4 {
     
     Scanner scan = new Scanner(System.in);
     System.out.println("Inserte la altura: ");
-    int alt = (scan.nextInt()/2);
-    int aux = alt;
-    int aux2 = alt;
+    int alt = (scan.nextInt()/2); //divido entre 2 para que cada piramide sea de la mitad de altura y la total sea el numero introducido
+    int aux = alt; //auxiliar para el for de la primera piramide
+    int aux2 = alt; //auxiliar para el for de la segunda piramide
     
     for (int fila = 1; fila <= alt; fila++) {
       for(int nEspacios = aux -1; nEspacios >= 0 ; nEspacios--){
@@ -18,9 +18,12 @@ public class piramide4 {
         //Para los asteriscos
         System.out.print("*");   
       }
-      aux--;
+      aux--; //Decremento para calcular el numero de espacios bien
       System.out.println(""); 
     }
+
+    //Ahora hago la piramide invertida con la misma altura que la anterior
+
     for (int fila = 1; fila <= alt; fila++) {
       for(int nEspacios = 0; nEspacios < fila ; nEspacios++){
         //Para los espacios
@@ -30,7 +33,7 @@ public class piramide4 {
         //Para los asteriscos
         System.out.print("*");   
       }
-      aux2--;
+      aux2--; //Decremento para calcular el numero de asteriscos bien
       System.out.println(""); 
     }
     scan.close();

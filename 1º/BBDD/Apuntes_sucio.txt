@@ -381,8 +381,11 @@ TEMA 6: Transformación de Esquemas E-R a Relacional
 
             Teniendo en cuenta a todo lo anterior, para pasar las relaciones jerárquicas al relacional, aplicaremos una de las siguientes reglas:
 
-                - Integrar todas la entidades supertipo y subtipo en una sola, eliminando así los subtipos, es decir, unir toda la jerarquía en una sola entidad, el supertipo.
-                -
+                a) Integrar todas la entidades supertipo y subtipo en una sola, eliminando así los subtipos, es decir, unir toda la jerarquía en una sola entidad, el supertipo.
+                b) Eliminación del supertipo transfiriendo los atributos a todos los subtipos.
+                c) [la que vamos a utilizar] Insertar relaciones 1:1 entre cada subtipo con el supertipo (aplicar lo que hemos puesto como cabecera de la regla.). Es la solución 
+                más común, esta opción mantiene cada atributo en su entidad correspondiente y la interrelaciones también. De esta forma se usa como clave común a todos los subtipos 
+                la del supertipo, propagándose hasta estos y siendo en ellos clave primaria y ajena a su supertipo.
 
         3 Opciones de clave ajena en la transformación del modelo E/R al relacional
 
