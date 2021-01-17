@@ -333,6 +333,7 @@ INPUT .\img\bridge2.png
 INPUT .\img\bridge2.png
 INPUT .\img\bridge2.png
 INPUT .\img\bridge2.png
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futbi8t.tfm
 INPUT img\RedNAT1.png
 INPUT .\img\RedNAT1.png
 INPUT .\img\RedNAT1.png
@@ -343,6 +344,9 @@ INPUT .\img\RedNAT2.png
 INPUT .\img\RedNAT2.png
 INPUT .\img\RedNAT2.png
 INPUT .\img\RedNAT2.png
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futbi8t.vf
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futbi8r.tfm
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-boldita.tfm
 INPUT img\RedNAT3.png
 INPUT .\img\RedNAT3.png
 INPUT .\img\RedNAT3.png
@@ -379,11 +383,13 @@ OUTPUT c:\Users\Antonio\Desktop\Formacion\DAM\1º\SI\Op_VBox\build\op_virtualbox
 INPUT c:\Users\Antonio\Desktop\Formacion\DAM\1º\SI\Op_VBox\build\op_virtualbox.aux
 INPUT c:\Users\Antonio\Desktop\Formacion\DAM\1º\SI\Op_VBox\build\op_virtualbox.out
 INPUT c:\Users\Antonio\Desktop\Formacion\DAM\1º\SI\Op_VBox\build\op_virtualbox.out
-INPUT C:\Users\Antonio\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
-INPUT C:\Users\Antonio\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\Antonio\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT C:\Users\Antonio\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\adobe\utopia\putb8a.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\adobe\utopia\putb8a.pfb
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\adobe\utopia\putbi8a.pfb
+INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\adobe\utopia\putbi8a.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\adobe\utopia\putr8a.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\adobe\utopia\putr8a.pfb
 INPUT C:\Users\Antonio\AppData\Local\Programs\MiKTeX\fonts\type1\adobe\utopia\putri8a.pfb
