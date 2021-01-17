@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  15 JAN 2021 18:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.1)  17 JAN 2021 13:46
 entering extended mode
 **c:/Users/Antonio/Desktop/Formacion/DAM/1º/SI/Op_VBox/op_virtualbox.tex
 (c:/Users/Antonio/Desktop/Formacion/DAM/1º/SI/Op_VBox/op_virtualbox.tex
@@ -588,7 +588,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--102
 
  []
 
-<img/instantanea1.png, id=42, 660.96938pt x 194.97844pt>
+<img/instantanea1.png, id=54, 660.96938pt x 194.97844pt>
 File: img/instantanea1.png Graphic file (type png)
 <use img/instantanea1.png>
 Package pdftex.def Info: img/instantanea1.png  used on input line 107.
@@ -602,17 +602,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<img/instantanea2.png, id=51, 655.69969pt x 92.59593pt>
+<img/instantanea2.png, id=63, 655.69969pt x 92.59593pt>
 File: img/instantanea2.png Graphic file (type png)
 <use img/instantanea2.png>
 Package pdftex.def Info: img/instantanea2.png  used on input line 117.
 (pdftex.def)             Requested size: 327.84904pt x 46.29784pt.
-<img/instantanea3.png, id=52, 362.10281pt x 259.7203pt>
+<img/instantanea3.png, id=64, 362.10281pt x 259.7203pt>
 File: img/instantanea3.png Graphic file (type png)
 <use img/instantanea3.png>
 Package pdftex.def Info: img/instantanea3.png  used on input line 125.
 (pdftex.def)             Requested size: 362.10191pt x 259.71967pt.
-<img/instantanea4.png, id=53, 986.18437pt x 89.58469pt>
+<img/instantanea4.png, id=65, 986.18437pt x 89.58469pt>
 File: img/instantanea4.png Graphic file (type png)
 <use img/instantanea4.png>
 Package pdftex.def Info: img/instantanea4.png  used on input line 133.
@@ -622,82 +622,181 @@ Overfull \hbox (40.12308pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
-[4 <./img/instantanea2.png> <./img/instantanea3.png> <./img/instantanea4.png>] [5]
-<img/clonar1.png, id=69, 390.70969pt x 261.97874pt>
+[4 <./img/instantanea2.png> <./img/instantanea3.png> <./img/instantanea4.png>]
+<img/instantanea5.png, id=75, 714.87074pt x 123.46124pt>
+File: img/instantanea5.png Graphic file (type png)
+<use img/instantanea5.png>
+Package pdftex.def Info: img/instantanea5.png  used on input line 147.
+(pdftex.def)             Requested size: 428.92575pt x 74.0773pt.
+<img/instantanea6.png, id=76, 1154.51324pt x 620.91975pt>
+File: img/instantanea6.png Graphic file (type png)
+<use img/instantanea6.png>
+Package pdftex.def Info: img/instantanea6.png  used on input line 157.
+(pdftex.def)             Requested size: 404.0857pt x 217.32516pt.
+ [5 <./img/instantanea5.png> <./img/instantanea6.png>]
+<img/clonar1.png, id=85, 390.70969pt x 261.97874pt>
 File: img/clonar1.png Graphic file (type png)
 <use img/clonar1.png>
-Package pdftex.def Info: img/clonar1.png  used on input line 153.
+Package pdftex.def Info: img/clonar1.png  used on input line 173.
 (pdftex.def)             Requested size: 293.03154pt x 196.48357pt.
-<img/clonar2.png, id=70, 779.91376pt x 260.47313pt>
+<img/clonar2.png, id=86, 779.91376pt x 260.47313pt>
 File: img/clonar2.png Graphic file (type png)
 <use img/clonar2.png>
-Package pdftex.def Info: img/clonar2.png  used on input line 161.
+Package pdftex.def Info: img/clonar2.png  used on input line 181.
 (pdftex.def)             Requested size: 389.95593pt x 130.23624pt.
  [6 <./img/clonar1.png> <./img/clonar2.png>]
-<img/clonar3.png, id=78, 1449.16406pt x 786.68906pt>
+<img/clonar3.png, id=94, 1449.16406pt x 786.68906pt>
 File: img/clonar3.png Graphic file (type png)
 <use img/clonar3.png>
-Package pdftex.def Info: img/clonar3.png  used on input line 173.
+Package pdftex.def Info: img/clonar3.png  used on input line 193.
 (pdftex.def)             Requested size: 434.75258pt x 236.00853pt.
  [7 <./img/clonar3.png>]
-<img/clonar4.png, id=86, 261.22594pt x 92.59593pt>
+<img/clonar4.png, id=102, 261.22594pt x 92.59593pt>
 File: img/clonar4.png Graphic file (type png)
 <use img/clonar4.png>
-Package pdftex.def Info: img/clonar4.png  used on input line 190.
+Package pdftex.def Info: img/clonar4.png  used on input line 210.
 (pdftex.def)             Requested size: 261.22528pt x 92.59569pt.
-<img/clonar5.png, id=87, 515.67656pt x 396.7322pt>
+<img/clonar5.png, id=103, 515.67656pt x 396.7322pt>
 File: img/clonar5.png Graphic file (type png)
 <use img/clonar5.png>
-Package pdftex.def Info: img/clonar5.png  used on input line 197.
+Package pdftex.def Info: img/clonar5.png  used on input line 217.
 (pdftex.def)             Requested size: 257.83765pt x 198.3656pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--201
+Underfull \hbox (badness 10000) in paragraph at lines 203--221
 
  []
 
 [8 <./img/clonar4.png> <./img/clonar5.png>]
-<img/nat1.png, id=95, 341.77687pt x 143.78719pt>
+<img/nat1.png, id=111, 341.77687pt x 143.78719pt>
 File: img/nat1.png Graphic file (type png)
 <use img/nat1.png>
-Package pdftex.def Info: img/nat1.png  used on input line 213.
+Package pdftex.def Info: img/nat1.png  used on input line 233.
 (pdftex.def)             Requested size: 341.77603pt x 143.78683pt.
-<img/nat2.png, id=96, 359.09157pt x 135.50626pt>
+<img/nat2.png, id=112, 359.09157pt x 135.50626pt>
 File: img/nat2.png Graphic file (type png)
 <use img/nat2.png>
-Package pdftex.def Info: img/nat2.png  used on input line 223.
+Package pdftex.def Info: img/nat2.png  used on input line 243.
 (pdftex.def)             Requested size: 359.09068pt x 135.5059pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--229
+Underfull \hbox (badness 10000) in paragraph at lines 224--249
 
  []
 
-[9 <./img/nat1.png> <./img/nat2.png>] 
+[9 <./img/nat1.png> <./img/nat2.png>]
+<img/bridge1.png, id=121, 490.2315pt x 350.5095pt>
+File: img/bridge1.png Graphic file (type png)
+<use img/bridge1.png>
+Package pdftex.def Info: img/bridge1.png  used on input line 263.
+(pdftex.def)             Requested size: 367.67271pt x 262.88148pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--269
+
+ []
+
+[10 <./img/bridge1.png>]
+<img/bridge2.png, id=128, 742.57425pt x 201.1515pt>
+File: img/bridge2.png Graphic file (type png)
+<use img/bridge2.png>
+Package pdftex.def Info: img/bridge2.png  used on input line 279.
+(pdftex.def)             Requested size: 445.54799pt x 120.69182pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--286
+
+ []
+
+[11 <./img/bridge2.png>]
+<img/RedNAT1.png, id=135, 1132.83224pt x 247.52475pt>
+File: img/RedNAT1.png Graphic file (type png)
+<use img/RedNAT1.png>
+Package pdftex.def Info: img/RedNAT1.png  used on input line 298.
+(pdftex.def)             Requested size: 509.7698pt x 111.3851pt.
+
+Overfull \hbox (56.80191pt too wide) in paragraph at lines 298--299
+ [][] 
+ []
+
+<img/RedNAT2.png, id=138, 490.83376pt x 349.305pt>
+File: img/RedNAT2.png Graphic file (type png)
+<use img/RedNAT2.png>
+Package pdftex.def Info: img/RedNAT2.png  used on input line 310.
+(pdftex.def)             Requested size: 196.33002pt x 139.71951pt.
+[12 <./img/RedNAT1.png> <./img/RedNAT2.png>]
+<img/RedNAT3.png, id=147, 313.77225pt x 109.00725pt>
+File: img/RedNAT3.png Graphic file (type png)
+<use img/RedNAT3.png>
+Package pdftex.def Info: img/RedNAT3.png  used on input line 322.
+(pdftex.def)             Requested size: 313.77147pt x 109.00697pt.
+<img/RedNAT4.png, id=148, 716.6775pt x 360.74776pt>
+File: img/RedNAT4.png Graphic file (type png)
+<use img/RedNAT4.png>
+Package pdftex.def Info: img/RedNAT4.png  used on input line 334.
+(pdftex.def)             Requested size: 358.33788pt x 180.37343pt.
+
+Overfull \hbox (14.92982pt too wide) in paragraph at lines 317--338
+\T1/futs/m/n/12 (-20) Nos di-ri-gi-mos a la ru-ta \T1/cmtt/m/n/12 Panel de control, Conexiones de Red e Internet, Conexiones
+ []
+
+[13 <./img/RedNAT3.png> <./img/RedNAT4.png>]
+<img/RedNAT5.png, id=157, 243.91125pt x 272.81924pt>
+File: img/RedNAT5.png Graphic file (type png)
+<use img/RedNAT5.png>
+Package pdftex.def Info: img/RedNAT5.png  used on input line 344.
+(pdftex.def)             Requested size: 219.51808pt x 245.53505pt.
+<img/RedNAT6.png, id=158, 402.303pt x 203.5605pt>
+File: img/RedNAT6.png Graphic file (type png)
+<use img/RedNAT6.png>
+Package pdftex.def Info: img/RedNAT6.png  used on input line 353.
+(pdftex.def)             Requested size: 321.84282pt x 162.84862pt.
+ [14 <./img/RedNAT5.png> <./img/RedNAT6.png>]
+<img/RedNAT7.png, id=166, 734.745pt x 183.68625pt>
+File: img/RedNAT7.png Graphic file (type png)
+<use img/RedNAT7.png>
+Package pdftex.def Info: img/RedNAT7.png  used on input line 367.
+(pdftex.def)             Requested size: 440.85039pt x 110.21259pt.
+<img/RedNAT8.png, id=167, 797.98125pt x 199.34476pt>
+File: img/RedNAT8.png Graphic file (type png)
+<use img/RedNAT8.png>
+Package pdftex.def Info: img/RedNAT8.png  used on input line 379.
+(pdftex.def)             Requested size: 438.89104pt x 109.63994pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--385
+
+ []
+
+[15 <./img/RedNAT7.png> <./img/RedNAT8.png>] (c:/Users\Antonio\Desktop\Formacion\DAM\1º\SI\Op_VBox\build\op_virtualbox.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lof=\write5
+\openout5 = `op_virtualbox.lof'.
+
+ 
 AED: lastpage setting LastPage
-[10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
  (c:/Users\Antonio\Desktop\Formacion\DAM\1º\SI\Op_VBox\build\op_virtualbox.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 390.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
 Package rerunfilecheck Info: File `op_virtualbox.out' has not changed.
-(rerunfilecheck)             Checksum: AFBFDDD238871E3490D015680B8E30F2;239.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+(rerunfilecheck)             Checksum: 8C5386105CCB16FFA2B0616BDEB13323;356.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 390.
  ) 
 Here is how much of TeX's memory you used:
- 11462 strings out of 480790
- 192428 string characters out of 2896363
- 584188 words of memory out of 3000000
- 26965 multiletter control sequences out of 15000+200000
- 646008 words of font info for 238 fonts, out of 3000000 for 9000
+ 11650 strings out of 480790
+ 195171 string characters out of 2896363
+ 587927 words of memory out of 3000000
+ 27047 multiletter control sequences out of 15000+200000
+ 655401 words of font info for 289 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,11n,47p,365b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Antonio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on c:/Users\Antonio\Desktop\Formacion\DAM\1º\SI\Op_VBox\build\op_virtualbox.pdf (10 pages, 3036782 bytes).
+Output written on c:/Users\Antonio\Desktop\Formacion\DAM\1º\SI\Op_VBox\build\op_virtualbox.pdf (16 pages, 5860007 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 84568 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 90788 words of extra memory for PDF output out of 106986 (max. 10000000)
 

@@ -3,3 +3,5 @@
 \contentsline {section}{\numberline {2}Clonado}{6}{section.2}%
 \contentsline {section}{\numberline {3}Configuración de red modo NAT}{8}{section.3}%
 \contentsline {section}{\numberline {4}Configuración de red modo BRIDGE(puente)}{10}{section.4}%
+\contentsline {section}{\numberline {5}Configuración de red modo RED NAT}{12}{section.5}%
+\contentsline {section}{\numberline {6}IMÁGENES}{16}{section.6}%

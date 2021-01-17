@@ -137,8 +137,28 @@ I.E.S FRANCISCO DE LOS RÍOS}
 
       \newpage
 
-      *inserte operación destructiva*
-
+      El siguiente paso es realizar una operación que inhabilite a la máquina virtual, para seguidamente restaurarla usando la 
+      instantánea que acabamos de crear.
+      \\
+      Para inhabilitar la máquina virtual, ejecutaría el comando \texttt{erase c:/WINDOWS} pero no tengo permiso de administrador,
+      además la contraseña no la se, al ser una iso preinstalada. Pero eso debería bastar para inhabilitarlo.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.6]{img/instantanea5.png}
+        \caption{Restauramos la Instantánea.}
+        \label{Instantanea5}
+      \end{figure}
+      \\
+      Una vez nuestra máquina no esté en posición de ser ejecutada correctamente, nos vamos al menú de Instantáneas de la máquina invitada 
+      que deseemos restaurar y pulsamos en la Instantánea creada y pulsamos restaurar, tal y como se muestra en la imagen anterior. Así pues, 
+      nos quedaraía la máquina en el estado en el que creamos la captura. 
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.35]{img/instantanea6.png}
+        \caption{Imagen restaurada.}
+        \label{Instantanea6}
+      \end{figure}
+      
       \newpage
     
     \section{Clonado}
@@ -189,7 +209,7 @@ I.E.S FRANCISCO DE LOS RÍOS}
         \centering
         \includegraphics{img/clonar4.png}
         \caption{Botón de red.}
-        \label{Nat1}
+        \label{Nat}
       \end{figure}
       \\
       \begin{figure}[h]
@@ -231,6 +251,140 @@ I.E.S FRANCISCO DE LOS RÍOS}
 
     \section{Configuración de red modo BRIDGE(puente)}
       En este apartado debemos comprobar el direccionamiento y la conectividad desde el sistema invitado al anfitrión y viceversa.
+      \\\\
+      Con el modo \textbf{BRIDGE} o puente, nuestra máquina invitada será visible en todo el espectro de red del dispositivo anfitrión 
+      y también para dispositivos externos.
+      \\
+      Para configurar el BRIDGE, tenemos que irnos al mismo apartado en el que tuvimos que entrar en el apartado anterior, las \textbf{
+      preferencias de red.} \ref{Nat} Una vez dentro, elegimos la opción, \textit{conectado a: "Adaptador puente"}. Tal como se muestra 
+      en la imagen.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.75]{img/bridge1.png}
+        \caption{Conectado a Adaptador puente.}
+        \label{Bridge1}
+      \end{figure}
+      Muy importante, no debemos olvider seleccionar el Adaptador de red que esté usando nuestra máquina anfitrión, en mi caso, usé el 
+      adaptador wireless de INTEL, ya que estoy usando una red WIFI.
 
+      \newpage
 
+      Ahora comprobaremos la conexión entre ambas máquinas, para comprobara que la funcionalidad del adaptador BRIDGE es totalmente funcional 
+      y no tendremos ningún problema de conexión.
+      \\\\
+      Nuestro router le ha asignado a la máquina anfitrión la ip \texttt{192.168.1.35} y a la máquina invitada \texttt{192.168.1.84}. Teniendo 
+      esto en cuenta, este es el resultado de realizar las comprobaciones de conexión.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.6]{img/bridge2.png}
+        \caption{comprobaciones de conexiones.}
+        \label{Bridge2}
+      \end{figure}
+      \\
+      Como podemos comprobar, no tenemos ningún probrema para conectarnos entre ambas máquinas desde la terminal que deseemos, por lo tanto, esta 
+      es una de las opciones más interesante y a tener en cuenta.
+
+      \newpage
+
+    \section{Configuración de red modo RED NAT}
+      En este último apartado configuraremos nuestra máquina virtual con la opción de red en domo \textbf{RED NAT} y seguidamente comprobaremos el 
+      direccionamiento de ambas máquinas para comprobar su conectividad.
+      \\
+      Para la configuracon de la máquina virtual en modo \textit{RED NAT}. Primero debemos crear una configuración de red NAT, con ello, nuestra 
+      máquina virtual tendrá la posibilidad de utilizar de manera efectiva esta opción. Para ello, desde la ventana principal de VirtualBox, seleccionamos 
+      la ruta \texttt{Archivo -> Preferencias} o podemos usar el atajo \texttt{Crtl + G} seleccionamos el apartado de \texttt{Red} 
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.45]{img/RedNAT1.png}
+        \caption{Configuracion de RED NAT.}
+        \label{RedNAT1}
+      \end{figure}
+      \\
+      Una vez en la pestaña, pulsamos en agregar una nueva red y configuramos la misma, las opciones que vemos en la imagen pueden ser una opción válida para 
+      diferenciar la red del invitado.
+      \\
+      Seguidamente nos vamos al mismo apartado que en los anteriores apartados, \textbf{Preferencias de red.} \ref{Nat} Y seleccionamos la opción \textbf{RED NAT} 
+      y seleccionamos la Configuración que hemos creado, en este caso \textit{MiRedNAt} y pulsamos \textit{Aceptar}.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.4]{img/RedNAT2.png}
+        \caption{Preferencias de RED.}
+        \label{RedNAT2}
+      \end{figure}
+
+      \newpage
+
+      En primer lugar comprobaremos la contectividad entre máquina anfitrión y maquina invitada, para ello, como siempre abrimos la consola de comandos en la máquina 
+      invitada para comprobar que las configuraciones de red se han realizado correctamente, mendiente el comando \texttt{ipconfig} y después de comprobar que efectivamente
+      nos han proporcionado una IP acorde a lo configurado, procedemos a hacer \texttt{ping} a la máquina anfitrión.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 1]{img/RedNAT3.png}
+        \caption{direccionamiento IP erróneo.}
+        \label{RedNAT3}
+      \end{figure}
+      \\
+      Sin embargo, observamos que el direccionamiento IP no es el correcto, ya que nuestra Configuración era \texttt{10.5.5.0} y nos da una distinta, se deberá a un fallo de 
+      software o algo que se escapa de mi conocimiento, por tanto, procederemos a configurar la dirección IP de forma manual.
+      \\
+      Nos dirigimos a la ruta \texttt{Panel de control, Conexiones de Red e Internet, Conexiones de Red} y una vez en ese directorio, pulsamos botón derecho sobre \textit{Conexion
+      de área local 2} y nos vamos a \textit{Propiedades}.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.5]{img/RedNAT4.png}
+        \caption{Configuración manual de la IP.}
+        \label{RedNAT4}
+      \end{figure}
+      
+      \newpage
+
+      Seleccionamos el protocolo \textit{TCP/IP} y añadimos la siguiente configuración y pulsamos aceptar.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.9]{img/RedNAT5.png}
+        \caption{Configuracion del TCP/IP.}
+        \label{RedNAT5}
+      \end{figure}
+      \\
+      Comprobamos que tenemos ahora bien la configuración NAT usando el comando \texttt{ipconfig} en la 
+      consola de comando, como hicimos anteriormente.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.8]{img/RedNAT6.png}
+        \caption{Comprobación de la IP.}
+        \label{RedNAT6}
+      \end{figure}
+      \\
+      Efectivamente, ahora si tenemos bien configurada nuestra dirección IP, por tanto, podemos proceder a comprobar 
+      la conectividad entre las diferentes máquinas.
+
+      \newpage
+
+      Primero hacemos ping desde la máquina invitada a la anfitrión y seguidamente desde la máquina anfitrión a la máquina 
+      invitada.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.6]{img/RedNAT7.png}
+        \caption{Comprobación de conexiones.}
+        \label{RedNAT7}
+      \end{figure}
+      \\
+      Comprobamos que hay conexión de la máquina invitada a la anfitrión, pero no viceversa.
+      \\\\
+      Ahora comprobamos, haciendo un clonado de la máquina invitada, si hay conexión entre las dos máquinas invitadas, teniendo 
+      en cuenta que en una de ellas debemos cambiar la dirección IP, en mi caso, una máquina tendrá la dirección \texttt{10.5.5.20} 
+      y otra la dirección \texttt{10.5.5.30}.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale = 0.55]{img/RedNAT8.png}
+        \caption{Comprobación de conexiones entre dos invitados.}
+        \label{RedNAT8}
+      \end{figure}
+      \\
+      Podemos comprobar que se pueden comunicar entre ellas sin ningún tipo de problema.
+
+      \newpage
+
+    \section{IMÁGENES}
+      \listoffigures
 \end{document}
