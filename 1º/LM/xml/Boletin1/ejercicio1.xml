@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PEDIDO>
+    <nombre>Juan Delgado Martínez</nombre>
+    <composicion>Bicicleta A203</composicion>
+    <direccion>calle Barco 4, tercer piso, letra A</direccion>
+    <fecha>19-5-2000</fecha>
+</PEDIDO>
