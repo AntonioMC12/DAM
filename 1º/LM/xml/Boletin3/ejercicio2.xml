@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CORREOELECTRONICO>
+    <bandeja>
+        <correo>
+            <destinatario>ManuBenitez</destinatario>
+            <remitente>PacoEltraz</remitente>
+            <asunto>Pago de la factura de la luz</asunto>
+            <cuerpo>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus ex sit amet vulputate porta.
+             Proin a dignissim eros. Donec vitae bibendum dolor, eget mattis dolor. Quisque odio ante, tincidunt a malesuada in,
+             or vel dui. Nullam auctor vel erat vitae suscipit. Phasellus posuere finibus magna et hendrerit. 
+             Nam tempor sodales velit. Vivamus sit amet auctor sapien.</cuerpo>
+        </correo>
+    </bandeja>
+</CORREOELECTRONICO>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AGENDA>
+    <Contacto nombre="Miguel">
+        <telefonos>
+            <fijo>9578521995</fijo>
+            <movil1>69098574</movil1>
+            <movil2>69542035</movil2>
+        </telefonos>
+        <correos>
+            <email1>garciamf@gmail.com</email1>
+            <email2>pacotuel@yahoo.es</email2>
+            <email3>manoli@hotmail.es</email3>
+        </correos>
+
+    </Contacto>
+</AGENDA>

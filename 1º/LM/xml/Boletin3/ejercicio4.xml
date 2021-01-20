@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EMPRESA>
+    <Empleado id="1968">
+        <Persona>
+            <nombre>Jerónino</nombre>
+            <apellido>Burgos</apellido>
+            <fechaNacimiento>28/09/1951</fechaNacimiento>
+        </Persona>
+        <Seccion>Palmira</Seccion>
+        <trabajo>
+            <cargo>Administrativo</cargo>
+            <facultad>Administracion</facultad>
+            <fechaInicio>05/04/1982</fechaInicio>
+        </trabajo>
+        <Salario>3.200,000</Salario>
+
+    </Empleado>
+    <Empleado id="1674">
+        <Persona>
+            <nombre>Estefanía</nombre>
+            <apellido>Villgeas</apellido>
+            <fechaNacimiento>17/01/1964</fechaNacimiento>
+        </Persona>
+        <Seccion>Palmira</Seccion>
+        <trabajo>
+            <cargo>Docente</cargo>
+            <facultad>Administracion</facultad>
+            <fechaInicio>25/03/1992</fechaInicio>
+        </trabajo>
+        <Salario>3.200,000</Salario>
+
+    </Empleado>
+</EMPRESA>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARBOLES>
+    <TipoArbol>
+        <AcerMonspessulanum>
+            <nombreComun>Arce de Montpellier, Arce menor</nombreComun>
+            <Vegetacion>Caducifolio</Vegetacion>
+            <altura>De 6 a 10 metros</altura>
+            <Estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</Estructura>
+            <colorPrimavera>Haz verde brillante, envés verde blanquecino</colorPrimavera>
+            <Resistencia>Heladas fuertes (hasta -15ºC)</Resistencia>
+        </AcerMonspessulanum>
+        <OleaEuropea>
+            <nombreComun>Olivo</nombreComun>
+            <Vegetacion>Perenne</Vegetacion>
+            <altura>De 8 a 15 metros</altura>
+            <Estructura>Copa irregular. Tronco principal irregular con bifurcaciones. Ramaje tortuoso</Estructura>
+            <colorPrimavera>Haz verde oscuro, envés verde plateado</colorPrimavera>
+            <Resistencia>Heladas medias (hasta -10ºC)</Resistencia>
+        </OleaEuropea>
+        <PlatanusOrientalis>
+            <nombreComun>Platano</nombreComun>
+            <Vegetacion>Caducifolio</Vegetacion>
+            <altura>De 20 a 25 metros</altura>
+            <Estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</Estructura>
+            <colorPrimavera>Haz verde medio, enves verde claro</colorPrimavera>
+            <ColorOtonno>Ocre</ColorOtonno>
+            <Resistencia> Heladas fuertes (hasta -20ºC)</Resistencia>
+        </PlatanusOrientalis>
+        <QuercusIlex>
+            <nombreComun>Encina</nombreComun>
+            <Vegetacion>Perenne</Vegetacion>
+            <altura>En torno a 25 metros</altura>
+            <Estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</Estructura>
+            <colorPrimavera> Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</colorPrimavera>
+            <Resistencia>Heladas fuertes (hasta -15ºC)</Resistencia>
+        </QuercusIlex>
+    </TipoArbol>
+</ARBOLES>

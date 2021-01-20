@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CORREOELECTRONICO>
+    <bandeja>
+        <correo>
+            <destinatario>
+                <nombre>Manolito</nombre>
+                <email>manolo3456@gmail.com</email>
+            </destinatario>
+            <remitente>
+                <nombre> PacoEltraz</nombre>
+                <email>Gaarcia23@gmail.com</email>
+            </remitente>
+            <asunto>Pago de la factura de la luz</asunto>
+            <cuerpo>
+                <parrafo1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus ex sit amet vulputate porta.
+             Proin a dignissim eros. Donec vitae bibendum dolor, eget mattis dolor.</parrafo1>
+                <parrafo2>Quisque odio ante malesuada in,or vel dui. Nullam auctor vel erat vitae suscipit.Phasellus posuere 
+                finibus magna et hendrerit.Nam tempor sodales velit. Vivamus sit amet auctor sapien.</parrafo2>
+            </cuerpo>
+        </correo>
+    </bandeja>
+</CORREOELECTRONICO>

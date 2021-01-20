@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CARTELERA>
+    <Pelicula>
+        <titulo>
+            <tituloEspania>AQUELLAS JUERGAS UNIVERSITARIAS</tituloEspania>
+            <tituloOriginal>Old School</tituloOriginal>
+            <pais>EEUU</pais>
+            <anio>2003</anio>
+            <duracion>93</duracion>
+        </titulo>
+        <director>Tood Phillips</director>
+        <interpretes>Will Ferrel, Luke Wilson</interpretes>
+        <descripcion>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</descripcion>
+        <link>https://imdb.com/old_school</link>
+        <disclaimer>Comedia autorizada para mayores de 16</disclaimer>
+        <clasificacion>16</clasificacion>
+        <imagen class="png">cartel</imagen>
+    </Pelicula>
+
+    <Pelicula>
+        <titulo>
+            <tituloEspania>Star Wars El Retorno del Jedi</tituloEspania>
+            <!-- <tituloOriginal></tituloOriginal> -->
+            <pais>EEUU</pais>
+            <anio>1974</anio>
+            <duracion>123</duracion>
+        </titulo>
+        <director>George Lucas</director>
+        <interpretes>Will Ferrel, Luke Wilson</interpretes>
+        <descripcion>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</descripcion>
+        <link>https://imdb.com/old_school</link>
+        <disclaimer>Ciencia ficcioin para mayores de 12</disclaimer>
+        <clasificacion>12</clasificacion>
+        <imagen class="png">cartel</imagen>
+    </Pelicula>
+
+    <Pelicula>
+        <titulo>
+            <tituloEspania>El Señor De Los Anillos</tituloEspania>
+            <tituloOriginal>The Lord Of The Ring</tituloOriginal>
+            <pais>EEUU</pais>
+            <anio>2001</anio>
+            <duracion>123</duracion>
+        </titulo>
+        <director>Peter Jackson</director>
+        <interpretes>Will Ferrel, Luke Wilson</interpretes>
+        <descripcion>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</descripcion>
+        <link>https://imdb.com/old_school</link>
+        <disclaimer>Ciencia ficcioin para mayores de 12</disclaimer>
+        <clasificacion>12</clasificacion>
+        <imagen class="png">cartel</imagen>
+    </Pelicula>
+
+    <Pelicula>
+        <titulo>
+            <tituloEspania>Titanic</tituloEspania>
+            <!-- <tituloOriginal></tituloOriginal> -->
+            <pais>EEUU</pais>
+            <anio>1974</anio>
+            <duracion>123</duracion>
+        </titulo>
+        <director>JJ Abrams</director>
+        <interpretes>Will Ferrel, Luke Wilson</interpretes>
+        <descripcion>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</descripcion>
+        <link>https://imdb.com/old_school</link>
+        <disclaimer>Ciencia ficcioin para mayores de 12</disclaimer>
+        <clasificacion>12</clasificacion>
+        <imagen class="png">cartel</imagen>
+    </Pelicula>
+
+    <Pelicula>
+        <titulo>
+            <tituloEspania>Interestellar</tituloEspania>
+            <!-- <tituloOriginal></tituloOriginal> -->
+            <pais>EEUU</pais>
+            <anio>1974</anio>
+            <duracion>123</duracion>
+        </titulo>
+        <director>Cristopher Nolan</director>
+        <interpretes>Will Ferrel, Luke Wilson</interpretes>
+        <descripcion>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</descripcion>
+        <link>https://imdb.com/old_school</link>
+        <disclaimer>Ciencia ficcioin para mayores de 12</disclaimer>
+        <clasificacion>12</clasificacion>
+        <imagen class="png">cartel</imagen>
+    </Pelicula>
+    
+</CARTELERA>
