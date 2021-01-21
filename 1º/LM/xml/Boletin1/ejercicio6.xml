@@ -12,7 +12,7 @@
     solucion:
 -->    
 
-    <documento>
+<documento>
     <p>
     Mi Primer
     <destacar importancia="1">documento XML</destacar>
@@ -20,7 +20,7 @@
     <p>Comienza con la etiqueta</p>
     <p>A continuacion colocamos un elemento sin contenido</p>
     <imagen fichero="imagen.gif"/>
-    </documento>
+</documento>
 
 
 <!-- 
@@ -39,7 +39,7 @@
 <LIBROS>
     <libro id="quijote">
         <titulo>El Quijote</titulo>
-        <autor nombre="cervantes"/>
+        <autor nombre="Cervantes"></autor>
         <descripcion>Es el mejor libro de cervantes.</descripcion>
     </libro>
 </LIBROS>
