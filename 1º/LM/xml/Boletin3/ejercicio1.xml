@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AGENDA>
-    <Contacto nombre="Miguel">
+    <Contacto>
+        <nombre>Antonio</nombre>
         <telefonos>
             <fijo>9578521995</fijo>
             <movil1>69098574</movil1>

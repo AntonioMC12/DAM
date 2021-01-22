@@ -16,7 +16,10 @@
         <poblacion>Madrid<cod_postal>28090</cod_postal></poblacion>
         <provincia>Madrid</provincia>
     </datos_cliente>
-    <recibo nPed="p731" fPago= "efectivo" moneda="euro" fecha="12-01-2005">
+    <recibo moneda="euro">
+        <numeroPedido>p731</numeroPedido>
+        <formaDePago>efectivo</formaDePago>
+        <fechaRecibo>12-01-2005</fechaRecibo>
         <linea>
             <ref>MII93000F/8</ref>
             <descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>

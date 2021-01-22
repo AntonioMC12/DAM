@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EMPRESA>
-    <Empleado id="1968">
+    <Empleado>
+        <id>123A</id>
         <Persona>
             <nombre>Jerónino</nombre>
             <apellido>Burgos</apellido>
@@ -15,8 +16,9 @@
         <Salario>3.200,000</Salario>
 
     </Empleado>
-    <Empleado id="1674">
+    <Empleado>
         <Persona>
+            <id>123B</id>
             <nombre>Estefanía</nombre>
             <apellido>Villgeas</apellido>
             <fechaNacimiento>17/01/1964</fechaNacimiento>
