@@ -43,7 +43,7 @@ public class Password {
     char[] elementos = new char[this.longitud];
 
     for (int i = 0; i < elementos.length; i++) {
-      elementos[i] = ELEMENTOS_PASS[(int)(Math.random() * 62)];
+      elementos[i] = ELEMENTOS_PASS[(int) (Math.random() * 62)];
       password += elementos[i];
     }
     return password;
@@ -56,21 +56,20 @@ public class Password {
     boolean esFuerte = false;
 
     for (int i = 0; i < this.longitud; i++) {
-      if (96 < (int) (int) this.contrasenia.charAt(i) && (int) this.contrasenia.charAt(i) < 123) {
+      if (96 < (int) this.contrasenia.charAt(i) && (int) this.contrasenia.charAt(i) < 123) {
+        numberOfMinus++;
+      } else if (64 < (int) this.contrasenia.charAt(i) && (int) this.contrasenia.charAt(i) < 91) {
         numberOfMayus++;
-      }
-      if (64 < (int) (int) this.contrasenia.charAt(i) && (int) this.contrasenia.charAt(i) < 91) {
-        numberOfMinus++;
-      }
-      if (47 < (int) (int) this.contrasenia.charAt(i) && (int) this.contrasenia.charAt(i) < 58) {
-        numberOfMinus++;
+      } else if (47 < (int) this.contrasenia.charAt(i) && (int) this.contrasenia.charAt(i) < 58) {
+        numberOfNumber++;
       }
 
     }
+
     if (numberOfMayus > 2 && numberOfMinus > 1 && numberOfNumber > 5) {
       esFuerte = true;
     }
-
+    
     return esFuerte;
   }
 

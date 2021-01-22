@@ -9,6 +9,7 @@ public class Operario extends Empleado {
 
   public Operario() {
     // TODO Auto-generated constructor stub
+    super();
   }
 
   @Override

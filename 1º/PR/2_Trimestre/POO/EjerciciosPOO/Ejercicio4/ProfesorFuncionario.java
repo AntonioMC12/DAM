@@ -23,8 +23,8 @@ public class ProfesorFuncionario extends Profesor {
     this.destino = destino;
   }
 
-  public void setIDProfesorFuncionario(String IDProfesor) {
-    this.setIDProfesor(IDProfesor + "-F");
+  public void setIDProfesor(String IDProfesor) {
+    super.setIDProfesor(IDProfesor+"-F");
   }
 
   @Override

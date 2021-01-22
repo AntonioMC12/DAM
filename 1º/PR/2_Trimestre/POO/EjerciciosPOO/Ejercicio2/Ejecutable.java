@@ -13,33 +13,53 @@ public class Ejecutable {
     int tamArray = scan.nextInt();
 
     Password[] arrayPassword = new Password[tamArray];
+    boolean[] passFuertes = new boolean[tamArray];
 
     System.out.print("Introduzca el tamaño de las contraseñas: ");
     int tamPass = scan.nextInt();
 
     iniciaArray(arrayPassword, tamPass);
-    boolean[] passFuertes = passFuertes(arrayPassword);
+    passFuertes(passFuertes, arrayPassword);
     mostrarResultado(arrayPassword, passFuertes);
 
     scan.close();
   }
 
+  /**
+   * Inicia un array con tamaño del parametro pasado
+   * 
+   * @param array   a iniciar
+   * @param tamPass tamaño del array
+   */
   public static void iniciaArray(Password[] array, int tamPass) {
     for (int i = 0; i < array.length; i++) {
       array[i] = new Password(tamPass);
     }
   }
 
-  public static boolean[] passFuertes(Password[] array) {
-    boolean[] passFuertes = new boolean[array.length];
+  /**
+   * Devuelve un array de booleanos con la posicion de cada contraseña, mostrando
+   * true si es fuerte y false si no lo es.
+   * 
+   * @param array de contraseñas
+   * @return array de booleanos
+   */
+  public static void passFuertes(boolean[] passFuertes, Password[] array) {
     for (int i = 0; i < array.length; i++) {
       if (array[i].esFuerte()) {
         passFuertes[i] = true;
+      } else {
+        passFuertes[i] = false;
       }
     }
-    return passFuertes;
   }
 
+  /**
+   * Funcion que muestra los resultados
+   * 
+   * @param arrayPass
+   * @param arrayFuertes
+   */
   public static void mostrarResultado(Password[] arrayPass, boolean[] arrayFuertes) {
     for (int i = 0; i < arrayPass.length; i++) {
       if (arrayFuertes[i]) {

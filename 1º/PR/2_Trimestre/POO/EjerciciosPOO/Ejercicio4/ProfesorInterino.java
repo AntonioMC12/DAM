@@ -23,8 +23,8 @@ public class ProfesorInterino extends Profesor {
     this.tiempoServicio = tiempoServicio;
   }
 
-  public void setIDProfesorInterino(String IDProfesor) {
-    this.setIDProfesor(IDProfesor+"-I");
+  public void setIDProfesor(String IDProfesor) {
+    super.setIDProfesor(IDProfesor+"-I");
   }
 
   @Override
