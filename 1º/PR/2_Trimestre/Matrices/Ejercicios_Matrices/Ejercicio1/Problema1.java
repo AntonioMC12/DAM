@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Iterator;
 import java.util.Scanner;
 
-/*
+/**
  * Problema 1: Crear una matriz de n * m filas (cargar n y m por teclado) 
  * Imprimir el mayor elemento y la fila y columna donde se almacena.
  */
