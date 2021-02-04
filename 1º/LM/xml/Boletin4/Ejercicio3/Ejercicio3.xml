@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heladeria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio3.xsd">
+    <helado fabricación="2015-01-13">
+        <chocolate>250</chocolate>
+        <turron>300</turron>
+    </helado>
+    <helado fabricación="2015-01-15">
+        <fresa>500</fresa>
+        <vainilla>200</vainilla>
+    </helado>
+</heladeria>

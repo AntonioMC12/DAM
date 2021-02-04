@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumno dni="12345678A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Ejercicio1.xsd">
+    <nombre>Juan Garcia</nombre>
+    <direccion>
+        <calle>Avenida de la Fuente</calle>
+        <numero>6</numero>
+        <ciudad>Zafra</ciudad>
+        <provincia>Badajoz</provincia>
+    </direccion>
+    <telefono>924555555</telefono>
+    <telefono>658741236</telefono>
+</alumno>

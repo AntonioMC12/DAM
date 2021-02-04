@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio2.xsd">
+    <alumno dni="11111111A">
+        <nombre>Juan Andrés</nombre>
+        <direccion>
+            <calle>Avenida de la Fuente</calle>
+            <numero>6</numero>
+            <ciudad>Zafra</ciudad>
+            <provincia>Cáceres</provincia>
+        </direccion>
+        <telefono>924555555</telefono>
+    </alumno>
+    <alumno dni="22222222B">
+        <nombre>Jose Sanchez</nombre>
+        <direccion>
+            <calle>Calle Ancha</calle>
+            <numero>3</numero>
+            <ciudad>Zafra</ciudad>
+            <provincia>Badajoz</provincia>
+        </direccion>
+        <direccion>
+            <calle>Calle Mayor</calle>
+            <numero>33</numero>
+            <ciudad>Zafra</ciudad>
+            <provincia>Badajoz</provincia>
+        </direccion>
+        <telefono>924550000</telefono>
+    </alumno>
+</alumnos>

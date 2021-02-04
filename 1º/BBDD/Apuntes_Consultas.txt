@@ -1,0 +1,61 @@
+Consultar los registros de una tabla o lista (SELECT)
+
+    [ ACLARACIONES ]
+
+    + Se pueden consultar tablas enteras, columnas sueltas y conbinaciones de estas.
+    
+    + Existen muchísimas conbinaciones de la orden SELECT, así que las veremos poco a poco hasta completar todas sus posibilidades.
+
+    + A continuación en todos los puntos en donde se haga referencia a una tabla igualmente se podía hacer referencia a una vista.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+SELECCIÓN SIMPLE DE UNA SOLA TABLA
+    
+    -> SELECT [campos] FROM [tabla];
+
+    -> SELECT * FROM version;
+    -> SELECT modelo,peso FROM version;
+
+    Selecciona y muestra, o todos los campos o solos los indicados de una tabla concreta.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+SELECCIÓN CON CONDICIONES
+
+    Para poner una condición a una sentencia SELECT se hace añadiendo tras las [tablas] del FROM la cláusula WHERE. Puede utilizarse 
+    AND/OR/NOT/()/etc... y de forma genérica los mismo operadores que en programación.
+
+    -> SELECT [campos] FROM [tabla] WHERE [condicion/es];
+
+    -> SELECT * FROM version WHERE peso > 1000;
+    -> SELECT * FROM montadocon WHERE PrecioBase < 15000 AND Consumo < 9;
+    -> SELECT Modelo,Version,PrecioBase,Consumo FROM montadocon WHERE PrecioBase < 15000 AND Consumo < 9;
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+SELECCIÓN SIMPLE DE MÁS DE UNA TABLA
+
+    Se han de especificar los campos que se desea que aparezca en el listado, debiendo además indicar la tabla a la que pertenece. Todas 
+    las tablas que se utilicen en el SELECT deben aparecer tras el FROM pudiendose visualizar cualquier campo de esas tablas.
+    
+    -> SELECT [tabla1].campo1,[tablaN].campoN FROM tabla1,tabla2,tablaN;
+    -> SELECT marca.nombre, modelo.nombre, pais FROM marca,modelo;
+
+    NOTA IMPORTANTE:
+    [Al hacer un SELECT de más de una tabla, el resultado es la combinación de todos los registros de cada una de las 
+    tablas implicadas, es decir, si hacemos un SELECT sin condiciones de dos tablas con 3 y 5 registros respectivamente, nos saldran 15
+    combinaciones posibles, o lo que es lo mismo, el < producto cartesiano >. Si por ejemplo tenemos 3 tablas con 3, 5 y 4 registros 
+    respectivamente, nos saldran 60 combinaciones posibles.]
+
+    Los nombres de las tablas que aparecen previamente a los campos solo es obligatoriamente ponerlos cuando el nombre del campo esté
+    repetido en 2 o más tablas de las implicadas en la consulta. De esta forma se distingue los campos con igual nombre de diferentes 
+    tablas.
+
+    NOTA {Uso de alias en las tablas para hacer más cortas las sentencias.}:
+    [Se pueden usar "alias" para hacer algo más cortas las sentencias, para esto cuando especificamos las tablas en el FROM se le puede 
+    añadir un alias más corto a continuación, que se puede usar indistintamente igual que el nombre de la tabla. Hay que tener en cuenta 
+    que los alias solo funcionan en la sentencia donde se especifica.
+    Se pueden utilizar los alias también en sentencia UPDATE y DELETE, para hacer referencia en una subconsulta a un campo de la consulta 
+    padre.]
+   
