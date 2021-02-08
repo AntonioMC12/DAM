@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio8.xsd">
+    <grupo nom="muse">
+        <nombre>MUSE</nombre>
+        <miembro>Matthew Bellamy</miembro>
+        <miembro>Dominic Howard</miembro>
+        <miembro>Chris Wolstenholme</miembro>
+        <nacionalidad>Alemania</nacionalidad>
+        <web>www.ponprecioamimusica.org/muse</web>
+        <email>midireccion@ponprecioamimusica.org</email>
+    </grupo>
+    <grupo nom="feeder">
+        <nombre>FEEDER</nombre>
+        <miembro>Grant Nicholas</miembro>
+        <miembro>Taka Hirose</miembro>
+        <miembro>Jon Henry Lee</miembro>
+        <calle>Calle no existe n2</calle>
+        <localidad>tampoco existe</localidad>
+    </grupo>
+    <grupo nom="nvnud">
+        <nombre>No vendo ni un disco</nombre>
+        <miembro>Marta</miembro>
+        <miembro>Ramon</miembro>
+        <miembro>Pedro</miembro>
+    </grupo>
+    <disco precio="12.80">
+        <interprete nom="muse"/>
+        <titulo>Showbiz</titulo>
+        <discografica>Sony</discografica>
+        <anio>2000</anio>
+        <stock>20</stock>
+    </disco>
+    <disco precio="19.90">
+        <interprete nom="feeder"/>
+        <titulo>Echo Park</titulo>
+        <discografica>Sony</discografica>
+        <anio>1980</anio>
+        <stock>5</stock>
+    </disco>
+    <disco precio="15.50">
+        <interprete nom="muse"/>
+        <titulo>Origin of symmetry</titulo>
+        <discografica>SIRE</discografica>
+        <anio mes="enero">2007</anio>
+        <stock>20</stock>
+    </disco>
+    <disco precio="13.20">
+        <interprete nom="feeder"/>
+        <titulo>Comfort In Sound</titulo>
+        <anio>2010</anio>
+        <stock>27</stock>
+    </disco>
+    <disco precio="4.90">
+        <interprete nom="nvnud"/>
+        <titulo>Esto suena realmente mal</titulo>
+        <anio>2011</anio>
+        <stock>200</stock>
+    </disco>
+</discos>
