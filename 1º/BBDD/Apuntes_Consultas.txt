@@ -59,3 +59,67 @@ SELECCIÓN SIMPLE DE MÁS DE UNA TABLA
     Se pueden utilizar los alias también en sentencia UPDATE y DELETE, para hacer referencia en una subconsulta a un campo de la consulta 
     padre.]
    
+------------------------------------------------------------------------------------------------------------------------------------
+
+OPERADORES
+
+    Según una primera clasificacion tenemos [unarios] y [biniarios], que son aquellos operadores que tienen uno o dos operadores respectivamente. 
+    Pero existe otra clasificación por tipos que es la que vamos a ver.
+
+    -OPERADORES DE COMPARACIÓN Y LÓGICOS
+
+        [ = ], [ <> ó != ], [ < ], [ > ], [ <= ], [ >= ], [ NOT ], [ AND ], [ OR ]
+    
+    -OPERADORES ARITMÉTICOS
+
+        Se pueden combinar como se deseen y tendrán la misma precedencia que las expresiones regulares en programación. Se pueden usar los paréntesis 
+        para variar esa precedencia.
+        
+        [+,-]        -> sumar y restar          {SELECT Salario+Pluses FROM empleados;} //si se topa con un null el resultado es null
+        [+,-]        -> positivo y negativo     {... WHERE valor=-1;}
+        [*,/]        -> miltiplicar y dividir
+        [DIV]        -> división entera
+        [MOD]        -> resto de la división
+        [%]          -> resto de la división
+        [pow(b,e)]   -> potencia
+        [(,)]        -> paréntesis              {permite modificar la precedencia y agrupar operadores}
+
+        La precedencia de los operadores la podemos apreciar en la siguiente lista de menor a mayor precedencia. Lo operadores que están en la misma linea 
+        tienen la misma precedencia y se procesaran de izquierda a derecha en el mismo orden en el que se encuentran.
+
+        1  -> :=
+        2  -> !!,OR,XOR
+        3  -> &&,AND
+        4  -> NOT,!
+        5  -> BETWEEN,CASE,WHEN,THEN,ELSE
+        6  -> =,<=,>=,<,>,!=,IS,LIKE,IN
+        7  -> !
+        8  -> &
+        9  -> <<,>>
+        10 -> -,+
+        11 -> *,/,DIV,%,MOD
+        12 -> ^
+        13 -> -(numero)
+        14 -> !
+        15 -> BINARY,COLLATE
+
+    -OPERADORES DE CARACTERES
+
+        El operador LIKE sirve para seleccionar cadenas de caracteres parecidas a un patrón. Tiene los comodines % y _ que representan lo mismo que el * y la ? 
+        respectivamente del MS2,es decir, el % equivale a 0 o a varios caracteres faltantes y el _ equivale a un solo caracter faltante.
+
+        -> nombreCampo[NOT] LIKE [BINARY]"patron"
+
+        -> WHERE Nombre LIKE "Marti%";
+
+    -OPERADORES ESPECIALES Y DE GRUPO
+
+        [NOT] IN        - Comprueba si el valor del campo es igual a algun valor de la lista o subconsulta.
+        [NOT] BETWEEN   - Comprueba si el valor del campo está o no entre los valores indicados, incluyendo los extremos. También funciona con cadena de caracteres.
+        IS [NOT] NULL   - Comprueba si el valor del campo es o no nulo.
+
+        -> nombreCampo [NOT] IN (listaValores/subconsulta)
+        -> nombreCampo [NOT] BETWEEN (inicio) AND (fin)
+        -> nombreCampo IS [NOT] NULL
+
+
