@@ -3,27 +3,36 @@
     <xs:element name="pagos">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="nombre" type="xs:string" maxOccurs="3">
+                <xs:element name="nombre" maxOccurs="3">
                     <xs:complexType>
-                        <xs:attribute name="dni" use="required">
-                            <xs:simpleType>
-                                <xs:restriction base="xs:string">
-                                    <xs:maxLength value="10"></xs:maxLength>
-                                </xs:restriction>
-                            </xs:simpleType>
-                        </xs:attribute>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="dni" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:maxLength value="10"></xs:maxLength>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="fechaNacimiento" type="xs:date">
+                <xs:element name="fechaNacimiento">
                     <xs:complexType>
-                        <xs:attribute name="edad" use="required">
-                            <xs:simpleType>
-                                <xs:restriction base="xs:integer">
-                                    <xs:minInclusive value="16"></xs:minInclusive>
-                                    <xs:maxInclusive value="24"></xs:maxInclusive>
-                                </xs:restriction>
-                            </xs:simpleType>
-                        </xs:attribute>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:date">
+                                <xs:attribute name="edad" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:integer">
+                                            <xs:minInclusive value="16"></xs:minInclusive>
+                                            <xs:maxInclusive value="24"></xs:maxInclusive>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+
                     </xs:complexType>
                 </xs:element>
                 <xs:element name="hora" type="xs:time" maxOccurs="unbounded"></xs:element>

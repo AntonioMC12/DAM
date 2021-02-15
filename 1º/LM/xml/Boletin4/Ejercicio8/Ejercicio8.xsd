@@ -3,7 +3,7 @@
     <xs:element name="discos">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="grupo">
+                <xs:element name="grupo" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="nombre" type="xs:string"></xs:element>
@@ -31,7 +31,7 @@
                         <xs:attribute name="nom" type="xs:string" use="required"></xs:attribute>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="disco">
+                <xs:element name="disco" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="interprete">
@@ -52,35 +52,37 @@
                             </xs:element>
                             <xs:element name="anio" minOccurs="1" maxOccurs="1">
                                 <xs:complexType>
-                                    <xs:attribute name="mes" use="optional">
-                                        <xs:simpleType>
-                                            <xs:restriction>
-                                                <xs:enumeration value="enero"></xs:enumeration>
-                                                <xs:enumeration value="febrero"></xs:enumeration>
-                                                <xs:enumeration value="marzo"></xs:enumeration>
-                                                <xs:enumeration value="abril"></xs:enumeration>
-                                                <xs:enumeration value="mayo"></xs:enumeration>
-                                                <xs:enumeration value="junio"></xs:enumeration>
-                                                <xs:enumeration value="julio"></xs:enumeration>
-                                                <xs:enumeration value="agosto"></xs:enumeration>
-                                                <xs:enumeration value="septiembre"></xs:enumeration>
-                                                <xs:enumeration value="octubre"></xs:enumeration>
-                                                <xs:enumeration value="noviembre"></xs:enumeration>
-                                                <xs:enumeration value="diciembre"></xs:enumeration>
-                                            </xs:restriction>
-                                        </xs:simpleType>
-                                    </xs:attribute>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:integer">
+                                            <!-- <xs:restriction base="xs:integer">
+                                                <xs:pattern value="[0-9]{4}"></xs:pattern>
+                                            </xs:restriction> -->
+                                            <xs:attribute name="mes" use="optional">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="enero"></xs:enumeration>
+                                                        <xs:enumeration value="febrero"></xs:enumeration>
+                                                        <xs:enumeration value="marzo"></xs:enumeration>
+                                                        <xs:enumeration value="abril"></xs:enumeration>
+                                                        <xs:enumeration value="mayo"></xs:enumeration>
+                                                        <xs:enumeration value="junio"></xs:enumeration>
+                                                        <xs:enumeration value="julio"></xs:enumeration>
+                                                        <xs:enumeration value="agosto"></xs:enumeration>
+                                                        <xs:enumeration value="septiembre"></xs:enumeration>
+                                                        <xs:enumeration value="octubre"></xs:enumeration>
+                                                        <xs:enumeration value="noviembre"></xs:enumeration>
+                                                        <xs:enumeration value="diciembre"></xs:enumeration>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
                                 </xs:complexType>
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:integer">
-                                        <xs:pattern value="[0-9]{4}"></xs:pattern>
-                                    </xs:restriction>
-                                </xs:simpleType>
                             </xs:element>
                             <xs:element name="stock" minOccurs="1">
                                 <xs:simpleType>
-                                    <xs:restriction>
-                                        <xs:maxInclusive value="0"></xs:maxInclusive>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="0"></xs:minInclusive>
                                         <xs:maxInclusive value="200"></xs:maxInclusive>
                                     </xs:restriction>
                                 </xs:simpleType>
