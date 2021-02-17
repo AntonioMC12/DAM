@@ -53,10 +53,7 @@
                             <xs:element name="anio" minOccurs="1" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:simpleContent>
-                                        <xs:extension base="xs:integer">
-                                            <!-- <xs:restriction base="xs:integer">
-                                                <xs:pattern value="[0-9]{4}"></xs:pattern>
-                                            </xs:restriction> -->
+                                        <xs:extension base="anioRestriction">
                                             <xs:attribute name="mes" use="optional">
                                                 <xs:simpleType>
                                                     <xs:restriction base="xs:string">
@@ -94,4 +91,10 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
+    <xs:simpleType name="anioRestriction">
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{4}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
