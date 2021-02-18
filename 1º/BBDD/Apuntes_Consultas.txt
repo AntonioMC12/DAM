@@ -122,4 +122,20 @@ OPERADORES
         -> nombreCampo [NOT] BETWEEN (inicio) AND (fin)
         -> nombreCampo IS [NOT] NULL
 
+    -SELECCIÓN CON ORDENACIÓN (ORDER BY)
 
+        -> SELECT Campo/s FROM tabla/s [WHERE CONDITION] ... [ORDER BY [BINARY] campo|numero|expresión [ASC/DESC][,...]];
+
+        Todos los resultados hasta ahora obtenidos con un SELECT se pueden ordenar por cualquiera de los campos que aparezcan en las tablas de la consulta, incluso 
+        aunque no aparezcan en el resultado. Para hacer la ordenación se añade al final la cláusula ORDER BY y el campo o campos de ordenación [ASC/DESC], permitiendo  
+        incluso que aparezca como criterio de ordenación una expresión o función.
+
+        NOTAS SOBRE ORDER BY: 
+
+            -La ordenación puede realizarse incluso por un campo que no aparezca en el SELECT, pero si debe de estar en alguna de las tablas del FROM.
+            -También podemos indicar el número de campo o la expresión por la que queremos ordenar, siendo este número la posición que ocupa ese campo en la lista del 
+            SELECT o la expresión regular por la que queremos ordenar.
+            -Se puede ordenar por más de una columna, tanto de forma ascendente(opción por defecto) como descendente.
+            -Para ordenar por más de un campo estos se deben separar por comas y en caso de igualdad en el primer campo, se ordenaría por el segundo y así sucesivamente.
+            -La cláusula BINARY permitirá distinguir en la ordenación, las mayúsculas de las minúsculas.
+            -Si indicamos una ordenación para un campo enumerado (ENUM) su contenido será ordenado según el orden en que fueron definidos sus valores.
