@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="portes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="recepcion" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="producto" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="cantidad" type="tipoCantidad" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="codigoreceptor" type="tipoCodigoReceptor" maxOccurs="1"/>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="entrega" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="transportista" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="distancia" type="tipoUnidad"/>
+                        </xs:sequence>
+                        <xs:attribute name="coste" type="tipoCoste" use="required" />
+                        <xs:attribute name="receptor" type="xs:string" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipoCantidad">
+        <xs:restriction base="xs:float">
+            <xs:minExclusive value="0"></xs:minExclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoCodigoReceptor">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{3}-[a-z]{3}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoTransportista">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="T1"></xs:enumeration>
+            <xs:enumeration value="T2"></xs:enumeration>
+            <xs:enumeration value="T3"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="tipoUnidad">
+        <xs:simpleContent>
+            <xs:extension base="tipoDistancia">
+                <xs:attribute name="unidad" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="tipoDistancia">
+        <xs:restriction base="xs:integer">
+            <xs:minExclusive value="0"></xs:minExclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoCoste">
+        <xs:restriction base="xs:integer">
+            <xs:minExclusive value="0"></xs:minExclusive>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

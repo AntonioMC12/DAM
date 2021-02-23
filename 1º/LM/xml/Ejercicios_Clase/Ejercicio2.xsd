@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="distancia" type="tipado2"/>
+
+    <xs:complexType name="tipado2">
+        <xs:simpleContent>
+            <xs:extension base="tipado">
+                <xs:attribute name="medida" type="xs:string" use="required">
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="tipado">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="1000"></xs:maxInclusive>
+            <xs:minInclusive value="0"></xs:minInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

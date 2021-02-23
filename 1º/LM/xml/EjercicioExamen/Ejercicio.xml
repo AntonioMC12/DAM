@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio.xsd">
+    <recepcion>
+        <producto>macarrones</producto>
+        <cantidad>10.5</cantidad>
+        <codigoreceptor>123-abc</codigoreceptor>
+    </recepcion>
+    <entrega coste="20" receptor="texto">
+        <transportista>T1</transportista>
+        <distancia unidad="kilometros">100</distancia>
+    </entrega>
+</portes>

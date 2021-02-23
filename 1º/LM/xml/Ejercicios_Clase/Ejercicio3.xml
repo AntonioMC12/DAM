@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recorrido xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Ejercicio3.xsd">
+    <distancia medida="string">1000</distancia>
+    <distancia medida="string">1000</distancia>
+</recorrido>

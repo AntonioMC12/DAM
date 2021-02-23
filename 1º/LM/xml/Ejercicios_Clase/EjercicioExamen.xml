@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productosfinancieros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EjercicioExamen.xsd">
+    <producto>
+        <bono>
+            <valoractual moneda="yenes">2.212</valoractual>
+            <beneficio>-2.83</beneficio>
+        </bono>
+    </producto>
+    <producto>
+        <futuro>
+            <elemento idioma="español">Petroleo</elemento>
+            <beneficio>-3.83</beneficio>
+        </futuro>
+    </producto>
+    <producto>
+        <acciones>
+            <empresa pais="usa">ENRON</empresa>
+            <beneficio>2.91</beneficio>
+        </acciones>
+    </producto>
+</productosfinancieros>
