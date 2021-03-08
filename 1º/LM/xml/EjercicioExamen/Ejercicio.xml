@@ -3,7 +3,7 @@
     <recepcion>
         <producto>macarrones</producto>
         <cantidad>10.5</cantidad>
-        <codigoreceptor>123-abc</codigoreceptor>
+        <codigoreceptor>123-aBc</codigoreceptor>
     </recepcion>
     <entrega coste="20" receptor="texto">
         <transportista>T1</transportista>

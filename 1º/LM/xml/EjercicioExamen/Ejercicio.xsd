@@ -34,7 +34,7 @@
 
     <xs:simpleType name="tipoCodigoReceptor">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[0-9]{3}-[a-z]{3}"></xs:pattern>
+            <xs:pattern value="[0-9]{3}-[a-zA-Z]{3}"></xs:pattern>
         </xs:restriction>
     </xs:simpleType>
 
@@ -65,4 +65,14 @@
             <xs:minExclusive value="0"></xs:minExclusive>
         </xs:restriction>
     </xs:simpleType>
+
+    <xs:complexType name="as">
+        <xs:attribute name="hola" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="estanteria[1-14]"></xs:pattern>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
 </xs:schema>

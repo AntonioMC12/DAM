@@ -139,3 +139,23 @@ OPERADORES
             -Para ordenar por más de un campo estos se deben separar por comas y en caso de igualdad en el primer campo, se ordenaría por el segundo y así sucesivamente.
             -La cláusula BINARY permitirá distinguir en la ordenación, las mayúsculas de las minúsculas.
             -Si indicamos una ordenación para un campo enumerado (ENUM) su contenido será ordenado según el orden en que fueron definidos sus valores.
+
+        SUBCONSULTAS: 
+
+            -Una subconsulta es una sentencia SELECT que aparece dentro de otra sentencia SQL llamada consulta padre. La consulta padre utilizará las filas devueltas 
+            por el SELECT de la subconsulta. La subconsulta siempre será un SELECT, pero la consulta padre en principio podrá ser cualquiera.
+
+                INSERT INTO tabla|vista [(campo1,campo2,...)]
+
+
+                UPDATE tabla|vista SET campo=(subconsulta|campos|valor|expresión) WHERE campo operador (subconsulta|campos|valor|expresión)..;
+
+
+                DELETE tabla|vista WHERE campo operador (subconsulta|campos|valor|expresión)...;
+
+
+                SELECT ListaCampos|subconsulta|valor|expresión FROM tablas WHERE campo operador (subconsulta|campos|valor|expresión) ... HAVING campo operador (subconsulta|campos|valor|expresión)...;
+
+                --mostrar los datos de las versiones de coche, precio base y consumo de aquellas versiones con el motor mas potente
+
+

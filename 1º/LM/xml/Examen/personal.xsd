@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="personal">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="datos-generales" type="tipoDatosGenerales" />
+                <xs:element name="datos-departamentos" type="tipoDatosDepartamentos"></xs:element>
+            </xs:all>
+            <xs:attribute name="fecha" type="xs:date" use="required" />
+            <xs:attribute name="multinacional" type="xs:boolean" use="required" />
+            <xs:attribute name="moneda" use="required" fixed="Euro"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="tipoDatosGenerales">
+        <xs:sequence>
+            <xs:element name="nombre-empresa" type="tipoTexto"></xs:element>
+            <xs:element name="número-trabajadores">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minExclusive value="0"></xs:minExclusive>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="sector">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Educación"></xs:enumeration>
+                        <xs:enumeration value="Finanzas"></xs:enumeration>
+                        <xs:enumeration value="Tecnología"></xs:enumeration>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="tipoTexto">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"></xs:minLength>
+            <xs:maxLength value="40"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="tipoDatosDepartamentos">
+        <xs:sequence>
+            <xs:element name="departamento" type="tipoDepartamento" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoDepartamento">
+        <xs:sequence>
+            <xs:element name="jefe" type="tipoJefe" minOccurs="1"></xs:element>
+            <xs:element name="empleado" type="tipoEmpleado" minOccurs="1" maxOccurs="3"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="código" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="nombre-departamento" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="Administración"></xs:enumeration>
+                    <xs:enumeration value="Informática"></xs:enumeration>
+                    <xs:enumeration value="Marketing"></xs:enumeration>
+                    <xs:enumeration value="Recursos Humanos"></xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="tipoEmpleado">
+        <xs:sequence>
+            <xs:element name="nombre-y-apellidos" type="tipoTexto"></xs:element>
+            <xs:element name="salario" type="xs:float"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoJefe">
+        <xs:complexContent>
+            <xs:extension base="tipoEmpleado">
+                <xs:sequence>
+                    <xs:element name="clave">
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="tipoClave"></xs:extension>
+                                <xs:attribute name="usuario" default="invitado">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:minLength value="6"/>
+                                            <xs:maxLength value="8"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:simpleType name="tipoClave">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d\D[a-z]{2,4}[A-Z]?[KYH].{0,3}"/>
+            <xs:length value="8"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personal xsi:noNamespaceSchemaLocation="personal.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  fecha="2013-10-20" multinacional="false" moneda="Euro">
+    <datos-generales>
+        <nombre-empresa>Navarra 4 Internet</nombre-empresa>
+        <número-trabajadores>6</número-trabajadores>
+        <sector>Tecnología</sector>
+    </datos-generales>
+    <datos-departamentos>
+        <departamento código="ADMIN" nombre-departamento="Administración">
+            <jefe>
+                <nombre-y-apellidos>Ana Sanz Ruiz</nombre-y-apellidos>
+                <salario>4700.58</salario>
+                <clave usuario="anasan">3%abZKi6</clave>
+            </jefe>
+            <empleado>
+                <nombre-y-apellidos>Juan Gil Rus</nombre-y-apellidos>
+                <salario>2200.58</salario>
+            </empleado>
+            <empleado>
+                <nombre-y-apellidos>Lucas López Tapia</nombre-y-apellidos>
+                <salario>2215.65</salario>
+            </empleado>
+        </departamento>
+    </datos-departamentos>
+</personal>
