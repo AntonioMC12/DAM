@@ -65,7 +65,6 @@ public class Serie implements Entregable, Comparable<Object> {
 	}
 	@Override
 	public int compareTo(Object a) {
-		// TODO Auto-generated method stub
 	  int resultado=0;
     if(a!=null && a instanceof Serie) {
       Serie otro=(Serie)a;
