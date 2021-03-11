@@ -33,3 +33,27 @@ AND ve.Modelo = mc.Modelo AND ve.Version = mc.Version
 AND Codigo IN (SELECT codMotor FROM electrico) AND (Codigo IN (SELECT codMotor FROM gasolina) OR Codigo IN (SELECT codMotor FROM diesel))
 ORDER BY consumo DESC
 LIMIT 1; 
+
+--Ejercicio34
+
+SELECT ve.*, mc.PrecioBase, mc.Consumo, mot.*
+FROM version ve, montadocon mc, motor mot
+WHERE ve.Modelo = mc.Modelo AND ve.Version = mc.Version AND mc.CodigoMotor = mot.Codigo
+AND ve.Peso=(SELECT max(peso) FROM version)
+AND mot.Potencia = (SELECT max(Potencia) FROM motor, montadocon WHERE Codigo=CodigoMotor AND Modelo = ve.Modelo and version =ve.version)
+--ORDER BY ve.Peso DESC, mot.Potencia DESC 
+--LIMIT 1
+;
+
+--Ejercicio 36
+
+SELECT * 
+FROM version
+WHERE modelo IN 
+(SELECT modelo FROM tiene)
+
+-- Ejercicio 38
+SELECT *, Potencia/Peso
+FROM motor
+ORDER BY 5
+;
