@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<series>
+    <serie tipo="violenta" clasificacion="18" pais="Noruega" idioma="Ingles">
+        <titulo>Vikingos</titulo>
+        <director>Almodovar</director>
+        <temporada num="1">
+            <numcapitulos>13</numcapitulos>
+            <fecha>2010</fecha>
+        </temporada>
+        <temporada num="2">
+            <numcapitulos>5</numcapitulos>
+            <fecha>2013</fecha>
+        </temporada>
+        <actores>
+            <actor>
+                <nombre>El Rubio</nombre>
+                <apellidos>Sanchez</apellidos>
+            </actor>
+            <actor>
+                <nombre>La Rubia</nombre>
+                <apellidos>Perez</apellidos>
+            </actor>
+        </actores>
+        <plataforma pago="Si">Netflix </plataforma>
+    </serie>
+    <serie tipo="aventura" clasificacion="18" pais="EEUU" idioma="Ingles">
+        <titulo>The Witcher</titulo>
+        <director>Alik Sakharov y Charlotte Brändström</director>
+        <temporada num="1">
+            <numcapitulos>8</numcapitulos>
+            <fecha>2019</fecha>
+        </temporada>
+        <actores>
+            <actor>
+                <nombre>Henry</nombre>
+                <apellidos>Cavill</apellidos>
+            </actor>
+            <actor>
+                <nombre>Anya</nombre>
+                <apellidos>Chalotra</apellidos>
+            </actor>
+        </actores>
+        <plataforma pago="Si">Netflix </plataforma>
+    </serie>
+    <serie tipo="dibujos" clasificacion="12" pais="Japón" idioma="Castellano">
+        <titulo>Shin Chan</titulo>
+        <director>Yoshito Usui</director>
+        <temporada num="1">
+            <numcapitulos>100</numcapitulos>
+            <fecha>2000</fecha>
+        </temporada>
+        <actores>
+            <actor>
+                <nombre>Shinosuke</nombre>
+                <apellidos>Noara</apellidos>
+            </actor>
+            <actor>
+                <nombre>Mishae</nombre>
+                <apellidos>Noara</apellidos>
+            </actor>
+        </actores>
+        <plataforma pago="No">Youtube</plataforma>
+    </serie>
+</series>

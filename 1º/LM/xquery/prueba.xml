@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tutoriales>
+    <tutorial anio="2007">
+        <titulo>XMLBeans, una forma de mapear un XML en objetos Java</titulo>
+        <autor>
+            <nombre>Alejandro</nombre>
+            <apellidos>Pérez García</apellidos>
+        </autor>
+        <categoria>XML</categoria>
+        <visitas>25827</visitas>
+    </tutorial>
+    <tutorial anio="2013">
+        <titulo>Spring Security: haciendo uso de un servidor LDAP embebido</titulo>
+        <autor>
+            <nombre>José Manuel</nombre>
+            <apellidos>Sánchez Suárez</apellidos>
+        </autor>
+        <categoria>Spring</categoria>
+        <visitas>1996</visitas>
+    </tutorial>
+    <tutorial anio="2011">
+        <titulo>Mybatis con Maven y Spring</titulo>
+        <autor>
+            <nombre>Rubén</nombre>
+            <apellidos>Aguilera Díaz-Heredero</apellidos>
+        </autor>
+        <categoria>Mybatis</categoria>
+        <visitas>6998</visitas>
+    </tutorial>
+    <tutorial anio="2011">
+        <titulo>Trabajar con XML sabiendo lo mínimo</titulo>
+        <autor>
+            <nombre>Roberto</nombre>
+            <apellidos>Canales Mora</apellidos>
+        </autor>
+        <categoria>XML</categoria>
+        <visitas>34842</visitas>
+    </tutorial>
+    <tutorial anio="2013">
+        <titulo>Introducción a Spring Batch</titulo>
+        <autor>
+            <nombre>Miguel</nombre>
+            <apellidos>Arlandy Rodríguez</apellidos>
+        </autor>
+        <categoria>Spring</categoria>
+        <visitas>1273</visitas>
+    </tutorial>
+</tutoriales>

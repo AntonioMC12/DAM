@@ -1,0 +1,1 @@
+fn:doc("series")/series/serie[plataforma/@pago = "Si"]//apellidos

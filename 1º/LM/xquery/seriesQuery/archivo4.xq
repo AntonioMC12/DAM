@@ -1,0 +1,1 @@
+fn:doc("series")//temporada[@num = 2 and fecha > 2010]/numcapitulos
