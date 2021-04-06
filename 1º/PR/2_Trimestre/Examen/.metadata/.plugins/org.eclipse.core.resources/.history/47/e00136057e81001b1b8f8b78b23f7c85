@@ -1,0 +1,24 @@
+package p1;
+
+import java.util.UUID;
+
+
+public class Persona {
+  
+	protected String id;
+	protected String name;
+	private int languaje;
+	
+  public Persona(String id, String name, int languaje) {
+    super();
+    this.id = id;
+    this.name = name;
+    this.languaje = languaje;
+  }
+  
+  public Persona() {
+    this("0","sample",1);
+  }
+	
+	
+}

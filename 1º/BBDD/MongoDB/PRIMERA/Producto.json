@@ -1,0 +1,31 @@
+[
+    {
+        "descripcion": "Taza para su desayuno",
+        "direccion_recogida": "c/ Buena Vista 9B",
+        "estado": "Seminuevo",
+        "fecha_publicacion": "5/4/2021",
+        "fecha_recogida": "7/4/2021",
+        "antigüedad": 2,
+        "imagen": "imagen1"
+    },
+
+    {
+        "descripcion": "Cucharilla para su taza",
+        "direccion_recogida": "c/ Doctor Fleming 23",
+        "estado": "nuevo",
+        "fecha_publicacion": "15/2/2021",
+        "fecha_recogida": "27/3/2021",
+        "antigüedad": 0,
+        "imagen": "imagen2"
+    },
+
+    {
+        "descripcion": "Zumo para su desayuno",
+        "direccion_recogida": "c/ Jaén 9",
+        "estado": "nuevo",
+        "fecha_publicacion": "24/4/2021",
+        "fecha_recogida": "25/4/2021",
+        "antigüedad": 0,
+        "imagen": "imagen3"
+    }
+]

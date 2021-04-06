@@ -1,0 +1,31 @@
+[
+    {
+        "nombre": "Antonio",
+        "apellidos": "Muñoz Cubero",
+        "email": "antonio@gmail.com",
+        "direccion": "c/ Buena Vista 9B",
+        "puntuacion_ofertas": 10,
+        "puntuacion_recogidas": 9,
+        "imagen": "imagen1"
+    },
+
+    {
+        "nombre": "Jaime",
+        "apellidos": "Pérez Galdón",
+        "email": "jaime@gmail.com",
+        "direccion": "c/ Doctor Fleming 23",
+        "puntuacion_ofertas": 7,
+        "puntuacion_recogidas": 6,
+        "imagen": "imagen2"
+    },
+
+    {
+        "nombre": "Raúl",
+        "apellidos": "Jiménez Moreno",
+        "email": "raul@gmail.com",
+        "direccion": "c/ Jaén 34",
+        "puntuacion_ofertas": 8,
+        "puntuacion_recogidas": 10,
+        "imagen": "imagen3"
+    }
+]

@@ -1,0 +1,42 @@
+package p3;
+
+import java.util.ArrayList;
+
+public class ELista {
+
+  private static ArrayList<Integer> Lista;
+  private static ELista _pointer;
+
+  // Apartado 1 implementación patrón singleton
+
+  public static ELista getEListaInstance() {
+    if (_pointer == null) {
+
+      _pointer = new ELista();
+    }
+    return _pointer;
+  }
+
+  // Apartado 2 método que añada un elemento a la lista.
+
+  public void addLista(Integer i) {
+    if (i != null) {
+      Lista.add(i);
+    }
+  }
+
+  // Apartado 3 método recursivo que devuelve la suma de todos los elementos.
+
+  public static int sumaLista(int inicio, int fin, int[] array) {
+
+    if (inicio == fin) {
+      return array[inicio];
+    }
+    int mitad = (inicio + fin) / 2;
+    int subProblema1 = sumaLista(inicio, mitad, array);
+    int subProblema2 = sumaLista(mitad + 1, fin, array);
+
+    return subProblema1 + subProblema2;
+  }
+
+}

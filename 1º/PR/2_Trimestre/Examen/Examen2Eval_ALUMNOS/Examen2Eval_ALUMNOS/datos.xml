@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lista>
+    <persona>
+        <id>30303030H</id>
+        <name>Juan</name>
+    </persona>
+    <persona>
+        <id>X0523821F</id>
+        <name>Pedro</name>
+    </persona>
+    <persona>
+        <id>80808080J</id>
+        <name>Maria</name>
+    </persona>
+</lista>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correccionExamen>
+    <examen tema="XSL (Extensible Stylesheet Language) y FO (Formatting Objects)">
+        <apartado numApartado="1" descripcion="La transformación se realiza" valorPuntos="1"/>
+        <apartado numApartado="2" descripcion="Se utiliza la tabla" valorPuntos="4"/>
+        <apartado numApartado="3" descripcion="Se utilizan fórmulas" valorPuntos="5"/>        
+    </examen>
+    <resultadosPorAlumno>
+        <alumno nombre="Calderín Adam, Joaquín">
+            <valoracionApartado numApartado="1">1</valoracionApartado>
+            <valoracionApartado numApartado="2">0.25</valoracionApartado>
+            <valoracionApartado numApartado="3">0.75</valoracionApartado>
+        </alumno>        
+        <alumno nombre="Calera Muñiz, Manuel">
+            <valoracionApartado numApartado="1">0.75</valoracionApartado>
+            <valoracionApartado numApartado="2">0.35</valoracionApartado>
+            <valoracionApartado numApartado="3">0.9</valoracionApartado>
+        </alumno>        
+        <alumno nombre="Díez Sanchiz-Diezmo, Pablo">
+            <valoracionApartado numApartado="1">0.3</valoracionApartado>
+            <valoracionApartado numApartado="2">1</valoracionApartado>
+            <valoracionApartado numApartado="3">0.65</valoracionApartado>
+        </alumno>        
+        <alumno nombre="Expasito López, Francisco Manuel">
+            <valoracionApartado numApartado="1">1</valoracionApartado>
+            <valoracionApartado numApartado="2">0.25</valoracionApartado>
+            <valoracionApartado numApartado="3">0.6</valoracionApartado>
+        </alumno>        
+        <alumno nombre="Manantiales Cuenca, Víctor">
+            <valoracionApartado numApartado="1">1</valoracionApartado>
+            <valoracionApartado numApartado="2">0.75</valoracionApartado>
+            <valoracionApartado numApartado="3">0.50</valoracionApartado>
+        </alumno>        
+    </resultadosPorAlumno>
+</correccionExamen>
