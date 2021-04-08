@@ -1,0 +1,14 @@
+<alumnos>
+	<alumno altura="1.80">
+		<nombre >Pedro</nombre>
+		<apellido>Ruiz</apellido>
+		<edad>36</edad>
+	</alumno>
+
+	<alumno altura="1.65">
+		<nombre>Ana</nombre>
+		<apellido>Rueda</apellido>
+		<edad>20</edad>
+	</alumno>
+
+</alumnos>

@@ -1,0 +1,23 @@
+3 marzo		25 marzo
+
+          Enf común
+Alta						Base Reguladora cotización = 1300
+cotizado 6 meses en los 5 años anteriores
+
+
+Días -> [3 4 5] {6 7 8 9 10 11 12 13 14 15 16 17} {18 19 20 21 22} {23 24 25}
+
+[3 4 5]				(los 3 primeros dias no se cobra [])
+{6 7 8 9 10 11 12 13 14 15 16 17}	(Del 4 al 15º 60% de la base y lo paga el empresario)
+{18 19 20 21 22}			(Del 16 al 20 60% lo paga el INSS)
+{23 24 25}				(Del 21 al final 75% lo paga el INSS)
+
+Averiguamos cuanto se cobra al día según la base de cotización:
+Base de cotización diaria -> BR mensual 1300 / 30 días = 43€/día BR diaria
+
+El empresario paga el 60% de 12 días trabajados a 43€/día =	302€
+El INSS paga el 60% de 5 días trabajado a 43€/día = 		129€
+El INSS paga el 75% de los ultimos 3 días en este caso = 	96€
+							total = 527€	
+
+
