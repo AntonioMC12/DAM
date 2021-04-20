@@ -105,3 +105,41 @@ SELECT CONCAT("Empleado: ", Nombre) AS Nombre, CONCAT("Puesto: ", Trabajo) AS Pu
 -- Consulta 24
 -- Hallar el salario y la comisión de los empleados cuyo número de supervisados es superior a 1.
 SELECT e1.Nombre FROM empleados AS e1, empleados AS e2 WHERE  e1.Num_emp = e2.supervisor-- AND COUNT(e2.supervisor)>1; <- muestra los supervisores
+
+
+-- Consulta 25
+-- Si dividimos los empleados en dos grupos, A y B, empezando el nombre de los del grupo B en la letra “J”, obtén los nombres y trabajos de los del grupo B, por orden alfabético descendente. 
+SELECT nombre, trabajo FROM empleados 
+WHERE nombre >= "j"
+ORDER BY nombre DESC
+;
+
+-- Consulta 26
+-- Obtener  el  salario,  la  comisión  y  el  salario  total (salario  +  comisión)  de  los  empleados  con comisión, ordenado por salario total de forma descendente. Usa un alias para el salario total. 
+(SELECT nombre, salario, comision, comision+salario total
+FROM empleados
+WHERE comision IS NOT NULL
+)
+UNION(SELECT nombre, salario, 0, salario total
+FROM empleados
+WHERE comision IS NULL
+)
+ORDER BY total DESC
+;
+
+-- Consulta 28
+-- Hallar  el  nombre  y  salario  de  los  empleados  que,  teniendo  un  salario  superior  a  800  unidades monetarias tienen como supervisor a la empleada “Fatima Merino”.
+SELECT nombre, salario
+FROM empleados
+WHERE salario>800
+AND 
+supervisor = (SELECT Num_emp FROM empleados WHERE nombre = "Fatima Merino");
+
+-- Consulta 29
+--Halla  el  conjunto  complementario  del  resultado  del ejercicio  anterior,  es  decir  aquellos  cuyo supervisor no sea ese empleado pero que si superen aquella cantidad. 
+SELECT nombre, salario
+FROM empleados
+WHERE salario>800
+AND 
+if(supervisor != (SELECT Num_emp FROM empleados WHERE nombre = "Fatima Merino"),true,false)
+;

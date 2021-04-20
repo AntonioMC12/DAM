@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- base de datos coches-->
+<coches>
+	<coche>
+		<marca>AUDI</marca>
+		<precio>2</precio>
+		<precio>5</precio>
+		<precio>10</precio>
+	</coche>
+	<coche>
+		<marca>SEAT</marca>
+		<precio>2</precio>
+		<precio>4</precio>
+		<precio>5</precio>
+	</coche>
+	<coche>
+		<marca>OPEL</marca>
+		<precio>1</precio>
+		<precio>2</precio>
+		<precio>3</precio>
+	</coche>
+	<coche>
+		<marca>RENAULT</marca>
+		<precio>7</precio>
+		<precio>8</precio>
+		<precio>9</precio>
+	</coche>
+
+
+</coches>
