@@ -143,3 +143,10 @@ WHERE salario>800
 AND 
 if(supervisor != (SELECT Num_emp FROM empleados WHERE nombre = "Fatima Merino"),true,false)
 ;
+
+-- Para cada empleado mostrar nombre de empleado codigo de empleado y codigo de supervisor y nombre de su supervisor
+SELECT Num_emp, Nombre, Trabajo, supervisor, (  SELECT Nombre 
+                                                FROM empleados 
+                                                WHERE Num_emp = em.supervisor) "Nombre Jefe"
+FROM empleados em
+;

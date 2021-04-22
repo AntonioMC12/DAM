@@ -1,0 +1,27 @@
+<tienda>
+	<cliente id="1">
+		<nombre>Pedro</nombre>
+		<direccion>Calle</direccion>
+		<direccion>Calle2</direccion>
+	</cliente>
+
+	<cliente id="2">
+		<nombre>Ana</nombre>
+		<direccion>Calle2</direccion>
+		<direccion>Calle3</direccion>
+	</cliente>
+
+	<cliente id="3">
+		<nombre>Manuel</nombre>
+		<direccion>Calle3</direccion>
+		<direccion>Calle4</direccion>
+	</cliente>
+	
+	<cliente id="4">
+		<nombre>María</nombre>
+		<direccion>Calle4</direccion>
+		<direccion>Calle5</direccion>
+	</cliente>
+
+	
+</tienda>

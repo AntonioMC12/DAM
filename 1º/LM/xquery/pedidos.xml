@@ -1,0 +1,34 @@
+<pedidos>
+	<pedido id="1">
+		<linea>
+			<fruta>1</fruta>
+			<cantidad>10</cantidad>
+		</linea>
+	</pedido>
+
+	<pedido id="2">
+		<linea>
+			<fruta>3</fruta>
+			<cantidad>5</cantidad>
+		</linea>
+		<linea>
+			<fruta>2</fruta>
+			<cantidad>15</cantidad>
+		</linea>
+	</pedido>
+	<pedido id="3">
+		<linea>
+			<fruta>4</fruta>
+			<cantidad>10</cantidad>
+		</linea>
+		<linea>
+			<fruta>3</fruta>
+			<cantidad>2</cantidad>
+		</linea>
+		<linea>
+			<fruta>1</fruta>
+			<cantidad>7</cantidad>
+		</linea>
+	</pedido>
+	
+</pedidos>

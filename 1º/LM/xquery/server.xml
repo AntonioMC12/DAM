@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conexion>
+    <database>test</database>
+    <server>jdbc:mysql://localhost</server>
+    <user>root</user>
+    <password>1234</password>
+</conexion>

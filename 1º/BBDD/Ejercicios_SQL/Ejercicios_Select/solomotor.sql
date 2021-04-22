@@ -57,3 +57,96 @@ SELECT *, Potencia/Peso
 FROM motor
 ORDER BY 5
 ;
+
+--Ejercicio 45
+--Incrementa el la cantidad de descuento en un 10% de aquellos descuentos que se apliquen a algún modelo que entre todas sus versiones utilice más tipos de motores eléctricos que no.
+
+SELECT mo1.*
+FROM modelo mo1
+WHERE 
+    (   SELECT coalesce(count(DISTINCT mot.Codigo),0)
+        FROM version ver, montadocon mc, motor mot
+        WHERE ver.Modelo=mc.Modelo AND ver.Version=mc.Version AND mc.CodigoMotor = mot.Codigo 
+        AND mot.Codigo IN ( SELECT codMotor FROM electrico )
+        AND ver.Modelo = mo1.nombre
+    )
+    >
+        (   SELECT coalesce(count(DISTINCT mot.Codigo),0)
+        FROM version ver, montadocon mc, motor mot
+        WHERE ver.Modelo=mc.Modelo AND ver.Version=mc.Version AND mc.CodigoMotor = mot.Codigo 
+        AND mot.Codigo NOT IN ( SELECT codMotor FROM electrico )
+        AND ver.Modelo = mo1.nombre
+    )
+;
+
+-- Consulta 57
+-- Datos de las versiones de coches que monten el/solo motor eléctrico (o híbrido) de mayor y menor peso y de mayor y menor amperaje.
+SELECT ver.Modelo, ver.Version, ver.Peso, mc.PrecioBase
+FROM version ver, montadocon mc
+WHERE ver.modelo = mc.modelo AND ver.version = mc.version
+AND mc.CodigoMotor IN(
+                        (SELECT mot.codigo FROM motor mot
+                        WHERE mot.codigo IN (SELECT codMotor FROM electrico)
+                        ORDER BY mot.peso DESC
+                        LIMIT 1)
+                        ,
+                        (SELECT mot.codigo FROM motor mot
+                        WHERE mot.codigo IN (SELECT codMotor FROM electrico)
+                        ORDER BY mot.peso ASC
+                        LIMIT 1
+                        )
+                     )
+                     ;
+
+COMANDO TEE PARA PONER LA CONSOLA EN UN FICHERO
+Y NOTEE PARA TERMINAR
+
+-- Consulta 58
+--Da la información de todos los motores (solo) híbridos con un amperaje superior a “8000”.
+
+SELECT mot.* 
+FROM motor mot, electrico el
+WHERE mot.codigo = el.codMotor
+AND el.Amperaje > 8000
+AND mot.codigo IN (SELECT codMotor FROM gasolina UNION SELECT codMotor FROM diesel)
+;
+
+-- Consulta 59
+--Cual es la potencia de los motores híbridos con un amperaje superior a la media. 
+
+SELECT mot.potencia
+FROM motor mot, electrico el
+WHERE mot.codigo = el.codMotor
+AND (el.Amperaje > (SELECT avg(amperaje) FROM electrico))
+AND mot.codigo IN (SELECT codMotor FROM gasolina UNION SELECT codMotor FROM diesel)
+;
+
+SELECT fabricante,potencia
+FROM motor 
+WHERE codigo IN (SELECT codMotor FROM electrico WHERE amperaje > (SELECT avg(amperaje) FROM electrico))
+AND codigo IN (SELECT codMotor FROM gasolina UNION SELECT codMotor FROM diesel)
+;
+
+--Sube el Porcentaje de descuento en 3 puntos, subir un 3% mas, a todos aquellos descuentos que se apliquen a algún modelo fabricando en Francia o que contengan en el nombre del modelo la cadena “TE”. 
+UPDATE descuento SET Porcentaje=Porcentaje*1.03
+WHERE codigo IN (    SELECT CodDescuento 
+                    FROM modelo 
+                    WHERE pais="Francia"
+                    OR nombre LIKE "%TE%" )
+;
+
+--Borra los dos mayores descuentos en Cantidad, de aquellos descuentos que se apliquen a algún modelo que tenga alguna versión de más de 1500 kilos. 
+DELETE FROM descuento
+WHERE codigo IN (   SELECT mo.CodDescuento 
+                    FROM modelo mo, version ver
+                    WHERE mo.nombre= ver.modelo
+                    AND ver.peso > 1500 )
+ORDER BY cantidad DESC
+LIMIT 2
+;
+
+--Baja el precio base en un 7% de todos los vehículos que usen cualquier tipo de motor eléctrico, es decir híbridos de cualquier tipo o eléctricos puros.
+UPDATE montadocon SET PrecioBase = PrecioBase*0.93
+WHERE CodigoMotor IN (  SELECT codMotor 
+                        FROM electrico )
+;

@@ -1,0 +1,35 @@
+<fruteria>
+
+	<fruta id="1">
+		<nombre>naranja</nombre>
+		<kilos>10</kilos>
+		<precio mes="enero">2</precio>
+		<precio mes="febrero">3</precio>
+		<precio mes="marzo">4</precio>
+	</fruta>
+
+<fruta id="2">
+		<nombre>manzana</nombre>
+		<kilos>5</kilos>
+		<precio mes="enero">1</precio>
+		<precio mes="febrero">5</precio>
+		<precio mes="marzo">2</precio>
+	</fruta>
+
+<fruta id="3">
+		<nombre>kiwi</nombre>
+		<kilos>30</kilos>
+		<precio mes="enero">4</precio>
+		<precio mes="febrero">3</precio>
+		<precio mes="marzo">2</precio>
+	</fruta>
+
+<fruta id="4">
+		<nombre>platano</nombre>
+		<kilos>30</kilos>
+		<precio mes="enero">8</precio>
+		<precio mes="febrero">4</precio>
+		<precio mes="marzo">9</precio>
+	</fruta>
+	
+</fruteria>
