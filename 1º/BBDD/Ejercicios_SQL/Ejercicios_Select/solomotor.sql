@@ -150,3 +150,130 @@ UPDATE montadocon SET PrecioBase = PrecioBase*0.93
 WHERE CodigoMotor IN (  SELECT codMotor 
                         FROM electrico )
 ;
+
+
+---------------------------------------------------------------------------
+/*                       EJEMPLO GROUP BY Y HAVING                       */
+
+SELECT colorPelo, count(*)
+FROM alumnos
+WHERE edad > 17
+GROUP BY colorPelo
+HAVING count(*) > 5
+;
+
+---------------------------------------------------------------------------
+
+--Aumenta el descuento en cantidad en un 12% para aquellos descuentos que sean una "promoción" (que contengan la palabra), y se apliquen a almenos 2 modelos de coches no fabricados en España
+
+UPDATE descuento SET Cantidad=Cantidad*1.12
+WHERE Descripcion LIKE "%promocion%"
+AND codigo IN ( SELECT CodDescuento FROM modelo
+                WHERE pais NOT LIKE "España"
+                GROUP BY CodDescuento
+                HAVING count(*) > 1)
+;
+
+-- Para aquellos motores hibridos de gasolina que se monten en mas de dos versiones de coche mostrar toda su informacion y el numero de versiones que aparecen.
+-- Mostrar solo los tres motores que mas se utilizan
+
+SELECT mot.*, count(*)
+FROM motor mot, montadocon mc
+WHERE mot.codigo = mc.CodigoMotor
+AND mot.codigo IN (SELECT codMotor FROM gasolina UNION SELECT codMotor FROM electrico)
+GROUP BY mc.version 
+HAVING count(*) > 2
+ORDER BY count(*) DESC
+LIMIT 3
+;
+
+--Para cada modelo mostrar su version mas pesada
+SELECT mo.Nombre, mo.Pais, ver.version, ver.peso
+FROM modelo mo, version ver
+WHERE mo.Nombre = ver.Modelo
+AND ver.peso = ( SELECT max(peso) 
+                FROM version
+                WHERE modelo = mo.nombre )
+;
+
+--Lista modelo, version, ,peso, precio base, codigo de motor y potencia de motor, incluyendo además el precio final si tenia un descuento en cantidad
+SELECT ve.modelo, ve.version, ve.peso, mc.PrecioBase, mc.CodigoMotor, mot.potencia, 
+mc.PrecioBase - (SELECT coalesce(cantidad,0) FROM descuento WHERE codigo = mo.CodDescuento) PFinal
+FROM descuento de, modelo mo, version ve, montadocon mc, motor mot
+WHERE de.codigo = mo.CodDescuento
+AND mo.nombre = ve.modelo
+AND ve.modelo = mc.modelo AND ve.version = mc.version
+AND mc.CodigoMotor = mot.codigo
+;
+
+-- Consulta 47
+--Baja un 2% el precio de los modelos que tengan los dos extras más caros. 
+
+UPDATE montadocon SET PrecioBase = PrecioBase*0.98 
+WHERE modelo = (    SELECT ver.modelo
+                    FROM version ver, tiene tie 
+                    WHERE ver.modelo = tie.modelo 
+                    AND ver.version = tie.version
+                    ORDER BY tie.precio DESC
+                    LIMIT 1 )
+AND modelo = (    SELECT ver.modelo
+                    FROM version ver, tiene tie 
+                    WHERE ver.modelo = tie.modelo 
+                    AND ver.version = tie.version
+                    ORDER BY tie.precio DESC
+                    LIMIT 2,1 )
+
+;
+
+UPDATE montadocon SET PrecioBase = PrecioBase*0.98 
+WHERE modelo = (    SELECT precio
+                    FROM tiene
+                    ORDER BY precio DESC
+                    LIMIT 2 )
+AND version = (    SELECT precio
+                    FROM tiene
+                    ORDER BY precio DESC
+                    LIMIT 2 )
+
+;
+-- Consulta 48
+--Rebaja el Precio base en un 5% para el coche con el extra más caro. Debe rebajarse para todas los diferentes montajes de motor que pueda tener.
+UPDATE montadocon SET PrecioBase = PrecioBase*0.95 
+WHERE modelo = (    SELECT ver.modelo
+                    FROM version ver, tiene tie 
+                    WHERE ver.modelo = tie.modelo 
+                    AND ver.version = tie.version
+                    ORDER BY tie.precio DESC
+                    LIMIT 1 )
+;
+
+-- Consulta 49
+-- Indica  los  descuentos  posibles  ordenando  el  resultado  de  forma  creciente  por  cantidad  y considerando para ordenar el porcentaje la media del precio base. 
+
+SELECT des.* 
+FROM descuento des, montadocon mc, modelo mo, version ver
+WHERE des.codigo = mo.CodDescuento 
+AND mo.nombre = ver.modelo 
+AND ver.modelo = mc.modelo
+AND ver.version = mc.version
+ORDER BY avg(mc.PrecioBase)*100 ASC
+;
+
+
+SELECT *, coalesce(cantidad, porcentaje/100 * (SELECT avg(PrecioBase) FROM montadocon)) des
+FROM descuento
+ORDER BY des
+;
+
+-- Para cada marca y modelo indica cuantas versiones tiene excluyendo los modelos fabricados en Francia y las versiones de menos de 950kg
+-- mostrar el cif y nombre de la marca, el nombre y pais de cada modelo y el numero de versiones que hay de cada modelo que cumplas las condiciones indicadas
+-- Además el listado debe estar ordenado de mayor a menor por este ultimo valor
+
+SELECT ma.cif, ma.nombre, mo.nombre, mo.pais, count(*) verCoche
+FROM marca ma, modelo mo, version ver
+WHERE ma.cif = mo.CIFMarca AND mo.nombre = ver.modelo
+AND ver.peso >= 950
+AND mo.pais <> "Francia"
+GROUP BY mo.nombre
+ORDER BY verCoche desc
+;

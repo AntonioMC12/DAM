@@ -150,3 +150,30 @@ SELECT Num_emp, Nombre, Trabajo, supervisor, (  SELECT Nombre
                                                 WHERE Num_emp = em.supervisor) "Nombre Jefe"
 FROM empleados em
 ;
+
+--Para cada departamento indica su nombre y la cantidad de empleados que tiene con el salario superior a la media
+
+SELECT de.nombre, count(*), max(em.salario), min(em.salario)
+FROM departamentos de, empleados em
+WHERE de.Num_dept = em.Num_dept
+AND em.salario > (  SELECT avg(Salario) FROM empleados WHERE Num_dept = de.Num_dept)
+GROUP BY de.Num_dept
+; 
+
+-- Para el jefe de la empresa que mas cobra indica el numero de departamentos distintos de los que tiene subordinados
+SELECT e1.nombre, count(*), count(DISTINCT e2.Num_dept)
+FROM empleados e1, empleados e2
+WHERE e1.Num_emp = e2.supervisor
+GROUP BY e1.Num_emp
+ORDER BY e1.salario DESC
+;
+
+-- Haz un listado de aqullos que son jefes junto a sus subordinados que cobran menos que el y pertenecen a otros departamentos
+
+SELECT e1.nombre, e1.salario, count(*)
+FROM empleados e1, empleados e2
+WHERE e1.Num_emp = e2.supervisor
+AND e1.salario > e2.salario
+AND e1.Num_dept <> e2.Num_dept
+GROUP BY e1.Num_emp
+;
