@@ -177,3 +177,4 @@ AND e1.salario > e2.salario
 AND e1.Num_dept <> e2.Num_dept
 GROUP BY e1.Num_emp
 ;
+

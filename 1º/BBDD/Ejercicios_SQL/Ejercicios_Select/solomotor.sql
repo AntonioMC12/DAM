@@ -277,3 +277,11 @@ AND mo.pais <> "Francia"
 GROUP BY mo.nombre
 ORDER BY verCoche desc
 ;
+
+-- Muestra mediante un listado el nombre y pais de fabricacion de cada modelo junto con la descripcion del descuento que tenga
+-- incluyendo los modelos sin descuento que deben completar esta ultima con "sin descuento"
+
+SELECT mo.nombre, mo.pais, coalesce(des.descripcion, "sin descuento")
+FROM modelo mo
+LEFT JOIN descuento des ON mo.CodDescuento = des.codigo
+;
