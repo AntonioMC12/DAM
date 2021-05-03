@@ -158,4 +158,36 @@ OPERADORES
 
                 --mostrar los datos de las versiones de coche, precio base y consumo de aquellas versiones con el motor mas potente
 
+------------------------------------------------------------------------------------------------------------------------------------
 
+    VISTAS
+        _____________________________________
+       |                                     |
+       |   CREATE [OR REPLACE] view NVISTA   |
+       |   [(columna1),...]                  |
+       |   AS                                |
+       |   SUBCONSULTA                       |
+       |   [WITCH CHECK OPTION]              |
+       |_____________________________________|
+        
+        [WITH CHECK OPTOIN] Si la vista permite insercciones comprobará que los datos que se introduzcan a través de la vista cumplan las condiciones del where que pueda haber en la subconsulta,
+        es decir no solo comprueba los datos al mostrarlos, si no tambien al introducirlos 
+
+
+        VISTA DE ACTUALIZACIÓN
+
+            En principio las vistas no permiten actualizaciones, es decir, no permite que se ejecuten instrucciones INSERT, UPDATE o DELETE sobre ellas. Si se hiciera, las modificaciones se deben reflejar 
+            en las tablas originales sobre las que está definida la vista, cosa que no siempre es posible. Como norma general (y por el momento) una vista permitirá actualizaciones si cumple todo lo siguiente:
+                - Debe estar definida sobre una sola tabla.
+                - Que no aparezca ningun DISTINT
+                - Que no tenga ningun agrupamiento
+                - Que no contenga ninguna función de grupo (max,min,avg,count)
+                - Que incluya todos los campos obligatorios
+        
+        VER LA DEFINICIÓN DE UNA VISTA
+
+            SHOW CREATE VIEW NVISTA;
+
+        BORRADO DE UNA VISTA
+
+            DROP VIEW NVISTA;

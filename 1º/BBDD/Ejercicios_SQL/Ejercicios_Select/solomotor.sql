@@ -285,3 +285,11 @@ SELECT mo.nombre, mo.pais, coalesce(des.descripcion, "sin descuento")
 FROM modelo mo
 LEFT JOIN descuento des ON mo.CodDescuento = des.codigo
 ;
+
+-- Consulta 90
+-- Indica para cada país cuantos modelos diferentes de coche fabrica. 
+SELECT pais, count(*)
+FROM modelo
+GROUP BY pais
+;
+
