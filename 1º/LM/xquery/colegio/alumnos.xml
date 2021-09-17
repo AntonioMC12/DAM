@@ -1,0 +1,30 @@
+<alumnos>
+	<alumno id="01">
+		<nombre>Manuel</nombre>
+		<apellidos>Pérez Ortíz</apellidos>
+		<localidad>Córdoba</localidad>
+		<edad>16</edad>
+		<curso>01</curso>
+	</alumno>
+	<alumno id="02">
+		<nombre>María</nombre>
+		<apellidos>Gómez Campos</apellidos>
+		<localidad>Sevilla</localidad>
+		<edad>17</edad>
+		<curso>01</curso>
+	</alumno>
+	<alumno id="03">
+		<nombre>Ana</nombre>
+		<apellidos>Martos Prados</apellidos>
+		<localidad>Córdoba</localidad>
+		<edad>18</edad>
+		<curso>02</curso>
+	</alumno>
+	<alumno id="04">
+		<nombre>Juan</nombre>
+		<apellidos>Cáceres Martín</apellidos>
+		<localidad>Málaga</localidad>
+		<edad>18</edad>
+		<curso>02</curso>
+	</alumno>
+</alumnos>

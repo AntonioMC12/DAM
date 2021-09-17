@@ -1,0 +1,36 @@
+<cursos>
+	<curso id="01">
+		<denominacion>1º ESO</denominacion>
+		<asignaturas>
+			<asignatura>
+				<codigo>01</codigo>
+				<horas>4</horas>
+			</asignatura>
+			<asignatura>
+				<codigo>02</codigo>
+				<horas>5</horas>
+			</asignatura>
+			<asignatura>
+				<codigo>03</codigo>
+				<horas>5</horas>
+			</asignatura>
+		</asignaturas>
+	</curso>
+	<curso id="02">
+		<denominacion>2º ESO</denominacion>
+		<asignaturas>
+			<asignatura>
+				<codigo>01</codigo>
+				<horas>4</horas>
+			</asignatura>
+			<asignatura>
+				<codigo>02</codigo>
+				<horas>5</horas>
+			</asignatura>
+			<asignatura>
+				<codigo>04</codigo>
+				<horas>5</horas>
+			</asignatura>
+		</asignaturas>
+	</curso>
+</cursos>

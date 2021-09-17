@@ -1,0 +1,11 @@
+Instalar node/nodejs/npm
+
+Página para programar online -> TypeScriptlang playground
+--------------------------------------------------------------
+
+Syso en TypeScript -> consolo.log("Hola");
+
+let contador:number = 1;
+//int contador=5;
+contador++;
+console.log(contador);

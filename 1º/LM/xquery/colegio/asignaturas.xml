@@ -1,0 +1,14 @@
+<asignaturas>
+	<modulo id="01">
+		<denominacion>Matemáticas</denominacion>
+	</modulo>
+	<modulo id="02">
+		<denominacion>Lengua</denominacion>
+	</modulo>
+	<modulo id="03">
+		<denominacion>C.Sociales</denominacion>
+	</modulo>
+	<modulo id="04">
+		<denominacion>C.Naturales</denominacion>
+	</modulo>
+</asignaturas>

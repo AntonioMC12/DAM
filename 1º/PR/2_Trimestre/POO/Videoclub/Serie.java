@@ -1,5 +1,6 @@
 
 public class Serie implements Entregable, Comparable<Object> {
+	
 	private String titulo;
 	private int nTemporadas;
 	private boolean entregado;

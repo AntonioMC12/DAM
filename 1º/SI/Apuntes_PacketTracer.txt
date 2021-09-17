@@ -1,0 +1,20 @@
+configurar pc
+----------------------
+enable
+cofigure t
+interface fastethernet0/0
+ip address192.168.4.1 255.255.255.0
+no shutdown
+
+configurar router
+-----------------------
+interface gigabitethernet6/0
+ip address 
+no shutdown
+
+para enrutar
+------------------------
+route rip
+network 192...
+network 192...
+

@@ -1,0 +1,14 @@
+<profesores>
+	<profesor id="01">
+		<nombre>Manuel García</nombre>
+		<departamento>Ciencias</departamento>
+	</profesor>
+	<profesor id="02">
+		<nombre>Marina Jiménez</nombre>
+		<departamento>Matemáticas</departamento>
+	</profesor>
+	<profesor id="03">
+		<nombre>Pedro González</nombre>
+		<departamento>Lengua</departamento>
+	</profesor>
+</profesores>

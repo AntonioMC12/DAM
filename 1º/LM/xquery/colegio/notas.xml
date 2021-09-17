@@ -1,0 +1,58 @@
+<notas>
+	<alumno id="01">
+		<asignatura id="01">
+			<profesor>01</profesor>
+			<nota>6</nota>
+		</asignatura>
+		<asignatura id="02">
+			<profesor>03</profesor>
+			<nota>7</nota>
+		</asignatura>
+		<asignatura id="03">
+			<profesor>02</profesor>
+			<nota>10</nota>
+		</asignatura>
+	</alumno>
+	<alumno id="02">
+		<asignatura id="01">
+			<profesor>01</profesor>
+			<nota>4</nota>
+		</asignatura>
+		<asignatura id="02">
+			<profesor>03</profesor>
+			<nota>3</nota>
+		</asignatura>
+		<asignatura id="03">
+			<profesor>02</profesor>
+			<nota>5</nota>
+		</asignatura>
+	</alumno>
+	<alumno id="03">
+		<asignatura id="01">
+			<profesor>01</profesor>
+			<nota>7</nota>
+		</asignatura>
+		<asignatura id="02">
+			<profesor>03</profesor>
+			<nota>8</nota>
+		</asignatura>
+		<asignatura id="04">
+			<profesor>02</profesor>
+			<nota>9</nota>
+		</asignatura>
+	</alumno>
+	<alumno id="04">
+		<asignatura id="01">
+			<profesor>01</profesor>
+			<nota>1</nota>
+		</asignatura>
+		<asignatura id="02">
+			<profesor>03</profesor>
+			<nota>2</nota>
+		</asignatura>
+		<asignatura id="04">
+			<profesor>02</profesor>
+			<nota>1</nota>
+		</asignatura>
+	</alumno>
+</notas>
