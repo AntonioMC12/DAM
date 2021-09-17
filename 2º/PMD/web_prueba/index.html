@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <title>Repaso</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src='main.js'></script>
+    <!-- <script src='main.js'></script> -->
     <style>
         a {
             font-family: Arial;
@@ -31,16 +31,42 @@
             position: absolute;
             bottom: 0px;
             right: 0px;
+            cursor: pointer;
+            -moz-user-select: none; 
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none; 
         }
     </style>
+    <script>
+        function saluda(){
+            console.log("Hola");
+            alert("SALUDOS");
+            let boton = document.createElement("button");
+            boton.textContent="CLICK"
+            document.body.appendChild(boton);
+        }
+    </script>
 </head>
 
 <body>
     <!-- comentario -->
-    <div class="abajo">
-        <div class="bonito">Esto</div> es un <a href="https://wwww.google.es">Enlace</a>
+    <div class="abajo" onclick="saluda()">
+        <div class="bonito">Esto</div> es un <a id="enlace" href="https://wwww.google.es">Enlace</a>
     </div>
     <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+    <p>Hola Mundo</p>
+
+    <script src="../TypeScript/HelloWorld.js"></script>
 </body>
 
 </html>
