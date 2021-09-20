@@ -1,0 +1,8 @@
+APUNTES AD
+
+
+Trabajo con la bd "test"
+
+    SELECT COUNT(p.cod) FROM producto p 
+    JOIN proveedor prov ON p.id_proveedor = prov.id_Proveedor 
+    WHERE prov.cif = 123456789;

@@ -1,0 +1,55 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.d.ts": {
+        "version": "77daf49ac8b4189a68f643a3866c862cbee4257598eba0c42623eada7c5bd868",
+        "signature": "77daf49ac8b4189a68f643a3866c862cbee4257598eba0c42623eada7c5bd868"
+      },
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.es5.d.ts": {
+        "version": "7c1b028965a993eef7d465ac1fd75e35cb558372031dea10b5366038f640a182",
+        "signature": "7c1b028965a993eef7d465ac1fd75e35cb558372031dea10b5366038f640a182"
+      },
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.dom.d.ts": {
+        "version": "e2a6b996a0ecae268e90e0a15d8cbf6ba57cb14d72d5462b3bad4fd7ff000567",
+        "signature": "e2a6b996a0ecae268e90e0a15d8cbf6ba57cb14d72d5462b3bad4fd7ff000567"
+      },
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "46b20a85418541653779e6c6b3c1b5fd4b6b33d4ab3d19ebdd348424b0607f30",
+        "signature": "46b20a85418541653779e6c6b3c1b5fd4b6b33d4ab3d19ebdd348424b0607f30"
+      },
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.scripthost.d.ts": {
+        "version": "855b8297fcd1dc449a4beeccc155c945a3b89e738bde6a56c083b181f0a6085a",
+        "signature": "855b8297fcd1dc449a4beeccc155c945a3b89e738bde6a56c083b181f0a6085a"
+      },
+      "./src/main.ts": {
+        "version": "861190270d1dcd072c7d43ad3a7ea44c86933c4eb62dbd5f0c14d805a77981b5",
+        "signature": "7b5a91131db2e92ac5c1f6588d2fda2ad8fd0ea0a5836c3087a1b40f296a2a85"
+      },
+      "./src/manual.ts": {
+        "version": "ce73d2e3429343fa295b1e07f771880851eafbc1e7037e84cbb5d4abb5470ee0",
+        "signature": "210cd3c2e4ca5f716872859ad5b511992a743d726c660253f313176638849aa5"
+      }
+    },
+    "options": {
+      "target": 1,
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "module": 1,
+      "strict": true,
+      "incremental": true,
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {},
+    "exportedModulesMap": {},
+    "semanticDiagnosticsPerFile": [
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.d.ts",
+      "./src/main.ts",
+      "./src/manual.ts",
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.es5.d.ts",
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.dom.d.ts",
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../../../../../../../usr/share/nodejs/typescript/lib/lib.scripthost.d.ts"
+    ]
+  },
+  "version": "3.8.3"
+}
