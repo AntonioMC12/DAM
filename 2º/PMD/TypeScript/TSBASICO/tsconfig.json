@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target":"es5",
+    "rootDir":"./src",
+    "outDir":"./dist",
+    "module":"commonjs",
+    "strict":true,
+    "incremental": true
+  }
+}
