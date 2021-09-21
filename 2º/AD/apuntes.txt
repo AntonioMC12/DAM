@@ -6,3 +6,15 @@ Trabajo con la bd "test"
     SELECT COUNT(p.cod) FROM producto p 
     JOIN proveedor prov ON p.id_proveedor = prov.id_Proveedor 
     WHERE prov.cif = 123456789;
+
+
+--
+ENUNCIADO BASE DE DATOS
+
+-> Las sedes olímpicas se dividen en complejos deportivos. Los complejos deportivos se subdivide en aquellos que se desarrolla un unico deporte y en los polideportivos.
+Los complejos polideportivos tienen areas designadas para cada deporte con un indicador de localización (ejemplo: centro, esquina-NE,etc.)
+Un complejo tiene una localización, un jefe de orgacizacion individual y un area total ocupada. Los dos tipos de complejos(deporte unico y polideportivo) tendrán 
+diferentes tipos de información. Para cada tipo de sede, se conservará el numero de complejos junto con su presupuesto aproximado.
+Cada complejo celebra una serie de eventos (ejemplo: la pista del estadio puede celebrar muchas carreras distintas). Para cada evento está prevista una fecha, duración, 
+numero de participantes, numero de comisarios. Una lista de todos los comisarios se conservará junto con la lista de los eventos en los que esté involucrado cada comisario
+ya sea cumpliendo la tarea de juez u observador. Tanto para cada evento como para el mantenimiento se necesitará cierto equipamiento (ejemplo: arcos, pértigas, barras paralelas, etc).
