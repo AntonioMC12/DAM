@@ -1,5 +1,5 @@
 "use strict";
-var variable = 3;
-var variable2 = true;
-var variable3 = "Hola";
+let variable = 3;
+let variable2 = true;
+let variable3 = "Hola";
 variable3.match("^H");

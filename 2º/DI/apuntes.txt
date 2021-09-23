@@ -1,0 +1,17 @@
+Programa Introductorio a la asignatura
+
+-----------------------------------------
+1-
+> Introducir nombre
+> pulsar botón
+> Mensaje "Bienvenido (nombre)"
+
+-----------------------------------------
+2-
+> Igual pero el botón debe estar desactivado
+y activarse con otro botón.
+
+-----------------------------------------
+3-
+> Igual al 2 pero el botón puede activar y 
+desactivar, según esté el botón activado o no.
