@@ -22,11 +22,33 @@ function getFakeremoteData(): Promise<Book[]> {
 
         setTimeout(() => {
             resolve(mookData);
-        }, 5000);
+        }, 2000);
     });
 }
 
-function cargaLibros() {
+/**
+ * Hace una funcion asíncrona.
+ * No es bloqueante y va en un hilo aparte.
+ */
+async function cargaLibros() {
+    //paso 1 indicar al cliente la carga
+    document.getElementById('contenedor')!.innerHTML = "Cargando...";
+
+    try {
+        let libros: Book[] = await getFakeremoteData();
+        document.getElementById('contenedor')!.innerHTML = "";
+        let ui: string = '';
+        libros.forEach((libro) => {
+            ui += `<p>${libro.isbn}:${libro.tittle}</p>`;
+        })
+        document.getElementById('contenedor')!.innerHTML = ui;
+    } catch (error) {
+        document.getElementById('contenedor')!.innerHTML = "";
+        alert('Error al Cargar');
+    }
+
+    /*
+    function cargaLibros() {
     //paso 1 indicar al cliente la carga
     document.getElementById('contenedor')!.innerHTML = "Cargando...";
     //paso 2 realizar la peticion
@@ -43,4 +65,5 @@ function cargaLibros() {
             document.getElementById('contenedor')!.innerHTML = "";
             alert('Error al Cargar');
         })
+    } */
 }

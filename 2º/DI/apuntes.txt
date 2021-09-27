@@ -15,3 +15,23 @@ y activarse con otro botón.
 3-
 > Igual al 2 pero el botón puede activar y 
 desactivar, según esté el botón activado o no.
+
+-----------------------------------------
+TRABAJO 
+
++portada y título
++uso/descripcion(breve)
+    -Finalidad de la aplicacion
+    -tipos de usuarios a los que va dirigida
++prototipo
+    -pantalla principal y/o inicial con las aplicaciones mas comunes (debe haber una breve explicacion de ellas)
+    -pantalla secundarias (debe haber una breve explicacion de ellas)
++apéndices
+    -recursos técnicos(software,webs usadas y para que)
+    -recursos de contenido(multimedia,...)
+    -otros...
++Especificaciones
+    -guapos de 2 o 3 personas
+    -nº maximo de pantallas
+    -aplicacion sencilla
+    -si se usan datos que sea una sola tabla.

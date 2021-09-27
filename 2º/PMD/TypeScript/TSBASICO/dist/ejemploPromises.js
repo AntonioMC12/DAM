@@ -17,24 +17,26 @@ function getFakeremoteData() {
         });
         setTimeout(() => {
             resolve(mookData);
-        }, 5000);
+        }, 2000);
     });
 }
-function cargaLibros() {
+/**
+ * Hace una funcion asíncrona.
+ */
+async function cargaLibros() {
     //paso 1 indicar al cliente la carga
     document.getElementById('contenedor').innerHTML = "Cargando...";
-    //paso 2 realizar la peticion
-    getFakeremoteData()
-        .then((respuesta) => {
+    try {
+        let libros = await getFakeremoteData();
         document.getElementById('contenedor').innerHTML = "";
         let ui = '';
-        respuesta.forEach((libro) => {
-            ui += '<p>' + libro.isbn + ':' + libro.tittle + '</p>';
+        libros.forEach((libro) => {
+            ui += `<p>${libro.isbn}:${libro.tittle}</p>`;
         });
         document.getElementById('contenedor').innerHTML = ui;
-    })
-        .catch((error) => {
+    }
+    catch (error) {
         document.getElementById('contenedor').innerHTML = "";
         alert('Error al Cargar');
-    });
+    }
 }
