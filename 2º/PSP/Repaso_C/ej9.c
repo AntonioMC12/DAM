@@ -1,3 +1,13 @@
+/**
+ * realiza un programa en c que cree un proceso (tendremos 1 proceso padre y 1 hijo)
+ * El programa definirá una variable local al programa con valor 6
+ * El proceso padré incrementará el valor de la variable en 1.
+ * El proceso hijo decrementará el valor de la variable en 1.
+ * La salida del programa:
+ * Valor inicial = 6
+ * Variable en proceso hijo = 5
+ * Variable en proceso padre = 7
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>     //pid_t
@@ -8,9 +18,15 @@ int main(void)
 {
     pid_t pid, childpid;
     int status;
+    int v1,v2;
+    printf("Introduce un valor:");
+    scanf("%d",&v1);
+    printf("Introduce otro valor:");
+    scanf("%d",&v2);
     
-    pid = fork(); 
-    switch(pid)
+    
+     
+    switch(pid = fork())
     {
         case -1:
             perror("fork error");
@@ -19,15 +35,15 @@ int main(void)
             //return (-1);
             
         case 0: /* proceso hijo */
-            printf("Proceso hijo %d; mi padre = %d \n", getpid(), getppid()); 
+            printf("Variable en proceso hijo = %d\n", v1-v2); 
             exit(EXIT_SUCCESS);
             
         default: /* padre */
-            printf("Proceso padre %d; mi padre = %d \n", getpid(), getppid());
+            printf("Variable en proceso padre = %d\n", v1+v2); 
 				/*Averigue quien es el padre del proceso padre*/
 
 				//Se espera al hijo
-            childpid=wait(&status); 
+            childpid=wait(&status);
             if(childpid>0)
             {
              	if (WIFEXITED(status)) 
