@@ -29,55 +29,84 @@ int main(void)
         printf("Hijo con pid: %d,con padre:%d\n", getpid(), getppid());
         if (fork() == 0)
         {
-            //hijo
+            //nieto
+            printf("Nieto con pid: %d,con padre:%d\n", getpid(), getppid());
             childpid = wait(&status);
             char *env = getenv("HOME");
-            printf("Mostrando HOME: ");
-            execl("/bin/ls","ls",env,(char *)NULL);
+            //printf("Mostrando HOME: \n");
+            execl("/bin/ls", "ls", env, (char *)NULL);
         }
         else
         {
-            //nieto
+            //hijo
             char *file = "/prueba";
             char *env = getenv("HOME");
-            /**
-            * concateno para obtener el path completo ~/prueba
-            */
+            
+            //concateno para obtener el path completo ~/prueba
             char *path = strcat(env, file);
             char *args[] = {
                 "/bin/mkdir",
                 "mkdir",
             };
-            execl(args[0], args[1], env, (char *)NULL);
+            execl(args[0], args[1], path, (char *)NULL);
+            exit(EXIT_SUCCESS);
         }
         exit(EXIT_SUCCESS);
 
     default: /* proceso padre */
-        printf("\n");
+        printf("Soy el padre con pid: %d, estoy esperando\n", getpid());
+        //Se espera al hijo
+        childpid = wait(&status);
+        if (childpid > 0)
+        {
+            if (WIFEXITED(status))
+            {
+                printf("child %d exited, status=%d\n", childpid, WEXITSTATUS(status));
+            }
+            else if (WIFSIGNALED(status))
+            {
+                printf("child %d killed (signal %d)\n", childpid, WTERMSIG(status));
+            }
+            else if (WIFSTOPPED(status))
+            {
+                printf("child %d stopped (signal %d)\n", childpid, WSTOPSIG(status));
+            }
+        }
+        else
+        {
+            printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal.\n");
+            exit(EXIT_FAILURE);
+        }
+        exit(EXIT_SUCCESS); //return 0;
     }
 
-    printf("Soy el padre con pid: %d, estoy esperando\n", getpid());
-    //Se espera al hijo
-    childpid = wait(&status);
-    if (childpid > 0)
-    {
-        if (WIFEXITED(status))
-        {
-            printf("child %d exited, status=%d\n", childpid, WEXITSTATUS(status));
+        /*
+        pid = wait(NULL);
+        while(pid != -1){
+            pid=wait(NULL);
         }
-        else if (WIFSIGNALED(status))
+        */
+       childpid = wait(&status);
+        if (childpid > 0)
         {
-            printf("child %d killed (signal %d)\n", childpid, WTERMSIG(status));
+            if (WIFEXITED(status))
+            {
+                printf("child %d exited, status=%d\n", childpid, WEXITSTATUS(status));
+            }
+            else if (WIFSIGNALED(status))
+            {
+                printf("child %d killed (signal %d)\n", childpid, WTERMSIG(status));
+            }
+            else if (WIFSTOPPED(status))
+            {
+                printf("child %d stopped (signal %d)\n", childpid, WSTOPSIG(status));
+            }
         }
-        else if (WIFSTOPPED(status))
+        else
         {
-            printf("child %d stopped (signal %d)\n", childpid, WSTOPSIG(status));
+            printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal.\n");
+            exit(EXIT_FAILURE);
         }
-    }
-    else
-    {
-        printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal.\n");
-        exit(EXIT_FAILURE);
-    }
-    exit(EXIT_SUCCESS); //return 0;
+        exit(EXIT_SUCCESS); //return 0;
+        printf("Programa terminado");
 }
