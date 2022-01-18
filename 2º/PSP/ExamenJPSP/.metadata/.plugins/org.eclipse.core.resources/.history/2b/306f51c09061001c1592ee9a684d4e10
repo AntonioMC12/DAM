@@ -1,0 +1,13 @@
+package Ejercicio1;
+
+public class EjecutableE1 {
+
+	public static void main(String[] args) {
+		HiloInterrumpido h1 = new HiloInterrumpido();
+		
+		Thread t1 = new Thread(h1);
+		t1.start();
+
+	}
+
+}

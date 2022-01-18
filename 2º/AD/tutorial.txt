@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------------------
+--------------------------------      NODEJS     ------------------------------------------
+
+Instalar postman para gestionar las peticiones.
+
+En consola, "npm init" para iniciar un proyecto nodeJS dentro de la carpeta destino.
+Se crea el package.json y creamos un index.js para ejecutar nuestro servicio
+
+Para ejecutar el servicio ejecutamos el comando 
+> node index.js
+
+Hay una librería que monta el servidor web, usando el siguiente comando
+> npm i --save express
+
+Instalamos un paquete que sirva para recibir informacion encapsulada en modo json
+> npm i --save body-parser
+
+Instalamos el driver de MySQL
+> npm i --save mysql
+

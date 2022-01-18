@@ -21,8 +21,8 @@ int main(int argc, char *argv[])
 {
     int fd1[2], file_pointer;
     int status, pid;
-    FILE *fichero;
-    fichero = fopen(FILE_NAME, "wt");
+    //FILE *fichero;
+    //fichero = fopen(FILE_NAME, "wt");
 
     pipe(fd1); /* comunica ls y wc */
 
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 
         if (pid == 0) /* hijo 2, ejecuta "wc" */
         {
-            file_pointer = open(FILE_NAME, O_RDWR | O_CREAT, S_IRUSR | S_IWUSR); //apunto al fichero
+            file_pointer = open(FILE_NAME, O_RDWR | O_CREAT, S_IRUSR | S_IWUSR); //apunto al fichero y lo crea si no existe
             dup2(fd1[READ_END], STDIN_FILENO);  //apunto a STDIN a la salida de STDOUT anterior, sería una especia de concat
             close(fd1[READ_END]);               //cierro la lectura
             dup2(file_pointer, STDOUT_FILENO);  //apunto la salida del programa STDOUT al fichero
@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
         else /* padre */
         {
             close(fd1[READ_END]); //cerramos el restante
-            fclose(fichero);
+            //fclose(fichero);
             printf("Proceso completado\n");
         }
     }

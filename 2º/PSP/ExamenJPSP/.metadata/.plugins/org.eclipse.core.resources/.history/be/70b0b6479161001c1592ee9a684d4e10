@@ -1,0 +1,46 @@
+package Ejercicio1;
+
+/**
+ * Desarrolla una clase de nombre HiloInterrumpido, que sume cada segundo un
+ * número aleatorio (entre 1 y 10) a un acumulador, de forma infinita, hasta que
+ * sea interrumpido por el hilo principal. Cuando sea interrumpido mostrará un
+ * mensaje con el texto: “Se ha interrumpido el Hilo NombreHilo, el valor del
+ * acumulador es X” . Debes hacer esta clase implementando Runnable, en el
+ * constructor recibirá el nombre del hilo (String) y el valor inicial del
+ * acumulador. Para probarlo debes crear un hilo en el main, lanzarlo y 8
+ * segundos después interrumpirlo.
+ * 
+ * @author Antonio
+ *
+ */
+public class HiloInterrumpido implements Runnable {
+
+	private int acumulador = 0;
+	private	int counter = 0;
+	public boolean valid = true;
+
+	@Override
+	public void run() {
+		try {
+			while(valid) {
+				this.acumulador += generateNumber();
+				Thread.sleep(1000);
+				this.counter++;
+				if(this.counter == 8) this.valid = false;
+			}
+			Thread.interrupted();
+			
+		} catch (Exception e) {
+			System.out.println("*** Se ha interrumpido el hilo acumulador ***");
+			System.out.println("*** Valor acumulado es: "+this.acumulador+" ***");
+		}
+	}
+
+	public int generateNumber() {
+		int value =  (int) Math.random()*10;
+		
+		return (int) value * 10;
+		
+	}
+
+}

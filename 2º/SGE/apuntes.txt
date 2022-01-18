@@ -1,0 +1,3 @@
+>dsadd user "CN=Antonio,CN=Users,DC=antoniomunoz,DC=local" -pwd P@ssw0rd01 -fn "Antonio" -ln "Muñoz Cubero" -email invent@invent.es -display "Antonio Muñoz Cubero" -memberof "CN=Remotos,CN=Users,DC=antoniomunoz,DC=local"
+
+CONTRASEÑA => P@ssw0rd01

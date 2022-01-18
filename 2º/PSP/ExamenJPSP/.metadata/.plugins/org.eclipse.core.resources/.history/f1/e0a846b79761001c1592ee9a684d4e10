@@ -1,0 +1,78 @@
+package Ejercicio2;
+
+/**
+ * Usando el modelo productor consumidor, implementa una clase que controle los
+ * litros de agua de una cubeta. Debes generar una clase Cubeta, que tiene un
+ * parámetro, litros. Esta clase tiene dos métodos, echaAgua y sacaAgua. Ambos
+ * métodos recibirán los litros que quieren sacar o echar y el nombre del hilo
+ * que los hecha. La cubeta no puede tener menos de 2 litros nunca, ni más de 10
+ * litros. Mientras se está sacando agua, no se puede echar, ya que podrían
+ * superarse los límites. El hilo consumidor echará agua en 3 ocasiones y cada
+ * productor podrá sacar agua 1 vez, usando los métodos del objeto de tipo
+ * cubeta que comparten. Se pide resolver el problema usando sincronización en
+ * los métodos (no en bloques) y comunicación entre hilos usando el modelo
+ * productor – consumidor. Se adjunta el código del programa principal (no
+ * podrás cambiar ni una línea)
+ * 
+ * @author Antonio
+ *
+ */
+
+public class Cubeta {
+
+	private final int CAPACIDAD = 10;
+	private int litros;
+	private boolean disponible = false; // no hay capacidad disponibles
+	private boolean llenar = false;
+	private boolean echar = false;
+
+	public Cubeta(int litros, boolean lleno) {
+		this.litros = litros;
+		this.lleno = lleno;
+	}
+
+	public synchronized void sacaAgua(int l) {
+		while (!disponible) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+
+		if (this.litros - l < 2) {
+			System.out.println("La cubeta tiene " + this.litros + "L");
+			System.out.println("No se pueden sacar " + l + " litros, porque la cubeta quedaría por debajo de 0L");
+		} else {
+			if (this.lleno)
+				this.lleno = false;
+			this.litros -= l;
+		}
+
+		notifyAll();
+	}
+
+	public synchronized void echaAgua(int l) {
+
+		while (disponible) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		}
+
+		if (this.litros + l > 10) {
+			System.out.println(
+					"La cubeta tiene " + this.litros + " no se pueden echar " + l + " litros porque supera el máximo");
+		} else {
+			this.litros += l;
+		}
+
+		notifyAll();
+	}
+
+}

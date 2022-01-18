@@ -1,0 +1,64 @@
+package Ejercicio2;
+
+public class Consumidor {
+
+}
+
+public class Consumidor extends Thread{
+	private Cola cola;
+
+	public Consumidor(Cola cola) {
+		this.cola = cola;
+	}
+	
+	public void run() {
+		int valor=0;
+		for(int i=0;i<5;i++) {
+			valor=cola.get();//recoge un numero
+			System.out.println("Consume: "+valor);
+		}
+	}
+
+}
+
+public class Cola {
+	private int numero;
+	private boolean disponible=false; //no hay numeros disponibles
+	
+	public synchronized int get() {
+		while(!disponible) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}	
+			
+			disponible=false;
+			
+			notifyAll();
+		
+		return numero;
+			
+	}
+	public synchronized void put(int n) {
+		
+		while(disponible) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		numero = n;
+		disponible = true; //hay un numero en la cola
+		notifyAll();
+	}
+	
+
+}
+
+
